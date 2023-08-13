@@ -1,6 +1,6 @@
 # GOOGLE DATA ANALYTICS
 
-[Notion Version](https://www.notion.so/GOOGLE-DATA-ANALYTICS-e082e3eea7dd4dbaa209e978c51000b5)
+[Notion Version](https://www.notion.so/GOOGLE-DATA-ANALYTICS-e082e3eea7dd4dbaa209e978c51000b5) ![notion](Google_Data_Analytics_images/notion.PNG)
 
 - GLOSSARY
     
