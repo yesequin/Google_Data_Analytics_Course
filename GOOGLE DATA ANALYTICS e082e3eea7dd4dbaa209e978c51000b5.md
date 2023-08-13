@@ -1,5 +1,7 @@
 # GOOGLE DATA ANALYTICS
 
+[Notion Version](https://www.notion.so/GOOGLE-DATA-ANALYTICS-e082e3eea7dd4dbaa209e978c51000b5)
+
 - GLOSSARY
     
     Analysis: the process used to make sense of the data collected.
@@ -328,7 +330,7 @@
     5. **Share**: Communicating and interpreting results
     6. **Act**: Putting your insights to work to solve the problem
     
-    ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled.png)
     
     ### EMC's data analysis life cycle
     
@@ -524,7 +526,7 @@
         This is where we use all of those data-driven insights to decide what types of interventions we want to introduce, not only at the organizational level, but also at the team level as well.
         
     
-    ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%201.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%201.png)
     
     ## THE DATA ANALYST TOOLS
     
@@ -562,7 +564,7 @@
     
     Depending on which phase of the data analysis process you’re in, you will need to use different tools.
     
-    ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%202.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%202.png)
     
     You don’t have to choose one or the other because each serves its own purpose. Generally, data analysts work with a combination of the two, as both tools are very useful in data analytics.
     
@@ -576,7 +578,7 @@
     - Rows: the rows are organized horizontally and are ordered by number. A row is also called an observation. An observation includes all of the attributes for something contained in a row of a data table.
     - Columns: columns are organized vertically in a spreadsheet and are ordered by letter.
     
-    ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%203.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%203.png)
     
     ### Attribute
     
@@ -594,7 +596,7 @@
     
     ### Basic Structure of a SQL query:
     
-    ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%204.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%204.png)
     
     ### Syntax
     
@@ -606,7 +608,7 @@
     - Use **FROM** to choose the tables where the columns you want are located.
     - Use **WHERE** to filter for certain information. You connect the conditions with (AND), (OR) or (NOT).
     
-    ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%205.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%205.png)
     
     The most important thing to remember is how to use SELECT, FROM, and WHERE in a query.
     
@@ -620,7 +622,7 @@
     - You can place comments alongside your SQL to help you remember what the name represents. Comments are text placed between certain characters, /* and */, or after two dashes (--)
         - Comments can also be added outside of a statement as well as within a statement. You can use this flexibility to provide an overall description of what you are going to do, step-by-step notes about how you achieve it, and why you set different parameters/conditions.
         
-        ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%206.png)
+        ![Untitled](Google_Data_Analytics_images/Untitled%206.png)
         
     - We can assign alias to the columns to reduce the ammount of comments. An alias doesn’t change the actual name of a column or table in the database.
     - <> means "does not equal”
@@ -661,7 +663,7 @@
     - Data specialist — organizes or converts data for use in databases or software systems
     - Operations analyst — analyzes data to assess the performance of business operations and workflows
     
-    ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%207.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%207.png)
     
     Other industry-specific specialist positions that you might come across in your data analyst job search include:
     
@@ -831,7 +833,7 @@
     - R: Relevant. Relevant questions matter, are important and have significance to the problem you're trying to solve.
     - T: Time-bound. Time-bound questions specify the time to be studied. This limits the range of possibilities and enables the data analyst to focus on relevant data
     
-    ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%208.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%208.png)
     
     Questions should be open-ended. This is the best way to get responses that will help you accurately qualify or disqualify potential solutions to your specific problem.
     
@@ -843,7 +845,7 @@
     
     Responsibly gathering data is only part of the process. We also have to turn data into knowledge that helps us make better solutions.
     
-    ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%209.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%209.png)
     
     The goal of all data analysts is to use data to draw accurate conclusions and make good recommendations. That all starts with having complete, correct, and relevant data.
     
@@ -914,7 +916,7 @@
     | Nice to look at | If the base table breaks at any point, they need a lot of maintenance to get back up and running again. |
     | A dashboard organizes information from multiple datasets into one central location, offering huge time-savings. | Dashboards can sometimes overwhelm people with information too. |
     
-    ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2010.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2010.png)
     
     ### How to create a Dashboard:
     
@@ -934,11 +936,11 @@
     - **Strategic**: focuses on long term goals and strategies at the highest level of metrics. A wide range of businesses use strategic dashboards when evaluating and aligning their strategic goals. These dashboards provide information over the longest time frame—from a single financial quarter to years.
     - **Operational:** short-term performance tracking and intermediate goals. It is the most common type of dashboard. Because these dashboards contain information on a time scale of days, weeks, or months, they can provide performance insight almost in real-time. This allows businesses to track and maintain their immediate operational processes in light of their strategic goals. The operational dashboard below focuses on customer service.
     
-    ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2011.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2011.png)
     
     - **Analytical:** consists of the datasets and the mathematics used in these sets. These dashboards contain the details involved in the usage, analysis, and predictions made by data scientists. Certainly the most technical category, analytic dashboards are usually created and maintained by data science teams and rarely shared with upper management as they can be very difficult to understand.
     
-    ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2012.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2012.png)
     
     ### Data VS Metrics
     
@@ -997,7 +999,7 @@
     
     - Veracity: refers to the quality and reliability of the data.
     
-    ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2013.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2013.png)
     
     ## WORKING WITH SPREADSHEETS
     
@@ -1068,7 +1070,7 @@
     
     The lower-right corner of each cell has a fill handle. It is a small green square in Microsoft Excel and a small blue square in Google Sheets.
     
-    ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2014.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2014.png)
     
     - **Absolute referencing:**
     
@@ -1133,9 +1135,9 @@
     
     - Keyboard shortcuts like cut, save, and find are actually functions. Using shortcuts lets you do more with less effort. They can make you more efficient and productive because you are not constantly reaching for the mouse and navigating menus.
     
-    ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2015.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2015.png)
     
-    ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2016.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2016.png)
     
     ### Relative, absolute, and mixed references
     
@@ -1224,7 +1226,7 @@
     - Customer-facing team: includes anyone in an organization who has some level of interaction with customers and potential customers. Typically they compile information, set expectations, and communicate customer feedback to other parts of the internal organization. You want to be sure that your analysis and presentation focuses on what is actually in the data-- not on what your stakeholders hope to find.
     - Data science team:
         
-        ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2017.png)
+        ![Untitled](Google_Data_Analytics_images/Untitled%2017.png)
         
     
     ### Working effectively with stakeholders
@@ -1373,7 +1375,7 @@
     - Select the right data type
     - Determine the time frame. If you are collecting your own data, decide how long you will need to collect it, especially if you are tracking trends over a long period of time. If you need an immediate answer, you might not have time to collect new data. In this case, you would need to use historical data that already exists.
     
-    ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2018.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2018.png)
     
     ## DIFFERENTIATE BETWEEN DATA FORMATS AND STRUCTURES
     
@@ -1422,7 +1424,7 @@
     - Videos and audio files
     - Photos
     
-    ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2019.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2019.png)
     
     | STRUCTURED DATA | UNSTRUCTURED DATA |
     | --- | --- |
@@ -1446,7 +1448,7 @@
     - **Logical data modeling:** focuses on the technical details of a database such as relationships, attributes, and entities.
     - **Physical data modeling:** depicts (describes) how a database operates. A physical data model defines all entities and attributes used
     
-    ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2020.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2020.png)
     
     ### Data-modeling techniques
     
@@ -1475,7 +1477,7 @@
     
     Data analysts use Boolean statements to do a wide range of data analysis tasks, such as creating queries for searches and checking for conditions when writing programming code. The boolean logic is easy to understand with a Venn diagram:
     
-    ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2021.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2021.png)
     
     - AND: is the center of the Venn diagram, where two conditions overlap. The AND operator lets you stack multiple conditions.
     - OR: includes either condition. The OR operator lets you move forward if either one of your two conditions is met.
@@ -1494,7 +1496,7 @@
         - Wide data is easier to read and understand. That is why data analysts typically transform long data to wide data more often than they transform wide data to long data.
         - Each column contains a unique data variable.
         
-        ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2022.png)
+        ![Untitled](Google_Data_Analytics_images/Untitled%2022.png)
         
     - Long data:
         - Each row is one time point per subject, so each subject will have data in multiple rows.
@@ -1504,7 +1506,7 @@
         - The long data format keeps everything nice and compact.
         - Separate columns contain the values and the context for the values
         
-        ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2023.png)
+        ![Untitled](Google_Data_Analytics_images/Untitled%2023.png)
         
     
     | Wide data is preferred when: | Long data is preferred when: |
@@ -1841,7 +1843,7 @@
     
     Anytime you're sorting data, it's always a good idea to freeze the header row first. To do this, we'll highlight the row. Then from the view menu, choose freeze and one row.
     
-    ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2024.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2024.png)
     
     To do multiple criteria sorting:
     
@@ -1865,7 +1867,7 @@
     - Filling in missing data (using filters)
     - Converting data. it's sometimes necessary to change text data (words) to numeric data (numbers). To do this, you can match specific number values to the text data in each column (using find and replace is easier).
         
-        ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2025.png)
+        ![Untitled](Google_Data_Analytics_images/Untitled%2025.png)
         
     
     ## SPREADSHEETS AND DATASETS: COMPARE AND CONTRAST
@@ -1907,11 +1909,11 @@
     
     - Go to the SQL workspace (from the BigQuery landing page):
         
-        ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2026.png)
+        ![Untitled](Google_Data_Analytics_images/Untitled%2026.png)
         
     - Search for public datasets.
         
-        ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2027.png)
+        ![Untitled](Google_Data_Analytics_images/Untitled%2027.png)
         
     - Follow these steps to find and pin the bigquery-public-data.
         1. Navigate to the Explorer menu in BigQuery.
@@ -1920,21 +1922,21 @@
         4. Find the bigquery-public-data and pin it.
     - Create a new editor window with the template for a query already populated (the * does not display automatically).
         
-        ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2028.png)
+        ![Untitled](Google_Data_Analytics_images/Untitled%2028.png)
         
-        ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2029.png)
+        ![Untitled](Google_Data_Analytics_images/Untitled%2029.png)
         
     - Add your own data to BigQuery
         
-        ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2030.png)
+        ![Untitled](Google_Data_Analytics_images/Untitled%2030.png)
         
-        ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2031.png)
+        ![Untitled](Google_Data_Analytics_images/Untitled%2031.png)
         
-        ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2032.png)
+        ![Untitled](Google_Data_Analytics_images/Untitled%2032.png)
         
-        ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2033.png)
+        ![Untitled](Google_Data_Analytics_images/Untitled%2033.png)
         
-        ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2034.png)
+        ![Untitled](Google_Data_Analytics_images/Untitled%2034.png)
         
     
     ### Queries
@@ -2113,7 +2115,7 @@
     | Completeness | The degree to which the data contains all desired components or measures | If data for personal profiles required hair and eye color, and both are collected, the data is complete. |
     | Consistency | The degree to which the data is repeatable from different points of entry or collection | If a customer has the same address in the sales and repair databases, the data is consistent. |
     
-    ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2035.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2035.png)
     
     ### Balancing objectives with data integrity
     
@@ -2176,7 +2178,7 @@
     | If you can’t correct data errors yourself, you can ignore the 
     wrong data and go ahead with the analysis if your sample size is still large enough and ignoring the data won’t cause systematic bias. | If your dataset was translated from a different language and some of the translations don’t make sense, ignore the data with bad translation and go ahead with the analysis of the other data. |
     
-    ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2036.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2036.png)
     
     ### What to do when there is no data
     
@@ -2430,7 +2432,7 @@
     - Pivot table: In data cleaning, pivot tables are used to give you a quick, clutter- free view of your data. You can choose to look at the specific parts of the data set that you need to get a visual in the form of a pivot table.
     - VLOOKUP stands for vertical lookup. It's a function that searches for a certain value in a column to return a corresponding piece of information. When data analysts look up information for a project, it's rare for all of the data they need to be in the same place. Usually, you'll have to search across multiple sheets or even different databases.
         
-        ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2037.png)
+        ![Untitled](Google_Data_Analytics_images/Untitled%2037.png)
         
         - To put it simply, VLOOKUP searches for the value in the first argument in the leftmost column of the specified location. Then the value of the third argument tells VLOOKUP to return the value in the same row from the specified column.
         - False at the end of the syntax means that an exact match is what we're looking for.
@@ -2621,7 +2623,7 @@
         - Confirm the goal of the project
         - Verify that data can solve the problem and is aligned to the goal
         
-        ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2038.png)
+        ![Untitled](Google_Data_Analytics_images/Untitled%2038.png)
         
     
     ## DOCUMENTING RESULTS AND THE CLEANING PROCESS
@@ -2657,9 +2659,9 @@
     
     Data analysts use changelogs to keep track of data transformation and cleaning. It is common to keep changelogs as a readme file in a code repository. Here are some examples of these:
     
-    ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2039.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2039.png)
     
-    ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2040.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2040.png)
     
     Most software applications have a kind of history tracking built in. For example, in Google sheets, you can check the version history of an entire sheet or an individual cell and go back to an earlier version. In Microsoft Excel, you can use a feature called Track Changes. And in BigQuery, you can view the history to check what has changed.
     
@@ -2732,7 +2734,7 @@
     
     ### Advanced functions for speedy data cleaning
     
-    ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2041.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2041.png)
     
     ## THE DATA ANALYST HIRING PROCESS
     
@@ -2787,7 +2789,7 @@
     - It's helpful to describe your skills and qualifications in the same way. For example, if a listing talks about organization and partnering with others, try to think about relevant experiences you've had. In your descriptions, you want to highlight the impact you've had in your role, as well as the impact the role had on you.
     - After you've added work experience and skills, you should include a section for any education you've completed. You can add this course as part of your education, and you can also refer to it in your summary and skill sections.
         
-        ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2042.png)
+        ![Untitled](Google_Data_Analytics_images/Untitled%2042.png)
         
     - Depending on the format of your resume, you might want to add a section for technical skills you've acquired both in this course and elsewhere. Besides technical skills like SQL, you could also include language proficiencies in this section. Having some ability in a language other than English can only help your job search.
     
@@ -2822,7 +2824,7 @@
         - "effectively implemented and communicated daily workflow to fellow team members, resulting in a 15% increase in productivity.”
     - Problem-solving: When problems arise in a database or lines of code, data analysts need to be able to find and troubleshoot the problem.
         
-        ![Untitled](GOOGLE%20DATA%20ANALYTICS%20e082e3eea7dd4dbaa209e978c51000b5/Untitled%2043.png)
+        ![Untitled](Google_Data_Analytics_images/Untitled%2043.png)
         
     - Teamwork: While you might have plenty of work to do on your own, it'll always be for the benefit of the team. Team means not only the data team you're part of, but the whole company as well.
     - detail-oriented
