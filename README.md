@@ -1668,12 +1668,12 @@ VLOOKUP (stands for vertical lookup): a function that searches for a certain val
     
     ### Sites and resources for open data
     
-    - [U.S. government data site]([https://data.gov/](https://data.gov/)): This resource gives users the data and tools that they need to do research, and even helps them develop web and mobile applications and design data visualizations.
-    - [U.S. Census Bureau]([https://www.census.gov/data.html](https://www.census.gov/data.html)): It offers demographic information from federal, state, and local governments, and commercial entities in the U.S. too.
-    - [Open Data Network]([https://www.opendatanetwork.com/](https://www.opendatanetwork.com/)): It has a really powerful search engine and advanced filters. Here, you can find data on topics like finance, public safety, infrastructure, and housing and development.
-    - [Google Cloud Public Datasets]([https://cloud.google.com/datasets?hl=es-419](https://cloud.google.com/datasets?hl=es-419)): There are a selection of public datasets available through the Google Cloud Public Dataset Program that you can find already loaded into BigQuery.
-    - [Dataset Search]([https://datasetsearch.research.google.com/](https://datasetsearch.research.google.com/)): It is a search engine designed specifically for data sets; you can use this to search for specific data sets.
-    - [Kaggle datasets]([https://www.kaggle.com/datasets](https://www.kaggle.com/datasets)): you can create a new dataset or search for datasets created by other Kagglers.
+    - [U.S. government data site](https://data.gov/): This resource gives users the data and tools that they need to do research, and even helps them develop web and mobile applications and design data visualizations.
+    - [U.S. Census Bureau](https://www.census.gov/data.html): It offers demographic information from federal, state, and local governments, and commercial entities in the U.S. too.
+    - [Open Data Network](https://www.opendatanetwork.com/): It has a really powerful search engine and advanced filters. Here, you can find data on topics like finance, public safety, infrastructure, and housing and development.
+    - [Google Cloud Public Datasets](https://cloud.google.com/datasets?hl=es-419): There are a selection of public datasets available through the Google Cloud Public Dataset Program that you can find already loaded into BigQuery.
+    - [Dataset Search](https://datasetsearch.research.google.com/): It is a search engine designed specifically for data sets; you can use this to search for specific data sets.
+    - [Kaggle datasets](https://www.kaggle.com/datasets): you can create a new dataset or search for datasets created by other Kagglers.
     
     ## WORKING WITH DATABASES
     
@@ -1891,7 +1891,7 @@ VLOOKUP (stands for vertical lookup): a function that searches for a certain val
     
     ## WORKING WITH LARGE DATASETS IN SQL
     
-    [BigQuery]([https://cloud.google.com/bigquery/docs?hl=es-419](https://cloud.google.com/bigquery/docs?hl=es-419)) is a data warehouse on Google Cloud that data analysts can use to query, filter large datasets, aggregate results, and perform complex operations.
+    [BigQuery](https://cloud.google.com/bigquery/docs?hl=es-419) is a data warehouse on Google Cloud that data analysts can use to query, filter large datasets, aggregate results, and perform complex operations.
     
     `https://console.cloud.google.com/bigquery`
     
@@ -1912,9 +1912,7 @@ VLOOKUP (stands for vertical lookup): a function that searches for a certain val
         - You will never be automatically charged
     
     ### How to: BigQuery
-    
-    Link to the BigQuery landing page: [BigQuery console](https://www.notion.so/console.cloud.google.com/bigquery)
-    
+       
     - Go to the SQL workspace (from the BigQuery landing page):
         
         ![Untitled](Google_Data_Analytics_images/Untitled%2026.png)
@@ -2223,7 +2221,7 @@ VLOOKUP (stands for vertical lookup): a function that searches for a certain val
     
     If a test is statistically significant, it means the results of the test are real and not an error caused by random chance. Usually, you need a statistical power of at least 0.8 or 80% to consider your results statistically significant.
     
-    [A Gentle Introduction to Statistical Power and Power Analysis in Python]([https://machinelearningmastery.com/statistical-power-and-power-analysis-in-python/](https://machinelearningmastery.com/statistical-power-and-power-analysis-in-python/))
+    [A Gentle Introduction to Statistical Power and Power Analysis in Python](https://machinelearningmastery.com/statistical-power-and-power-analysis-in-python/)
     
     "**Statistical power** can be calculated and reported for a completed experiment to comment on the confidence one might have in the conclusions drawn from the results of the study. It can also be used as a tool to estimate the number of observations or sample size required in order to detect an effect in an experiment."
     
@@ -2253,8 +2251,8 @@ VLOOKUP (stands for vertical lookup): a function that searches for a certain val
     
     You can use the next sample size calculators:
     
-    - [surveymonkey]([https://www.surveymonkey.com/mp/sample-size-calculator/](https://www.surveymonkey.com/mp/sample-size-calculator/))
-    - [Raosoft]([http://www.raosoft.com/samplesize.html](http://www.raosoft.com/samplesize.html))
+    - [surveymonkey](https://www.surveymonkey.com/mp/sample-size-calculator/)
+    - [Raosoft](http://www.raosoft.com/samplesize.html)
     
     The calculated sample size is the minimum number to achieve what you input for confidence level and margin of error.
     
@@ -2986,7 +2984,7 @@ VLOOKUP (stands for vertical lookup): a function that searches for a certain val
         
         When adding data to tables using a formula, go back and paste the data in as values afterwards. That way they're locked in. There's an option for "Paste special." And there's an option to "Paste values only.”
         
-        - For details on the correct syntax, check [HERE]([https://support.google.com/docs/answer/6055540?hl=en](https://support.google.com/docs/answer/6055540?hl=en))
+        - For details on the correct syntax, check [HERE](https://support.google.com/docs/answer/6055540?hl=en)
 
     ### Data validation
     
@@ -3040,12 +3038,12 @@ VLOOKUP (stands for vertical lookup): a function that searches for a certain val
         - String to a number
         - Date to a string
         - Date to a datetime
-    - [Conversion Rules in Standard SQL]([https://cloud.google.com/bigquery/docs/reference/standard-sql/conversion_rules](https://cloud.google.com/bigquery/docs/reference/standard-sql/conversion_rules))
+    - [Conversion Rules in Standard SQL](https://cloud.google.com/bigquery/docs/reference/standard-sql/conversion_rules)
     - To avoid errors in the event of a failed query, use the SAFE_CAST function instead. The SAFE_CAST function returns a value of Null instead of an error when a query fails. The syntax for **SAFE_CAST** is the same as for **CAST**. Simply substitute the function directly in your queries.
     - Browse these resources for more information about data conversion using other SQL dialects (instead of BigQuery):
-        - [SQL Server reference documentation]([https://learn.microsoft.com/en-us/sql/t-sql/functions/cast-and-convert-transact-sql?view=sql-server-ver15](https://learn.microsoft.com/en-us/sql/t-sql/functions/cast-and-convert-transact-sql?view=sql-server-ver15))
-        - [MySQL reference documentation]([https://dev.mysql.com/doc/refman/8.0/en/cast-functions.html](https://dev.mysql.com/doc/refman/8.0/en/cast-functions.html))
-        - [Blog about type casting that has links to other SQL short guides]([https://www.rudderstack.com/guides/how-to-sql-type-casting/](https://www.rudderstack.com/guides/how-to-sql-type-casting/))
+        - [SQL Server reference documentation](https://learn.microsoft.com/en-us/sql/t-sql/functions/cast-and-convert-transact-sql?view=sql-server-ver15)
+        - [MySQL reference documentation](https://dev.mysql.com/doc/refman/8.0/en/cast-functions.html)
+        - [Blog about type casting that has links to other SQL short guides](https://www.rudderstack.com/guides/how-to-sql-type-casting/)
     
     ## COMBINE MULTIPLE DATASETS
     
