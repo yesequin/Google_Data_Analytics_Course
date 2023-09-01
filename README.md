@@ -3094,3 +3094,71 @@ VLOOKUP (stands for vertical lookup): a function that searches for a certain val
     Having a variety of tools in your tool kit is important as a data analyst, but just as important is knowing when to use them. If you find yourself stuck on a problem, it can be a good idea to take a step back and reconsider how you're approaching a task. Do you have too much data for a single spreadsheet? Switch to SQL. Are you spending more time debugging queries than actually analyzing data? Maybe you should consider R.
     
     R is another programming language, but it's not a database language like SQL. It's a programming language frequently used for statistical analysis, visualization, and other data analysis.
+
+    ## VLOOKUP FOR DATA AGGREGATION
+    
+    Aggregation means collecting or gathering many separate pieces into a whole. 
+    
+    Data aggregation is the process of gathering data from multiple sources in order to combine it into a single summarized collection. In data analytics, a summarized collection, or summary, describes identifying the data you need and gathering it all together in one place.
+    
+    So in data, the puzzle pieces represent the data that lives in different, separate datasets. Getting them organized is the aggregation process. Then the piles of pieces that complete a single puzzle become your summary. And finally, putting those pieces back together is like analyzing them to gain important insights.
+    
+    Data aggregation helps data analyst:
+    
+    - Identify trends
+    - Make comparisons
+    - Gain insights that wouldn't be possible if each of the data elements were analyzed on its own.
+    
+    Data can also be aggregated over a given time period to provide statistics, such as averages, minimums, maximums, and sums.
+    
+    Functions are a big help in making data aggregation possible. VLOOKUP is a data aggregation tool.
+    
+    ### Using VLOOKUP
+    
+    Before using VLOOKUP, we have to clean the data and fix some common errors, so we will do some common data-cleaning tasks:
+    
+    - different data types: we can change the format manually, or we can use functions like:
+        - VALUE: a function that converts a text string that represents a number to a numerical value
+    - Extra spaces: We can use TRIM and delete any extra spaces added to the cell
+    - Duplicates: If there are duplicate rows in the search, it will return only the first match it finds. Using Remove duplicates is a great way to get rid of duplicates and help make sure you find the right record during the lookup.
+    
+    Here is the syntax:
+    
+    **VLOOKUP( *search_key, range, index, [is_sorted]*)**
+    
+    Lets explain VLOOKUP with an example:
+    
+    **VLOOKUP(103, A2:B26, 2, FALSE)**
+    
+    - **103:** a value to search for.
+    - **A2:B26:**  the range that will be searched.
+    - **2:** VLOOKUP will not recognize column names such as A, B, or C, so we use a number to indicate the column (The column index of the value to be returned).
+        - • If index is not between 1 and the number of columns in range, #VALUE! is returned.
+    - **FALSE:** tells VLOOKUP to find an exact match. If this said true, the function will return only a close match, which might not be what we want.
+    
+    One of the most common things data analysts do with VLOOKUP is populating data in one spreadsheet from another. VLOOKUP can connect two sheets together on a matching column to populate one single sheet.
+    
+    Two common reasons to use VLOOKUP are:
+    
+    - Populating data in a spreadsheet
+    - Merging data from one spreadsheet with data in another
+    
+    ### Identifying common VLOOKUP errors
+    
+    Troubleshooting has to do with asking the right questions, some of them are:
+    
+    - How should I prioritize these issues?
+    - In a single sentence, what’s the issue I’m facing?. This helps to clarify what's really going on, so I don't get bogged down with extra details.
+    - What resources can help me solve the problem?
+    - How can I stop this problem from happening in the future?
+    
+    VLOOKUP have some limitations:
+    
+    - VLOOKUP only returns the first match it finds, even if there are lots of possible matches. VLOOKUP only looks at data to the right after a match is found. In other words, the index for VLOOKUP indicates columns to the right only. This may require you to move columns around before you use VLOOKUP.
+    - Let's say the first few rows of a VLOOKUP have returned the correct result. But when you drive the function down the column, problems start popping up. This is probably because the table array part of the function hasn't been locked or made absolute. An absolute reference is a reference that is locked so that rows and columns won't change when copied. You can fix this issue by wrapping the table array in dollar signs.
+    - Version control issues. In other words, a function worked perfectly at first, but then something in the spreadsheet it was referencing changed. There are a few actions data analysts can take to ensure this doesn't happen:
+        - lock the spreadsheet. This stops other people from making changes. Go to select data > Protected sheets and ranges. Next, choose what you want to protect
+        - Use MATCH: A function used to locate the position of a specific lookup value and can help you with version control.
+    - Exact and approximate matching. TRUE tells VLOOKUP to look for approximate matches, and FALSE tells VLOOKUP to look for exact matches. It's important to know that VLOOKUP starts at the top of a specified range and searches downward vertically in each cell to find the right value. It stops searching when it finds any value that's greater than or equal to the lookup value. That's why data analysts typically use FALSE, like this. That way VLOOKUP only returns the exact match to what you've entered in the lookup value.
+    - #N/A: #N/A indicates that a matching value can't be returned as a result of the VLOOKUP. The error doesn’t mean that anything is actually wrong with the data, You can use the IFNA function to replace the #N/A error with something more descriptive, like “Does not exist”.
+    - • After you have populated data with the VLOOKUP formula, you may copy and paste the data as values only to remove the formulas so you can manipulate the data again.
