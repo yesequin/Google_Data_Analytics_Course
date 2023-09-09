@@ -3162,3 +3162,161 @@ VLOOKUP (stands for vertical lookup): a function that searches for a certain val
     - Exact and approximate matching. TRUE tells VLOOKUP to look for approximate matches, and FALSE tells VLOOKUP to look for exact matches. It's important to know that VLOOKUP starts at the top of a specified range and searches downward vertically in each cell to find the right value. It stops searching when it finds any value that's greater than or equal to the lookup value. That's why data analysts typically use FALSE, like this. That way VLOOKUP only returns the exact match to what you've entered in the lookup value.
     - #N/A: #N/A indicates that a matching value can't be returned as a result of the VLOOKUP. The error doesn’t mean that anything is actually wrong with the data, You can use the IFNA function to replace the #N/A error with something more descriptive, like “Does not exist”.
     - • After you have populated data with the VLOOKUP formula, you may copy and paste the data as values only to remove the formulas so you can manipulate the data again.
+
+    ## UNDERSTANDING JOINS
+    
+    JOIN is a SQL clause that's used to combine rows from two or more tables based on a related column. Basically, you can think of a JOIN as a SQL version of VLOOKUP.
+    
+    There are four common JOINs data analysts use:
+    
+    - INNER JOIN: A function that returns records with matching values in both tables. For the records to appear in the results table, they'll have to be key values in both tables.  INNER is *optional* in this SQL query because it is the default as well as the most commonly used JOIN operation.
+    - LEFT JOIN: A function that will return all the records from the left table and only the matching records from the right table. Each row in the left table appears in the results even if there are no matches in the right table. You may see this as LEFT OUTER JOIN, but most users prefer LEFT JOIN.
+    - RIGHT JOIN: A function that will return all records from the right table and only the matching records from the left. You may see this as RIGHT OUTER JOIN or RIGHT JOIN. Practically speaking, RIGHT JOIN is rarely used. Most people simply switch the tables and stick with LEFT JOIN.
+    - OUTER JOIN: A function that combines RIGHT and LEFT JOIN to return all matching records in both tables. You may sometimes see this as FULL JOIN.
+    
+    ![Untitled](Google_Data_Analytics_images/Untitled%2046.png)
+    
+    JOINs help you combine matching or related columns from different tables. We refer to these values as primary and foreign keys. JOIN use these keys to identify relationships and corresponding values. A JOIN combines tables by using a primary or foreign key to align the information coming from both tables in the combination process.
+    
+    When we input JOIN into SQL, it usually defaults to inner JOIN. 
+    
+    In English and SQL we read from left to right. The table mentioned first is left and the table mentioned second is right. You can also think of left as a table name to the left of the JOIN statement and right as a table name to the right of the JOIN statement.
+    
+    ### The general JOIN syntax
+    
+    This is an example of a SQL clause that brings exactly the same:
+    
+    ![Untitled](Google_Data_Analytics_images/Untitled%2047.png)
+    
+    ```sql
+    SELECT
+    	--table columns from tables are inserted here
+    	*table_name1.column_name*,
+    	*table_name2.column_name*
+    FROM
+    	*dataset_name.table_name1*
+    JOIN
+    	*dataset_name.table_name2*
+    ON *table_name1.column_name* = *table_name2.column_name*
+    ```
+    
+    **ON** in SQL identifies how the tables are to be matched for the correct information to be combined from both.
+    
+    Example of INNER JOIN:
+    
+    ![Untitled](Google_Data_Analytics_images/Untitled%2048.png)
+    
+    BUT! if we are using a public data set, the query will look something like this:
+    
+    ![Untitled](Google_Data_Analytics_images/Untitled%2049.png)
+    
+    And you can make it easier to read using alias for each table:
+    
+    ![Untitled](Google_Data_Analytics_images/Untitled%2050.png)
+    
+    Another examples:
+    
+    ![Untitled](Google_Data_Analytics_images/Untitled%2051.png)
+    
+    ### Secret identities: The importance of aliases
+    
+    Aliasing is the process of using aliases. Aliases are used in SQL queries to create temporary names for a column or table. Aliases make referencing tables and columns in your SQL queries much simpler when you have table or column names that are too long or complex to make use of in queries.
+    
+    In SQL queries, aliases are implemented by making use of the AS command. The basic syntax for the AS command can be seen in the following query for aliasing a table:
+    
+    ```sql
+    SELECT *column_name(s)*
+    FROM *table_name* AS *alias_name*
+    ```
+    
+    Notice that AS is preceded by the table name and followed by the new nickname. It is a similar approach to aliasing a column:
+    
+    ```sql
+    SELECT *column_name* AS *alias_name*
+    FROM *table_name*
+    ```
+    
+    If using AS results in an error when running a query because the SQL database you are working with doesn't support it, you can leave it out. In the previous examples, the alternate syntax for aliasing a table or column would be:
+    
+    - FROM table_name alias_name
+    - SELECT column_name alias_name
+    
+    The key takeaway is that queries can run with or without using AS for aliasing, but using AS has the benefit of making queries more readable. It helps to make aliases stand out more clearly.
+    
+    ## COUNT AND COUNT DISTINCT
+    
+    COUNT can be used to count the total number of numerical values within a specific range in spreadsheets. COUNT in SQL does the same thing. COUNT is a query that returns the number of rows in a specified range
+    
+    COUNT DISTINCT is a query that only returns the distinct values in that range. Basically, this means COUNT DISTINCT doesn't count repeating values. 
+    
+    COUNT returns the number of rows in a specified range. COUNT DISTINCT only returns the distinct values in a specified range.
+    
+    You'll use COUNT and COUNT DISTINCT anytime you want to answer questions about how many
+    
+    ![Untitled](Google_Data_Analytics_images/Untitled%2052.png)
+    
+    ## WORK WITH SUBQUERIES
+    
+    A subquery is a SQL query that is nested inside of a larger query.
+    
+    With subqueries you can combine different pieces of logic together. Because the logic of your outer query relies on the inner query, you can get more done with a single query. This means all of the logic is in one place, which makes it more efficient and easier to read. The statement containing the subquery can also be called the outer query or the outer select. This makes the subquery the inner query or inner select. The inner query executes first so that the results can be passed on to the outer query to use.
+    
+    Usually you'll find subqueries nested in FROM or WHERE clauses.
+    
+    ![Untitled](Google_Data_Analytics_images/Untitled%2053.png)
+    
+    We can also add a subquery inside the FROM clause:
+    
+    ![Untitled](Google_Data_Analytics_images/Untitled%2054.png)
+    
+    Or inside of a WHERE clause.
+    
+    Usually, you will find subqueries nested in the SELECT, FROM, and/or WHERE clauses. There is no general syntax for subqueries, but the syntax for a basic subquery is as follows:
+    
+    ![Untitled](Google_Data_Analytics_images/Untitled%2055.png)
+    
+    You will find that, within the first SELECT clause is another SELECT clause. The second SELECT clause marks the start of the subquery in this statement.
+    
+    ### Subquery rules
+    
+    - Subqueries must be enclosed within parentheses
+    - A subquery can have only one column specified in the SELECT clause. But if you want a subquery to compare multiple columns, those columns must be selected in the main query.
+    - Subqueries that return more than one row can only be used with multiple value operators, such as the IN operator which allows you to specify multiple values in a WHERE clause.
+    - A subquery can’t be nested in a SET command. The SET command is used with UPDATE to specify which columns (and values) are to be updated in a table.
+    - Comparison operators such as >, <, or = help you compare data in subqueries. You can also use multiple row operators including IN, ANY, or ALL.
+    
+    To learn more about Subqueries, check the next links:
+    
+    - **[SQL subqueries:](https://www.w3resource.com/sql/subqueries/understanding-sql-subqueries.php)** This detailed introduction includes the definition of a subquery, its purpose in SQL, when and how to use it, and what the results will be
+    - **[Writing subqueries in SQL](https://mode.com/sql-tutorial/sql-sub-queries/):** Explore the basics of subqueries in this interactive tutorial, including examples and practice problems that you can work through
+    
+    ### Using subqueries to aggregate data
+    
+    The WHERE function can't be used with aggregate functions. For example, you can use WHERE on a statement and follow it with GROUP BY. But when you want to use GROUP BY first and then use WHERE on that output, you'll need a different function. This is where HAVING comes in.
+    
+    HAVING allows you to add a filter to your query instead of the underlying table when you're working with aggregate functions. That way it only returns records that meet your specific conditions.  The HAVING clause was added to SQL because the WHERE keyword could not be used with aggregate functions.
+    
+    ```sql
+    ##SQL HAVING Syntax:
+    SELECT *column_name*, aggregate_function(*column_name*)
+    FROM *table_name*
+    WHERE *column_name operator* value
+    GROUP BY *column_name*
+    HAVING aggregate_function(*column_name*) operator value;
+    ```
+    
+    Similarly, CASE returns records with your conditions by allowing you to include if/then statements in your query.
+    
+    The `CASE` expression goes through conditions and returns a value when the first condition is met (like an if-then-else statement). So, once a condition is true, it will stop reading and return the result. If no conditions are true, it returns the value in the `ELSE` clause. If there is no `ELSE` part and no conditions are true, it returns NULL.
+    
+    ```sql
+    ##SQL CASE Syntax:
+    CASE
+        WHEN *condition1* THEN *result1*
+        WHEN *condition2* THEN *result2*
+        WHEN *conditionN* THEN *resultN*
+        ELSE *result*
+    END;
+    ```
+    
+    ![Untitled](Google_Data_Analytics_images/Untitled%2056.png)
