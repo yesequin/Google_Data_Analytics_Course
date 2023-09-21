@@ -3320,3 +3320,22 @@ VLOOKUP (stands for vertical lookup): a function that searches for a certain val
     ```
     
     ![Untitled](Google_Data_Analytics_images/Untitled%2056.png)
+
+    ## DATA CALCULATIONS
+    
+    Formulas are one of the many shortcuts that data analysts use. 
+    
+    ### Functions
+    
+    - COUNTIF: returns the number of cells that match a specified value. The basic syntax for COUNTIF is: **=COUNTIF(range, criterion)**
+    - SUMIF. The basic syntax of a SUMIF function is: **=SUMIF(range, criterion, sum_range).** The first range is where the function will search for the condition that you have set. The criterion is the condition you are applying and the sum_range is the range of cells that will be included in the calculation.
+    - AVERAGEIF
+    - SUMIFS. SUMIFS can include multiple conditions. The basic syntax is: **=SUMIFS(sum_range, criteria_range1, criterion1, [criteria_range2, criterion2, ...])**
+    - COUNTIFS. COUNTIFS has the same basic syntax as SUMIFS: **=COUNTIFS(criteria_range1, criterion1, [criteria_range2, criterion2, ...])**
+    - IFS
+    - VLOOKUP
+    - INDEX
+    - MATCH
+    - IF with AND, OR, and NOT.
+    - MAXIFS. The basic syntax is: **=MAXIFS(max_range, range1, criteria1, [range2], [criteria2],…)**
+    - SUMPRODUCT: multiplies arrays and returns the sum of those products (multiplies each of the values in two or more arrays together.).  The basic syntax is: **=SUMPRODUCT(array1, [array2],…)**. An array is kind of like a range in a spreadsheet. It can be used to find the total revenue, for example.
