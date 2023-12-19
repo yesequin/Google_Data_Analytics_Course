@@ -4,236 +4,278 @@
 
 - GLOSSARY
     
+    ##: it tells the server (BigQuery) that this is a description and not part of the code.
+    
+    A/B testing: The process of testing two variations of the same web page to determine which page is more successful at attracting user traffic and generating revenue
+    
+    Absolute reference: a reference that is locked so that rows and columns won't change when copied.
+    
+    Aggregation: collecting or gathering many separate pieces into a whole.
+    
     Analysis: the process used to make sense of the data collected.
-
-Analytical skills: Qualities and characteristics associated with using facts to solve problems
-Analytical thinking: The process of identifying and defining a problem, then solving it by using data in an organized, step-by-step manner
-
-Big data: Large, complex datasets typically involving long periods of time, which enable data
-analysts to address far-reaching business problems
-
-Borders: Lines that can be added around two or more cells on a spreadsheet
-
-Business task: A business task is the question or problem data analysis answers for business.
-
-CASE statement: The CASE statement goes through one or more conditions and returns a value as soon as a condition is met.
-
-Cell reference: A cell or a range of cells in a worksheet typically used in formulas and functions.
-
-Changelog: a file containing a chronologically ordered list of modifications made to a project.
-
-Clean data: data that's complete, correct, and relevant to the problem you're trying to solve.
-
-Compatibility: how well two or more datasets are able to work together.
-
-CONCAT: allows you to join multiple text strings from multiple sources
-
-CONCATENATE: a function that joins multiple text strings into a single string.
-
-Conditional formatting: a spreadsheet tool that changes how cells appear when values meet specific conditions.
-
-Confidence interval: The range of possible values that the population’s result would be at the confidence level of the study. This range is the sample result +/- the margin of error.
-
-Confidence level: How confident you are in the survey results. Confidence level is targeted before you start your study because it will affect how big your margin of error is at the end of your study.
-
-Context: The condition in which something exists or happens
-
-COUNTA: counts the total number of values within a specified range.
-
-COUNTIF: a function that returns the number of cells that match a specified value.
-
-CSV: Comma-separated values. A CSV file saves data in a table format
-
-Dashboard: A tool that monitors live, incoming data
-
-Data: A collection of facts
-Data analysis: The collection, transformation, and organization of data in order to draw
-conclusions, make predictions, and drive informed decision-making
-Data analyst: Someone who collects, transforms, and organizes data in order to drive
-informed decision-making
-Data analytics: The science of data
-
-Data elements: pieces of information, such as people's names, account numbers, and addresses
-
-Data integrity: is the accuracy, completeness, consistency, and trustworthiness of data throughout its lifecycle.
-
-Data model: A model that is used for organizing data elements and how they relate to one another.
-
-Database: A database is a collection of data stored in a computer system. When you maintain a database of customer information, ensuring data integrity, credibility, and privacy are all important concerns.
-Data-driven decision-making: Using facts to guide business strategy. Data-driven decision-making is when facts that have been discovered through data analysis are used to guide business strategy.
-Data ecosystem: The various elements that interact with one another in order to produce,
-manage, store, organize, analyze, and share data
-
-Data engineers: transform data into a useful format for analysis and give it a reliable infrastructure.
-
-Data mapping: the process of matching fields from one database to another.
-
-Data merging: the process of combining two or more datasets into a single dataset.
-Data science: A field of study that uses raw data to create new ways of modeling and understanding the unknown
-Dataset: A collection of data that can be manipulated or analyzed as one unit
-
-Data validation: a tool for checking the accuracy and quality of data before adding or importing it.
-
-Data warehousing specialist: develop processes and procedures to effectively store and organize data.
-
-Delimiter: a character that indicates the beginning or end of a data item.
-
-Deliverables:  are items or tasks you will complete before you can finish the project.
-
-Dirty data: data that's incomplete, incorrect, or irrelevant to the problem you're trying to solve.
-
-Documentation: the process of tracking changes, additions, deletions and errors involved in your data cleaning effort.
-
-Historical data: Data that already exist. We use this kind of data when you need an answer immediatly.
-
-Fairness: Fairness means ensuring that your analysis doesn't create or reinforce bias. In other words, as a data analyst, you want to help create systems that are fair and inclusive to everyone. Fairness also means crafting questions that make sense to everyone.
-
-Field: a single piece of information from a row or column of a spreadsheet.
-
-Field length: a tool for determining how many characters can be keyed into a field.
-
-Filtering: showing only the data that meets a specific criteria while hiding the rest.
-
-Find and replace: a tool that looks for a specified search term in a spreadsheet and allows you to replace it with something else.
-
-First-party data: Data collected by an individual or group using their own resources. It is typically the preferred method because you know exactly where it came from.
-
-Float: a number that contains a decimal
-
-Foreign key: a field within a table that is a primary key in another table.
-
-Formula: A set of instructions used to perform a calculation using the data in a spreadsheet
-Function: A preset command that automatically performs a specified process or task using the data in a spreadsheet
-
-Gap analysis: A method for examining and evaluating the current state of a process in order to identify opportunities for improvement in the future
-
-Header: The first row in a spreadsheet that labels the type of data in each column
-
-Hypothesis testing: is a way to see if a survey or experiment has meaningful results.
-
-Interoperability: the ability of data systems and services to openly connect and share data.
-
-Issue: An issue is a topic or subject to investigate.
-
-Leading question: A question that steers people toward a certain response
-
-LEFT: a function that gives you a set number of characters from the left side of a text string.
-
-LEN: a function that tells you the length of the text string by counting the number of characters it contains.
-
-Margin of error: Since a sample is used to represent a population, the sample’s results are expected to differ from what the result would have been if you had surveyed the entire population. This difference is called the margin of error. The smaller the margin of error, the closer the results of the sample are to what the result would have been if you had surveyed the entire population.
-
-Mental model: your thought process and the way you approach a problem
-
-Merge: an agreement that unites two organizations into a single new one.
-
-Metadata: is data about data.
-
-Metric goal: A metric goal is a measurable goal set by a company and evaluated using metrics. And just like there are a lot of possible metrics, there are lots of possible goals too.
-
-MID: a function that gives you a segment from the middle of a text string.
-
-Milestones: Milestones are significant tasks you will confirm along your timeline to help everyone know the project is on track.
-
-Null: an indication that a value does not exist in a data set. It is not the same as a zero.
-
-Openness (or open data): Free access, usage, and sharing of data.
-
-Outliers: are data points that are very different from similarly collected data and might not be reliable values.
-
-Pivot Table: A pivot table is a data summarization tool that is used in data processing. Pivot tables are used to summarize, sort, re-organize, group, count, total, or average data stored in a database. It allows its users to transform columns into rows and rows into columns.
-
-Population: all possible data values in a certain data set.
-
-Primary key: references a column in which each value is unique
-
-Problem: a problem is an obstacle or complication that needs to be worked out.
-
-Problem domain: the specific area of analysis that encompasses every activity affecting or affected by the problem.
-
-Problem types: The various problems that data analysts encounter, including categorizing
-things, discovering connections, finding patterns, identifying themes, making predictions, and
-spotting something unusual
-
-Quartile: A quartile divides data points into four equal parts or quarters.
-
-Query language: A computer programming language used to communicate with a database
-
-Question: A question is designed to discover information
-
-R: A programming language frequently used for statistical anaysis, visualization, and other data analysis.
-
-Random sampling: a way of selecting a sample from a population so that every possible type of the sample has an equal chance of being chosen.
-
-Reframing: Restating a problem or challenge, then redirecting it toward a potential resolution
-
-Relational database: a database that contains a series of tables that can be connected to form relationships.
-
-Reports: Reports notify everyone as you finalize deliverables and meet milestones.
-
-Revenue: The total amount of income generated by the sale of goods or services
-
-RIGHT: a function that gives you a set number of characters from the right side of a text string.
-
-Root cause: The reason why a problem occurs
-
-Sample: a part of a population that is representative of the population.
-
-Sampling bias: is when a sample isn’t representative of the population as a whole. This means some members of the population are being overrepresented or underrepresented.
-
-Schema: a way of describing how something is organized.
-
-Second-party data: data collected by a group directly from its audience and then sold.
-
-Syntax: a predetermined structure that includes all required information and its proper placement.
-
-SMART methodology: A tool for determining a question’s effectiveness based on whether it is
-specific, measurable, action-oriented, relevant, and time-bound
-
-Soft skills: non-technical traits and behaviors that relate to how you work.
-
-Sorting: arranging data into a meaningful order to make it easier to understand, analyze, and visualize.
-
-Sort sheet: All of the data in a spreadsheet is sorted by the ranking of a specific sorted column - data across rows is kept together.
-
-Sort range: Nothing else on the spreadsheet is rearranged besides the specified cells in a column.
-
-Split: a tool that divides a text string around the specified character and puts each fragment into a new and separate cell.
-
-Spreadsheet: A digital worksheet
-
-Statistical power: the probability of getting meaningful results from a test.
-
-Statistical significance: The determination of whether your result could be due to random chance or not. The greater the significance, the less due to chance.
-
-Stakeholders: People who have invested time and resources into a project and are interested in the outcome.
-
-Structured Query Language: A computer programming language used to communicate with a
-database
-Structured thinking: The process of recognizing the current problem or situation, organizing
-available information, revealing gaps and opportunities, and identifying options
-
-Technical mindset: The ability to break things down into smaller steps or pieces and work with them in an orderly and logical way
-
-Text string: a group of characters within a cell, most often composed of letters, numbers or both.
-
-Third-party data: Data collected from outside sources who did not collect it directly. This data might have come from a number of different sources before you investigated it. 
-
-Time-bound question: A question that specifies a timeframe to be studied
-
-Transferable skills: skills and qualities that can transfer from one job or industry to another.
-
-TRIM: a function that removes leading, trailing, and repeated spaces in data.
-
-Turnover rate: the rate at which employees leave a company.
-
-Typecasting: Converting data from one type to another.
-
-Unfair question: A question that makes assumptions or is difficult to answer honestly
-
-Verification: a process to confirm that a data cleaning effort was well- executed and the resulting data is accurate and reliable.
-
-VLOOKUP (stands for vertical lookup): a function that searches for a certain value in a column to return a corresponding piece of information.
+    
+    Analytical skills: Qualities and characteristics associated with using facts to solve problems
+    Analytical thinking: The process of identifying and defining a problem, then solving it by using data in an organized, step-by-step manner
+    
+    Array: A collection of values in cells
+    
+    Big data: Large, complex datasets typically involving long periods of time, which enable data
+    analysts to address far-reaching business problems
+    
+    Borders: Lines that can be added around two or more cells on a spreadsheet
+    
+    Business task: A business task is the question or problem data analysis answers for business.
+    
+    Calculated field: A new field within a pivot table that carries out certain calculations based on the values of other fields.
+    
+    CASE statement: The CASE statement goes through one or more conditions and returns a value as soon as a condition is met.
+    
+    Cell reference: A cell or a range of cells in a worksheet typically used in formulas and functions.
+    
+    Changelog: a file containing a chronologically ordered list of modifications made to a project.
+    
+    Clean data: data that's complete, correct, and relevant to the problem you're trying to solve.
+    
+    Compatibility: how well two or more datasets are able to work together.
+    
+    CONCAT: allows you to join multiple text strings from multiple sources
+    
+    CONCATENATE: a function that joins multiple text strings into a single string.
+    
+    Conditional formatting: a spreadsheet tool that changes how cells appear when values meet specific conditions.
+    
+    Confidence interval: The range of possible values that the population’s result would be at the confidence level of the study. This range is the sample result +/- the margin of error.
+    
+    Confidence level: How confident you are in the survey results. Confidence level is targeted before you start your study because it will affect how big your margin of error is at the end of your study.
+    
+    Context: The condition in which something exists or happens
+    
+    COUNTA: counts the total number of values within a specified range.
+    
+    COUNTIF: a function that returns the number of cells that match a specified value.
+    
+    CSV: Comma-separated values. A CSV file saves data in a table format
+    
+    Dashboard: A tool that monitors live, incoming data
+    
+    Data: A collection of facts
+    
+    Data aggregation: the process of gathering data from multiple sources in order to combine it into a single summarized collection.
+    Data analysis: The collection, transformation, and organization of data in order to draw
+    conclusions, make predictions, and drive informed decision-making
+    Data analyst: Someone who collects, transforms, and organizes data in order to drive
+    informed decision-making
+    Data analytics: The science of data
+    
+    Data elements: pieces of information, such as people's names, account numbers, and addresses
+    
+    Data integrity: is the accuracy, completeness, consistency, and trustworthiness of data throughout its lifecycle.
+    
+    Data model: A model that is used for organizing data elements and how they relate to one another.
+    
+    Database: A database is a collection of data stored in a computer system. When you maintain a database of customer information, ensuring data integrity, credibility, and privacy are all important concerns.
+    Data-driven decision-making: Using facts to guide business strategy. Data-driven decision-making is when facts that have been discovered through data analysis are used to guide business strategy.
+    Data ecosystem: The various elements that interact with one another in order to produce,
+    manage, store, organize, analyze, and share data
+    
+    Data engineers: transform data into a useful format for analysis and give it a reliable infrastructure.
+    
+    Data mapping: the process of matching fields from one database to another.
+    
+    Data merging: the process of combining two or more datasets into a single dataset.
+    Data science: A field of study that uses raw data to create new ways of modeling and understanding the unknown
+    Dataset: A collection of data that can be manipulated or analyzed as one unit
+    
+    Data validation: a tool for checking the accuracy and quality of data before adding or importing it.
+    
+    Data validation process: Checking and rechecking the quality of your data so that it is complete, accurate, secure, and consistent.
+    
+    Data warehousing specialist: develop processes and procedures to effectively store and organize data.
+    
+    Delimiter: a character that indicates the beginning or end of a data item.
+    
+    Deliverables:  are items or tasks you will complete before you can finish the project.
+    
+    Dirty data: data that's incomplete, incorrect, or irrelevant to the problem you're trying to solve.
+    
+    Documentation: the process of tracking changes, additions, deletions and errors involved in your data cleaning effort.
+    
+    EXTRACT command (SQL): Lets us pull one part of a given date to use
+    
+    Historical data: Data that already exist. We use this kind of data when you need an answer immediately.
+    
+    Fairness: Fairness means ensuring that your analysis doesn't create or reinforce bias. In other words, as a data analyst, you want to help create systems that are fair and inclusive to everyone. Fairness also means crafting questions that make sense to everyone.
+    
+    Field: a single piece of information from a row or column of a spreadsheet.
+    
+    Field length: a tool for determining how many characters can be keyed into a field.
+    
+    Filtering: showing only the data that meets a specific criteria while hiding the rest.
+    
+    Find and replace: a tool that looks for a specified search term in a spreadsheet and allows you to replace it with something else.
+    
+    First-party data: Data collected by an individual or group using their own resources. It is typically the preferred method because you know exactly where it came from.
+    
+    Float: a number that contains a decimal
+    
+    Foreign key: a field within a table that is a primary key in another table.
+    
+    Formula: A set of instructions used to perform a calculation using the data in a spreadsheet
+    Function: A preset command that automatically performs a specified process or task using the data in a spreadsheet
+    
+    Gap analysis: A method for examining and evaluating the current state of a process in order to identify opportunities for improvement in the future
+    
+    HAVING statement: allows you to add a filter to your query instead of the underlying table when you're working with aggregate functions.
+    
+    Header: The first row in a spreadsheet that labels the type of data in each column
+    
+    Hypothesis testing: is a way to see if a survey or experiment has meaningful results.
+    
+    Interoperability: the ability of data systems and services to openly connect and share data.
+    
+    Issue: An issue is a topic or subject to investigate.
+    
+    JOIN: a SQL clause that's used to combine rows from two or more tables based on a related column.
+    
+    Leading question: A question that steers people toward a certain response
+    
+    LEFT: a function that gives you a set number of characters from the left side of a text string.
+    
+    LEN: a function that tells you the length of the text string by counting the number of characters it contains.
+    
+    MATCH: A function used to locate the position of a specific lookup value.
+    
+    Margin of error: Since a sample is used to represent a population, the sample’s results are expected to differ from what the result would have been if you had surveyed the entire population. This difference is called the margin of error. The smaller the margin of error, the closer the results of the sample are to what the result would have been if you had surveyed the entire population.
+    
+    Mental model: your thought process and the way you approach a problem
+    
+    Merge: an agreement that unites two organizations into a single new one.
+    
+    Metadata: is data about data.
+    
+    Metric goal: A metric goal is a measurable goal set by a company and evaluated using metrics. And just like there are a lot of possible metrics, there are lots of possible goals too.
+    
+    MID: a function that gives you a segment from the middle of a text string.
+    
+    Milestones: Milestones are significant tasks you will confirm along your timeline to help everyone know the project is on track.
+    
+    Modulo: An operator (%) that returns the remainder when one number is divided by another
+    
+    Null: an indication that a value does not exist in a data set. It is not the same as a zero.
+    
+    Openness (or open data): Free access, usage, and sharing of data.
+    
+    Operator: A symbol that names the type of operation or calculation to be performed in a formula.
+    
+    Outliers: are data points that are very different from similarly collected data and might not be reliable values.
+    
+    Pivot Table: A pivot table is a data summarization tool that is used in data processing. Pivot tables are used to summarize, sort, re-organize, group, count, total, or average data stored in a database. It allows its users to transform columns into rows and rows into columns.
+    
+    Population: all possible data values in a certain data set.
+    
+    Primary key: references a column in which each value is unique
+    
+    Profit margin: a percentage that indicates how many cents of profit have been generated for each dollar of sale.
+    
+    Problem: a problem is an obstacle or complication that needs to be worked out.
+    
+    Problem domain: the specific area of analysis that encompasses every activity affecting or affected by the problem.
+    
+    Problem types: The various problems that data analysts encounter, including categorizing
+    things, discovering connections, finding patterns, identifying themes, making predictions, and
+    spotting something unusual
+    
+    Quartile: A quartile divides data points into four equal parts or quarters.
+    
+    Query language: A computer programming language used to communicate with a database
+    
+    Question: A question is designed to discover information
+    
+    R: A programming language frequently used for statistical anaysis, visualization, and other data analysis.
+    
+    Random sampling: a way of selecting a sample from a population so that every possible type of the sample has an equal chance of being chosen.
+    
+    Reframing: Restating a problem or challenge, then redirecting it toward a potential resolution
+    
+    Relational database: a database that contains a series of tables that can be connected to form relationships.
+    
+    Remove duplicates: A tool that automatically searches for and eliminates duplicate entries from a spreadsheet.
+    
+    Reports: Reports notify everyone as you finalize deliverables and meet milestones.
+    
+    Revenue: The total amount of income generated by the sale of goods or services
+    
+    RIGHT: a function that gives you a set number of characters from the right side of a text string.
+    
+    Root cause: The reason why a problem occurs
+    
+    Sample: a part of a population that is representative of the population.
+    
+    Sampling bias: is when a sample isn’t representative of the population as a whole. This means some members of the population are being overrepresented or underrepresented.
+    
+    Schema: a way of describing how something is organized.
+    
+    Second-party data: data collected by a group directly from its audience and then sold.
+    
+    Syntax: a predetermined structure that includes all required information and its proper placement.
+    
+    SMART methodology: A tool for determining a question’s effectiveness based on whether it is
+    specific, measurable, action-oriented, relevant, and time-bound
+    
+    Soft skills: non-technical traits and behaviors that relate to how you work.
+    
+    Sorting: arranging data into a meaningful order to make it easier to understand, analyze, and visualize.
+    
+    Sort sheet: All of the data in a spreadsheet is sorted by the ranking of a specific sorted column - data across rows is kept together.
+    
+    Sort range: Nothing else on the spreadsheet is rearranged besides the specified cells in a column.
+    
+    Split: a tool that divides a text string around the specified character and puts each fragment into a new and separate cell.
+    
+    Spreadsheet: A digital worksheet
+    
+    Statistical power: the probability of getting meaningful results from a test.
+    
+    Statistical significance: The determination of whether your result could be due to random chance or not. The greater the significance, the less due to chance.
+    
+    Stakeholders: People who have invested time and resources into a project and are interested in the outcome.
+    
+    Structured Query Language: A computer programming language used to communicate with a
+    database
+    Structured thinking: The process of recognizing the current problem or situation, organizing
+    available information, revealing gaps and opportunities, and identifying options
+    
+    Subquery: is a SQL query that is nested inside of a larger query.
+    
+    SUMPRODUCT: a function that multiplies arrays and returns the sum of those products.
+    
+    Technical mindset: The ability to break things down into smaller steps or pieces and work with them in an orderly and logical way
+    
+    Temporary table: a database table that is created and exists temporarily on a database server
+    
+    Text string: a group of characters within a cell, most often composed of letters, numbers or both.
+    
+    Third-party data: Data collected from outside sources who did not collect it directly. This data might have come from a number of different sources before you investigated it. 
+    
+    Time-bound question: A question that specifies a timeframe to be studied
+    
+    Transferable skills: skills and qualities that can transfer from one job or industry to another.
+    
+    TRIM: a function that removes leading, trailing, and repeated spaces in data.
+    
+    Turnover rate: the rate at which employees leave a company.
+    
+    Typecasting: Converting data from one type to another.
+    
+    Underscores: Lines used to underline words and connect text characters.
+    
+    Unfair question: A question that makes assumptions or is difficult to answer honestly
+    
+    VALUE: A function that converts a text string that represents a  number to a numerical value.
+    
+    Verification: a process to confirm that a data cleaning effort was well- executed and the resulting data is accurate and reliable.
+    
+    VLOOKUP (stands for vertical lookup): a function that searches for a certain value in a column to return a corresponding piece of information.
     
 - 1 - FOUNDATIONS
     
@@ -2977,27 +3019,26 @@ VLOOKUP (stands for vertical lookup): a function that searches for a certain val
     ### How to convert and format your data in Spreadsheet
     
     - On the toolbar at the top of the sheet, you'll find a menu that can help you convert these numbers into specific data types. It gives you a lot of choices just from the drop-down menu, such as number, currency, date, percentage.... And if you click to open the full menu, there's even more options, including one for a custom number format.
-    - You can go even further and convert the unit of measurement you're using: use the CONVERT function to change the unit of measurement. We'll input the CONVERT function in a new column: CONVERT(A,B,C) where:
+    - You can go even further and convert the unit of measurement you're using: use the CONVERT function to change the unit of measurement. We'll input the CONVERT function in a new column: CONVERT(A,”B”,”C”) where:
         - A: Cell we want to convert
         - B: original measurement
         - C: New measurement
         
         When adding data to tables using a formula, go back and paste the data in as values afterwards. That way they're locked in. There's an option for "Paste special." And there's an option to "Paste values only.”
         
-        - For details on the correct syntax, check [HERE](https://support.google.com/docs/answer/6055540?hl=en)
-
+        - For details on the correct syntax, check [HERE]([https://support.google.com/docs/answer/6055540?hl=en](https://support.google.com/docs/answer/6055540?hl=en))
+    
     ### Data validation
     
-    Data validation allows you to controll what can and can’t be entered in you worksheet. Usually, data validation is used to add drop-down lists to cells with predetermined options for users to choose from. Since you control what's being entered into the worksheet, it cuts down on how much data cleaning you have to do later on.
+    Data validation allows you to control what can and can’t be entered in you worksheet. Usually, data validation is used to add drop-down lists to cells with predetermined options for users to choose from. Since you control what's being entered into the worksheet, it cuts down on how much data cleaning you have to do later on.
     
     With data validation, you can:
     
     - Add dropdown lists with predetermined options:
         1. select the column
         2. click on Data > Data validation > + Add rule
-        3. 
-        4. Click +Add rule to callup a  new Criteria window that will allow you to define the validation values
-        5. Choose Dropdown menu as criteria
+        3. Click +Add rule to callup a  new Criteria window that will allow you to define the validation values
+        4. Choose Dropdown menu as criteria
     - Create custom checkboxes:
         1. select the cell
         2. click on Data > Data validation > + Add rule
@@ -3038,12 +3079,12 @@ VLOOKUP (stands for vertical lookup): a function that searches for a certain val
         - String to a number
         - Date to a string
         - Date to a datetime
-    - [Conversion Rules in Standard SQL](https://cloud.google.com/bigquery/docs/reference/standard-sql/conversion_rules)
+    - [Conversion Rules in Standard SQL]([https://cloud.google.com/bigquery/docs/reference/standard-sql/conversion_rules](https://cloud.google.com/bigquery/docs/reference/standard-sql/conversion_rules))
     - To avoid errors in the event of a failed query, use the SAFE_CAST function instead. The SAFE_CAST function returns a value of Null instead of an error when a query fails. The syntax for **SAFE_CAST** is the same as for **CAST**. Simply substitute the function directly in your queries.
     - Browse these resources for more information about data conversion using other SQL dialects (instead of BigQuery):
-        - [SQL Server reference documentation](https://learn.microsoft.com/en-us/sql/t-sql/functions/cast-and-convert-transact-sql?view=sql-server-ver15)
-        - [MySQL reference documentation](https://dev.mysql.com/doc/refman/8.0/en/cast-functions.html)
-        - [Blog about type casting that has links to other SQL short guides](https://www.rudderstack.com/guides/how-to-sql-type-casting/)
+        - [SQL Server reference documentation]([https://learn.microsoft.com/en-us/sql/t-sql/functions/cast-and-convert-transact-sql?view=sql-server-ver15](https://learn.microsoft.com/en-us/sql/t-sql/functions/cast-and-convert-transact-sql?view=sql-server-ver15))
+        - [MySQL reference documentation]([https://dev.mysql.com/doc/refman/8.0/en/cast-functions.html](https://dev.mysql.com/doc/refman/8.0/en/cast-functions.html))
+        - [Blog about type casting that has links to other SQL short guides]([https://www.rudderstack.com/guides/how-to-sql-type-casting/](https://www.rudderstack.com/guides/how-to-sql-type-casting/))
     
     ## COMBINE MULTIPLE DATASETS
     
@@ -3094,7 +3135,7 @@ VLOOKUP (stands for vertical lookup): a function that searches for a certain val
     Having a variety of tools in your tool kit is important as a data analyst, but just as important is knowing when to use them. If you find yourself stuck on a problem, it can be a good idea to take a step back and reconsider how you're approaching a task. Do you have too much data for a single spreadsheet? Switch to SQL. Are you spending more time debugging queries than actually analyzing data? Maybe you should consider R.
     
     R is another programming language, but it's not a database language like SQL. It's a programming language frequently used for statistical analysis, visualization, and other data analysis.
-
+    
     ## VLOOKUP FOR DATA AGGREGATION
     
     Aggregation means collecting or gathering many separate pieces into a whole. 
@@ -3162,7 +3203,7 @@ VLOOKUP (stands for vertical lookup): a function that searches for a certain val
     - Exact and approximate matching. TRUE tells VLOOKUP to look for approximate matches, and FALSE tells VLOOKUP to look for exact matches. It's important to know that VLOOKUP starts at the top of a specified range and searches downward vertically in each cell to find the right value. It stops searching when it finds any value that's greater than or equal to the lookup value. That's why data analysts typically use FALSE, like this. That way VLOOKUP only returns the exact match to what you've entered in the lookup value.
     - #N/A: #N/A indicates that a matching value can't be returned as a result of the VLOOKUP. The error doesn’t mean that anything is actually wrong with the data, You can use the IFNA function to replace the #N/A error with something more descriptive, like “Does not exist”.
     - • After you have populated data with the VLOOKUP formula, you may copy and paste the data as values only to remove the formulas so you can manipulate the data again.
-
+    
     ## UNDERSTANDING JOINS
     
     JOIN is a SQL clause that's used to combine rows from two or more tables based on a related column. Basically, you can think of a JOIN as a SQL version of VLOOKUP.
@@ -3320,7 +3361,7 @@ VLOOKUP (stands for vertical lookup): a function that searches for a certain val
     ```
     
     ![Untitled](Google_Data_Analytics_images/Untitled%2056.png)
-
+    
     ## DATA CALCULATIONS
     
     Formulas are one of the many shortcuts that data analysts use. 
@@ -3339,3 +3380,215 @@ VLOOKUP (stands for vertical lookup): a function that searches for a certain val
     - IF with AND, OR, and NOT.
     - MAXIFS. The basic syntax is: **=MAXIFS(max_range, range1, criteria1, [range2], [criteria2],…)**
     - SUMPRODUCT: multiplies arrays and returns the sum of those products (multiplies each of the values in two or more arrays together.).  The basic syntax is: **=SUMPRODUCT(array1, [array2],…)**. An array is kind of like a range in a spreadsheet. It can be used to find the total revenue, for example.
+    
+    ### Pivot table
+    
+    Pivot tables let you view data in multiple ways to find insights and trends. But pivot tables can also help with calculations, organize, and filter data. It is a tool used to sort, reorganize, group, count, total, or average data in spreadsheets. They can help you quickly make sense of larger data sets by comparing metrics, performing calculations, and generating reports.
+    
+    A pivot table has four **basic parts**:
+    
+    - Rows: organize and group data you select horizontally.
+    - Columns: organize and display values from your data vertically. Similar to rows, columns can be pulled directly from the data set or created using **values**.
+    - Values: are used to calculate and count data. This is where you input the variables you want to measure. This is also how you create calculated fields in your pivot table.
+    - Filters: enables you to apply filters based on specific criteria — just like filters in regular spreadsheets
+    
+    When you're in your job, you want to answer the questions that your manager and stakeholders ask. But you also want to answer the ones that come up while you're doing your analysis.
+    
+    To **create a pivot table**:
+    
+    1. Insert menu > Pivot table
+    2. Adding it a new sheet is especially helpful when working on a large dataset. It helps keep our calculations together in one place and separate from the rest of the data.
+    3. It’s a good practice to rename the sheet according to what you are trying to do there.
+    4. Once you have created your pivot table, there will be a pivot table editor that you can access to the right of your data. This is where you will be able to customize your pivot table, including what variables you want to include for your analysis. ****We can build our pivot table starting with the rows.
+        
+        ![Untitled](Google_Data_Analytics_images/Untitled%2057.png)
+        
+        1. We can create a pivot date group for date rows to see only by year or by month. Right-click on any value of the column > Create pivot date group
+    5. Next, we can work with the values.
+        1. The Summarize By drop-down menu changes the function applied to the values. The SUM function is the default function, but there are other options, such as COUNT.
+    6. After that, we can start adding columns but with the option “values”.
+    7. You can create some basic visualizations based on your custom tables to share your findings with stakeholders. Select any cell in your pivot table and then navigate to the Insert menu. Select Insert Chart.
+    - We can copy and paste the pivot table to create more
+    - The filters will be applied to the entire table.
+    - We can create calculated fields as Value columns. In excel we can create it using the field settings and the create formula menu. This is useful to check the accuracy of some of our data before analyzing it.
+    
+    ### More SQL calculations
+    
+    The operators are embedded in the queries when pulling data from a database. Just like spreadsheet formulas, there are a few different ways to perform calculations using queries. 
+    
+    The syntax of a query is its structure. It should include all the specific details of the data you want to pull into a new table where those details should be placed.
+    
+    For arithmetic calculation, you just need to use the symbols inside the SELECT statement.
+    
+    A lot of times, you can use functions instead of operators to complete calculations. For example, the SUM function can complete addition problems in spreadsheets and SQL. The AVERAGE function in a spreadsheet is the same as the AVG function in SQL. They both return the average value of a set of numbers. In SQL, these functions are considered aggregate functions because they perform a calculation on one or more values and return a single value.
+    
+    Sometimes you will need to group data before completing calculations, and the **GROUP BY** and **ORDER BY** commands are great for this. These commands are usually paired with aggregate functions like SUM or COUNT.
+    
+    - GROUP BY: A command that groups rows that have the same values from a table into summary rows. It comes at the end of the query
+    - ORDER BY: It orders the data. By default, it is in ascending order. We can add DESC at the end of the query to order it in descending order.
+    
+    ## THE DATA-VALIDATION PROCESS
+    
+    Using data validation lets you control what can and can't be entered into your worksheet. One of its uses is protecting structured data and formulas in your spreadsheets. The data validation function is just one part of a larger data validation process. The data validation function is just one part of a larger data validation process.
+    
+    While the data validation process is a form of data cleaning, you should use it throughout your analysis. This will help you understand your data, check that it's clean, and make sure you're aligning with your business objectives. In other words, it's what you do to make sure your data makes sense.
+    
+    Keep in mind, you'll build your business knowledge with time and experience. And here's a pro tip. Asking as many questions as possible whenever you need to will make this much easier.
+    
+    You should always do data validation no matter what analysis tool you're using.
+    
+    By building in these types of checks as part of your data validation process, you can avoid errors in your analysis and complete your business objectives to make everyone happy.
+    
+    ### Types of data validation
+    
+    1. Data type: Validating a data type means checking that the data matches the data type defined for the field.
+        - **Purpose**: Check that the data matches the data type defined for a field.
+        - **Example**: Data values for school grades 1-12 must be a numeric data type.
+        - **Limitations**: The data value 13 would pass the data type validation but would be an unacceptable value. For this case, data range validation is also needed.
+    2. Data range: Validating a data range means checking that the data falls within an acceptable range of values defined for the field.
+        - **Purpose**: Check that the data falls within an acceptable range of values defined for the field.
+        - **Example**: Data values for school grades should be values between 1 and 12.
+        - **Limitations**: The data value 11.5 would be in the data range and would also pass as a numeric data type. But, it would be unacceptable because there aren't half grades. For this case, data constraint validation is also needed.
+    3. Data constraints: Validating data constraints means checking that data meets certain conditions or criteria, such as type of characters.
+        - **Purpose**: Check that the data meets certain conditions or criteria for a field. This includes the type of data entered as well as other attributes of the field, such as number of characters.
+        - **Example**: Content constraint: Data values for school grades 1-12 must be whole numbers.
+        - **Limitations**: The data value 13 is a whole number and would pass the content constraint validation. But, it would be unacceptable since 13 isn’t a recognized school grade. For this case, data range validation is also needed.
+    4. Data consistency: Validating data consistency means checking that the data makes sense in the context of other related data.
+        - **Purpose**: Check that the data makes sense in the context of other related data.
+        - **Example**: Data values for product shipping dates can’t be earlier than product production dates.
+        - **Limitations**: Data might be consistent but still incorrect or inaccurate. A shipping date could be later than a production date and still be wrong.
+    5. Data Structure: Validating data structure means checking that the data follows or conforms to a set structure, such as MP3 files or HTML code.
+        - **Purpose**: Check that the data follows or conforms to a set structure.
+        - **Example**: Web pages must follow a prescribed structure to be displayed properly.
+        - **Limitations**: A data structure might be correct with the data still incorrect or inaccurate. Content on a web page could be displayed properly and still contain the wrong information.
+    6. Code validation: Code validation means checking that the application code systematically performs any of the previously mentioned validations during user data input.
+        - **Purpose:** Check that the application code systematically performs any of the previously mentioned validations during user data input.
+        - **Example:** Common problems discovered during code validation include: more than one data type allowed, data range checking not done, or ending of text strings not well defined.
+        - **Limitations:** Code validation might not validate all possible variations with data input.
+    
+    ## USING SQL WITH TEMPORARY TABLES
+    
+    ### Temporary tables
+    
+    Temporary tables, or temp tables, store subsets of data from standard data tables for a certain period. They are automatically deleted when you end your SQL session. They are useful when you only need a table for a short time to complete analysis tasks, like calculations.
+    
+    Instead of filtering the data over and over to return a subset, you can filter the data once and store it in a temporary table. This will let you run several queries about your data without having to keep filtering it.
+    
+    Naming and using temp tables can help you deal with a lot of data in a more streamlined way, so you don’t get lost repeating query after query with the same code that you could just include in a temporary table.
+    
+    They can be used as a holding area for storing values if you are making a series of calculations. This is sometimes referred to as **pre-processing** of the data.
+    
+    They can collect the results of multiple, separate queries. This is sometimes referred to as data **staging**. Staging is useful if you need to perform a query on the collected data or merge the collected data.
+    
+    ### Create a temporary table in SQL (BigQuery)
+    
+    We will use the **WITH** clause. The WITH clause is a type of temporary table that you can query from multiple times. It creates something that does the same thing as a temporary table. Even if it doesn’t add a table to the database you are working in for others to see, you can still see your results and anyone who needs to review your work can see the code that leads to your results.
+    
+    The general syntax for this method is:
+    
+    ```sql
+    WITH *new_temp_table_name* AS(
+    	SELECT *
+    	FROM
+    		*existing_table*
+    	WHERE
+    		tripduration >=60
+    )
+    ```
+    
+    • The opening parenthesis after the **AS** clause creates the subquery that filters the data from an existing table. The subquery is a regular **SELECT** statement along with a **WHERE** clause to specify the data to be filtered.
+    
+    • The closing parenthesis ends the subquery created by the **AS** clause.
+    
+    When the database executes this query, it will first complete the subquery and assign the values that result from that subquery to “*new_temp_table_name*,” which is the temporary table. You can then run multiple queries on this filtered data without having to filter the data every time.
+    
+    ![Untitled](Google_Data_Analytics_images/Untitled%2058.png)
+    
+    This will give us an error, but it will create a temporary table. Now, it is time to write a query.
+    
+    We just need to name the temporary query in another query. It is important to use the ## to describe the purpose of your query. This will help you remember the purpose of your query as you’re writing it. It can also help you share your work with others.
+    
+    ![Untitled](Google_Data_Analytics_images/Untitled%2059.png)
+    
+    If you need to end your session and start a new runtime later more servers store the code (Query history) using temp tables. You just need to recreate the table by running the code.
+    
+    ### Example
+    
+    ![Untitled](Google_Data_Analytics_images/Untitled%2060.png)
+    
+    ### Other types of temp tables.
+    
+    Instead of using the WITH clause, you can use the SELECT INTO or the CREATE TABLE clauses.
+    
+    The **SELECT INTO** clause copies data from one table into a new table, but doesn’t add the new table to the database. It’s useful if you want to make a copy of a table with a specific condition, like a query with a WHERE clause. BigQuery doesn't currently recognize the SELECT INTO command. Instead, here's an example of how a SELECT INTO statement might look in another RDBMS. Using SELECT and INTO, you can create a temporary table based on conditions defined by a WHERE clause to locate the information you need for the temporary table.
+    
+    ![Untitled](Google_Data_Analytics_images/Untitled%2061.png)
+    
+    - The INTO clause tells the database to store the data that is being requested in a new temporary table named, in this case, “AfricaSales.”
+    
+    Using **SELECT INTO** is a good practice when you want to keep the database uncluttered and you don't need other people using the table.
+    
+    The **CREATE TABLE** clause is a good option when several people need to access the same temp table. This statement adds the table into the database. In most relational database management systems or RDBMSs, you can add metadata to describe the data that's contained in the table you've created. This can help make the table easier to understand for anyone using it.
+    
+    ```sql
+    CREATE TABLE *table_name*(
+    	*column1 datatype*,
+    	*column2 datatype*,
+    	*column3 datatype*,
+    ...
+    )
+    ```
+    
+    ![Untitled](Google_Data_Analytics_images/Untitled%2062.png)
+    
+    The **CREATE TABLE** statement is also useful for more complex tables. For example, if the code's difficult to replicate, then making a temp table in this way means it'll be safe for you to access later.
+    
+    After you have finished working with the table, you would then delete or drop it from the database at the end of your session.
+    
+    ```sql
+    DROP TABLE *table_name*
+    ```
+    
+    **Note:** BigQuery uses **CREATE TEMP TABLE** instead of **CREATE TABLE**, but the general syntax is the same.
+    
+    Which clause you use depends on your preference and the project’s demands. Different clauses have their own strengths, so understanding how each of them work is helpful for using them effectively.
+    
+    You may also find that you're working in an RDBMS that uses a different syntax. For example, you might need to use a **CREATE TEMP TABLE** statement instead of CREATE TABLE.
+    
+    You can repeat your code over and over instead of making a temp table but that usually leaves your queries less readable and more vulnerable to typos.
+    
+    ### Best practices when working with temporary tables
+    
+    - Global vs. local temporary tables: Global temporary tables are made available to all database users and are deleted when all connections that use them have closed. Local temporary tables are made available only to the user whose query or connection established the temporary table. You will most likely be working with local temporary tables. If you have created a local temporary table and are the only person using it, you can drop the temporary table after you are done using it.
+    - Dropping temporary tables after use: Dropping a temporary table is a little different from deleting a temporary table. Dropping a temporary table not only removes the information contained in the rows of the table, but removes the table variable definitions (columns) themselves. Deleting a temporary table removes the rows of the table but leaves the table definition and columns ready to be used again. Although local temporary tables are dropped after you end your SQL session, it may not happen immediately. If a lot of processing is happening in the database, dropping your temporary tables after using them is a good practice to keep the database running smoothly.
+    
+    ## USING CONNECTED SHEETS WITH BIGQUERY
+    
+    Connected Sheets is a tool that allows data professionals to use basic spreadsheet functions to analyze large datasets housed in BigQuery. With Connected Sheets users don’t need to know SQL. Instead, anyone, not just data professionals, can generate insights with basic spreadsheet operations such as formulas, charts, and pivot tables.
+    
+    Recall that BigQuery allows users to analyze petabytes (a million gigabytes) of data using complex queries. A benefit of BigQuery is that it reduces the time needed to develop insights from large datasets.
+    
+    Google Sheets, on the other hand, is a spreadsheet tool that is easy to use and shareable with a familiar interface. It also allows simple and flexible analysis with tools like pivot tables, charts, and formulas.
+    
+    Connected Sheets integrates both BigQuery and Google Sheets, allowing the user to analyze billions of rows of data in Sheets without any need for specialized knowledge, such as SQL.
+    
+    Additionally, Connected Sheets is built to handle big data. Users won’t experience the same limitations or performance issues they’ve had in the past (such as data loss) when working with large data sets in spreadsheets.
+    
+    ### Why would a data analytics professional use Connected Sheets?
+    
+    As a data analytics professional, Connected Sheets can help with several tasks, such as:
+    
+    - Collaborating with partners, analysts, or other stakeholders in a familiar spreadsheet interface;
+    - Ensuring a single source of truth for data analysis without additional .csv exports;
+    - Defining variables so that all users are working with the same data;
+    - Sharing insights with your team in a secure environment; and
+    - Streamlining your reporting and dashboard workflows.
+    
+    Many teams and industries benefit from Connected Sheets such as finance, marketing, and operations teams.
+    
+    A few example use cases of Connected Sheets include:
+    
+    - **Business planning:** A user can build and prepare datasets, and then find insights from the data. For example, a data analyst can analyze sales data to determine which products sell better in different locations.
+    - **Customer service:** A user can find out which stores have the most complaints per 10,000 customers.
+    - **Sales:** A user can create internal finance and sales reports. After completing, they can share revenue reports with sales reps.
+    - **Logistics, fulfillment, and delivery:** A user can run real-time inventory management and intelligent analytics tools.
