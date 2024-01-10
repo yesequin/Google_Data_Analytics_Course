@@ -30,6 +30,8 @@
     
     CASE statement: The CASE statement goes through one or more conditions and returns a value as soon as a condition is met.
     
+    Causation: Occurs when an action directly leads to an outcome. It is also called a cause-effect relationship.
+    
     Cell reference: A cell or a range of cells in a worksheet typically used in formulas and functions.
     
     Changelog: a file containing a chronologically ordered list of modifications made to a project.
@@ -49,6 +51,8 @@
     Confidence level: How confident you are in the survey results. Confidence level is targeted before you start your study because it will affect how big your margin of error is at the end of your study.
     
     Context: The condition in which something exists or happens
+    
+    Correlation: in statistics is the measure of the degree to which two variables move in relationship to each other.
     
     COUNTA: counts the total number of values within a specified range.
     
@@ -89,6 +93,8 @@
     Data validation: a tool for checking the accuracy and quality of data before adding or importing it.
     
     Data validation process: Checking and rechecking the quality of your data so that it is complete, accurate, secure, and consistent.
+    
+    Data visualization: The graphic representation and presentation of data.
     
     Data warehousing specialist: develop processes and procedures to effectively store and organize data.
     
@@ -248,6 +254,8 @@
     Subquery: is a SQL query that is nested inside of a larger query.
     
     SUMPRODUCT: a function that multiplies arrays and returns the sum of those products.
+    
+    Tableau: A business intelligence and analytics platform that helps people see, understand, and make decisions with data.
     
     Technical mindset: The ability to break things down into smaller steps or pieces and work with them in an orderly and logical way
     
@@ -3592,3 +3600,220 @@
     - **Customer service:** A user can find out which stores have the most complaints per 10,000 customers.
     - **Sales:** A user can create internal finance and sales reports. After completing, they can share revenue reports with sales reps.
     - **Logistics, fulfillment, and delivery:** A user can run real-time inventory management and intelligent analytics tools.
+    
+- 6 - **SHARE** DATA THROUGH THE ART OF VISUALIZATION
+    
+    One question to ask yourself is: “what is the best way to tell the story within my data?”
+    
+    Tableau helps us create visualizations from our analysis so that we can share our findings more effectively.
+    
+    Data visualization is putting information into an image to make it easier for other people to understand.
+    
+    Scientists and mathematicians began to truly embrace the idea of arranging data visually in the 1700s and 1800s.
+    
+    As we keep learning how to more efficiently communicate with visuals, the quality of our insights continues to grow too.
+    
+    As an analyst in today’s world, we split your time with data visuals in two ways:
+    
+    1. Looking at visuals to understand and draw conclusions about data.
+    2. Creating visuals using raw data to tell a story.
+    
+    A well-made data visualization has the power to change people’s minds. Plus, it can help someone who doesn’t have the same technical background or experience as you from their own opinions.
+    
+    ## UNDERSTAND DATA VISUALIZATION
+    
+    A quick rule for creating visualizations is: that your audience should know exactly what they’re looking at within the first five seconds of seeing it. In the five seconds after that, your audience should understand the conclusion your visualization is making, even if they aren’t familiar with the research you’ve been doing.
+    
+    When creating data visualizations, you must strike a balance between presenting enough information for your audience to understand the meaning of the visualization and not overwhelming them with too much detail.
+    
+    If a visualization looks confusing, then it probably is confusing.
+    
+    Part of why data visualization is so effective is because people’s eyes are drawn to colors, shapes, and patterns, which makes those visual elements perfect for telling a story that goes beyond just numbers.
+    
+    ### Frameworks for organizing your thoughts about visualization
+    
+    Frameworks help organize your thoughts about data visualization and give you a useful checklist to reference as you plan and evaluate your data visualization. Here are two frameworks that employ slightly different techniques. Both are intended to improve the quality of your visuals.
+    
+    - The McCandless method: this method lists four elements of good data visualization:
+        1. **Information:** the data with which you’re working
+        2. **Story:** a clear and compelling narrative or concept
+        3. **Goal:** a specific objective or function for the visual
+        4. **Visual form:** an effective use of metaphor or visual expression
+    
+    ![Untitled](Google_Data_Analytics_images/Untitled%2063.png)
+    
+    - Kaiser Fung’s Junk Charts trifecta checkup: This approach is a set of questions that can help consumers of data visualization critique what they are consuming and determine how effective it is. You can also use these questions to determine if your data visualization is effective:
+        1. What is the practical question?
+        2. What does the data say?
+        3. What does the visual say?
+        
+        A well-designed visual effectively answers all three of those questions at once. Moreover, this framework helps you think about your data viz from the perspective of your audience.
+        
+    
+    ### Pre-attentive attributes
+    
+    Pre-attentive attributes are the elements of a data visualization that people recognize automatically and without conscious effort. The essential, basic building blocks that make visuals immediately understandable are called marks and channels.
+    
+    - **Marks:** are basic visual objects such as points, lines, and shapes. Every mark can be broken down into four qualities:
+        1. Position: Where is a specific mark in space relative to a scale or other marks?. For example, if you’re looking at two different trends, position allows you to compare the pattern of one element relative to another.
+            
+            ![Untitled](Google_Data_Analytics_images/Untitled%2064.png)
+            
+        2. Size: How big, small, long, or tall is a mark? This can be very useful for conveying the relationship between categories or data points. Controlling the scale of a visual is important even when comparative sizes are not intended to offer information.
+            
+            ![Untitled](Google_Data_Analytics_images/Untitled%2065.png)
+            
+        3. Shape: Does the shape of a specific object communicate something about it? Rather than using simple dots or lines, a bit of creativity can enhance how quickly people are able to interpret a visual by using shapes that align with a given application.
+            
+            ![Untitled](Google_Data_Analytics_images/Untitled%2066.png)
+            
+        4. Color: What color is a mark? Colors can be used both as a simple differentiator of groupings or as a way to communicate other concepts such as profitable versus unprofitable, or hot versus cold.
+            
+            ![Untitled](Google_Data_Analytics_images/Untitled%2067.png)
+            
+    - **Channels:** are visual aspects or variables that represent characteristics of the data in a visualization. They are basically specialized marks that have been used to visualize data. It’s important to understand that channels vary in terms of how effective they are at communicating data based on three elements:
+        1. Accuracy: Are the channels helpful in accurately estimating the values being represented? For example, color is very accurate when communicating categorical differences, such as apples and oranges. But it is much less effective when distinguishing quantitative data, such as 5 from 5.5.
+        2. Popout: How easy is it to distinguish certain values from others? There are many ways of drawing attention to specific parts of a visual, and lots of them leverage pre-attentive attributes including line length, size, line width, shape, enclosure, hue, and intensity.
+            
+            ![Untitled](Google_Data_Analytics_images/Untitled%2068.png)
+            
+        3. Grouping: How effective is a channel at communicating groups that exist in the data? Consider the proximity, similarity, enclosure, connectedness, and continuity of the channel.
+            
+            ![Untitled](Google_Data_Analytics_images/Untitled%2069.png)
+            
+        
+        But, remember: The more you emphasize one single thing, the more that counts. Emphasis diminishes with each item you emphasize because the items begin to compete with one another.
+        
+    
+    ### Types data visualizations
+    
+    - Bar graphs: Use size contrast to compare two or more values.
+        - In bar graphs with vertical bars, the x-axis is used to represent categories, time periods, or other variables.
+        - The y-axis usually has a scale of values for the variables.
+        - By making the y-axis start at zero, we’re changing the visual proportions to be more accurate and more honest.
+        - A bar chart should always be ranked by value, unless there is a natural order of the data like age or time, for example.
+        - Bar charts with horizontal bars effectively show data that are ranked, with bars arranged in ascending or descending order
+    - Histogram: A histogram resembles a bar graph, but it’s a chart that shows how often data values fall into certain ranges.
+    - Line graphs: Help your audience understand shifts or changes in your data.
+        - They’re usually used to track changes through a period of time, but they can be paired with other factors too.
+        - When smaller changes exist, line charts are better to use than bar graphs.
+        - Line charts can also be used to compare changes over the same period of time for more than one group.
+    - Pie charts: is a circular graph that is divided into segments representing proportions corresponding to the quantity it represents, especially when dealing with parts of a whole.
+    - Maps: help organize data geographically.
+    - Correlation charts: Show relationships among data.
+        - It should be used with caution because they might lead viewers to think that the data shows causation.
+    - Column chart: use size to contrast and compare two or more values, using height or lengths to represent the specific values.
+        
+        ![Untitled](Google_Data_Analytics_images/Untitled%2070.png)
+        
+    - HeatmapSimilar to bar charts, heatmaps also use color to compare categories in a data set. They are mainly used to show relationships between two variables and use a system of color-coding to represent different values.
+    
+    ![Untitled](Google_Data_Analytics_images/Untitled%2071.png)
+    
+    - Scatterplot: show relationships between different variables.
+        - typically used for showing the relationship between two variables., although additional variables can be displayed.
+        
+        ![Untitled](Google_Data_Analytics_images/Untitled%2072.png)
+        
+    - Distribution graph: displays the spread of various outcomes in a dataset.
+    
+    ### Guides - resources:
+    
+    Below is a list of resources that can inspire your next data-driven decisions, as well as teach you how to make your data more accessible to your audience:
+    
+    [The data visualization catalogue](https://datavizcatalogue.com/#google_vignette)
+    
+    [The 25 best data visualizations](https://visme.co/blog/best-data-visualizations/)
+    
+    [10 data visualization blogs](https://www.tableau.com/learn/articles/best-data-visualization-blogs)
+    
+    [Information is beautiful](https://informationisbeautiful.net/wdvp/gallery-2019/)
+    
+    [Data studio gallery](https://datastudio.google.com/gallery?category=visualization)
+    
+    ### Tips to create a powerful visualization
+    
+    One of your biggest considerations when creating a data visualization is where you’d like your audience to focus.
+    
+    - As long as it’s not misleading, you should visually represent only the data that your audience needs in order to understand your findings.
+    - with your visualization is important to show:
+        - Change over time. The time period relevant to your objective.
+        - How your data is distributed
+    - Reviewing each of these visual examples, where do you notice that they fit in relation to your type of data? One way to answer this is by evaluating patterns in data. Meaningful patterns can take many forms, such as:
+        - **Change:** This is a trend or instance of observations that become different over time. A great way to measure change in data is through a line or column chart.
+        - **Clustering:** A collection of data points with similar or different values. This is best represented through a distribution graph.
+        - **Relativity:** These are observations considered in relation or in proportion to something else. You have probably seen examples of relativity data in a pie chart.
+        - **Ranking:** This is a position in a scale of achievement or status. Data that requires ranking is best represented by a column chart.
+        - **Correlation:** This shows a mutual relationship or connection between two or more things. A scatterplot is an excellent way to represent this type of data pattern.
+    
+    ### Correlation and causation
+    
+    - Correlation: ****in statistics is the measure of the degree to which two variables move in relationship to each other.
+        - Correlation doesn’t mean that one event causes another. But, it does indicate that they have a pattern with or a relationship to each other.
+        - It one variable goes up and the other variable goes up, it is a positive correlation.
+        - If one variable goes up and the other variable goes down, it is a negative or inverse correlation.
+        - If one variable goes up and the other variable stays about the samethere is no correlation.
+    - Causation: refers to the idea that an event leads to a specific outcome.
+    
+    When you make conclusions from data analysis, you need to make sure that you don’t assume a causal relationship between elements of your data when there is only a correlation.
+    
+    In your data analysis, remember to:
+    
+    - Critically analyze any correlations that you find
+    - Examine the data’s context to determine if a causation makes sense (and can be supported by all of the data)
+    - Understand the limitations of the tools that you use for analysis
+    
+    ### Static and Dynamic visualizations
+    
+    - Static visualization: do not change over time unless they’re edited.
+        - Useful when you want to control your data and your data story.
+        - Any visualization printed on paper is automatically static
+        - Charts and graphs created on spreadsheets are often static too.
+    - Dynamic visualization: visualizations that are interactive or change over time.
+        - The interactive nature of these graphics means that users have some control over what they see.
+        - Helpful when the stakeholders want to adjust what they’re able to view.
+        - Visualizations in Tableau are automatically interactive.
+        - Other dynamic visualizations upload new data automatically.
+    
+    The choice between using a static or dynamic visualization usually depends on:
+    
+    - the data you’re visualizing.
+    - The audience you are presenting to
+    - How you’re giving your presentation.
+    
+    ### Data grows on decision trees
+    
+    A decision tree is a decision-making tool that allows you to make decisions based on key questions that you can ask yourself. There are many different types of decision trees that vary in complexity, and can provide more in-depth decisions.
+    
+    ![Untitled](Google_Data_Analytics_images/Untitled%2073.png)
+    
+    Start off by evaluating the type of data you have and go through a series of questions to determine the best visual source:
+    
+    - Does your data have only one numeric value? If you have data that has one, continuous, numerical variable, then a histogram or density plot are the best methods of plotting your categorical data. Depending on your type of data, a bar chart can even be appropriate in this case.
+    - Are there multiple datasets? For cases dealing with more than one set of data, consider a line or pie chart for an accurate representation of your data. A line chart will connect multiple data sets over a single, continuous line, showing how numbers have changed over time. A pie chart is good for dividing a whole into multiple categories or parts.
+    - Are you measuring changes over time? A line chart is usually adequate for plotting trends over time. However, when the changes are larger, a bar chart is the better option.
+    - Do relationships between the data need to be shown? When you have two variables for one set of data, it is important to point out how one affects the other. Variables that pair well together are best plotted on a scatterplot. However, if there are too many data points, the relationship between variables can be obscured so a heat map can be a better representation in that case.
+    
+    More decision trees examples:
+    
+    - Picture taken from: [Marina R. on LinkedIn: #datavisualization #data #dataanalytics #análisisdedatos #data…](https://www.linkedin.com/posts/activity-7150034395276419072-WXwD/?utm_source=share&utm_medium=member_android)
+        
+        ![Untitled](Google_Data_Analytics_images/Untitled%2074.png)
+        
+    - [From data to visualization](https://www.data-to-viz.com/)
+    - [Selecting the best chart](https://www.youtube.com/watch?v=C07k0euBpr8)
+    
+    ## DESIGN DATA VISUALIZATIONS
+    
+    The elements of art are:
+    
+    - Line: can be curved or straight, thick or thin, vertical, horizontal, or diagonal. They can add visual form to your data, and build a structure for your visualization.
+    - Shape: should always be two-dimensional, because three-dimensional objects in a visualization can complicate the visual and confuse the audience. It is a great way to add eye-catching contrast, especially size contrast to your data story.
+    - color: colors can be described by their:
+        - hue: its name.
+        - intensity: how bright or dull a color ir
+        - value: how light or dark the colors are in a visualization. Varying the colors value can be a very effective way to draw our audience’s attention to specific areas.
+    - Space: the area between, around and in the objects. There should always be space in data visualizations, just not too much or too little.
+    - Movement: used to create a sense of flow or action in a visualization. This is something that should be used sparingly, there a fine line between attracting attention and distracting the audience.
+    
+    These particular ones can add value to your data viz by making them more visually effective and compelling.
