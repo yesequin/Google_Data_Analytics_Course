@@ -12,10 +12,14 @@
     
     Aggregation: collecting or gathering many separate pieces into a whole.
     
+    Alternative text: Provides a textual alternative to non-text content.
+    
     Analysis: the process used to make sense of the data collected.
     
     Analytical skills: Qualities and characteristics associated with using facts to solve problems
     Analytical thinking: The process of identifying and defining a problem, then solving it by using data in an organized, step-by-step manner
+    
+    Annotation: Text that briefly explains data or helps focus the audience on a particular aspect of the data in a visualization.
     
     Array: A collection of values in cells
     
@@ -71,6 +75,8 @@
     informed decision-making
     Data analytics: The science of data
     
+    Data composition: combining the individual parts in a visualization and displaying them together as a whole.
+    
     Data elements: pieces of information, such as people's names, account numbers, and addresses
     
     Data integrity: is the accuracy, completeness, consistency, and trustworthiness of data throughout its lifecycle.
@@ -102,11 +108,13 @@
     
     Deliverables:  are items or tasks you will complete before you can finish the project.
     
+    Design thinking: a process used to solve complex problems in a user-centric way.
+    
     Dirty data: data that's incomplete, incorrect, or irrelevant to the problem you're trying to solve.
     
-    Documentation: the process of tracking changes, additions, deletions and errors involved in your data cleaning effort.
+    Documentation: the process of tracking changes, additions, deletions, and errors involved in your data cleaning effort.
     
-    EXTRACT command (SQL): Lets us pull one part of a given date to use
+    EXTRACT command (SQL): Lets us pull one part of a given data to use
     
     Historical data: Data that already exist. We use this kind of data when you need an answer immediately.
     
@@ -3817,3 +3825,117 @@
     - Movement: used to create a sense of flow or action in a visualization. This is something that should be used sparingly, there a fine line between attracting attention and distracting the audience.
     
     These particular ones can add value to your data viz by making them more visually effective and compelling.
+    
+    ### Principles of design
+    
+    There are nine basic principles of design that data analysts should think about when building their visualizations.
+    
+    1. **Balance:** The design of a data visualization is balanced when the key visual elements, like color and shape, are distributed evenly. Your visualization shouldn’t have one side distracting from the other.
+    2. **Emphasis:** Your visualizations should emphasize the most important data so that users recognize it first. Using color and value is one effective way to make this happen. By using contrasting colors, you can make certain that graphic elements—and the data shown in those elements—stand out.
+    3. **Movement:** Movement can refer to the path the viewer’s eye travels as they look at a data visualization, or literal movement created by animations. Movement in data visualization should mimic the way people usually read. You can use lines and colors to pull the viewer’s attention across the page.
+    4. **Pattern:** You can use similar shapes and colors to create patterns in your data visualization. This can be useful in a lot of different ways. For example, you can use patterns to highlight similarities between different data sets, or break up a pattern with a unique shape, color, or line to create more emphasis.
+    5. **Repetition:** Repeating chart types, shapes, or colors adds to the effectiveness of your visualization.
+    6. **Proportion:** Using various colors and sizes helps demonstrate that you are calling attention to a specific visual over others. If you make one chart in a dashboard larger than the others, then you are calling attention to it. It is important to make sure that each chart accurately reflects and visualizes the relationship among the values in it.
+    
+    These first six principles of design are key considerations that you can make while you are creating your data visualization. These next three principles are useful checks once your data visualization is finished.
+    
+    1. **Rhythm:** This refers to creating a sense of movement or flow in your visualization. Rhythm is closely tied to the movement principle. If your finished design doesn’t successfully create a flow, you might want to rearrange some of the elements to improve the rhythm.
+    2. **Variety:** Your visualizations should have some variety in the chart types, lines, shapes, colors, and values you use. Variety keeps the audience engaged. But it is good to find balance since too much variety can confuse people. The variety you include should make your dashboards and other visualizations feel interesting and unified.
+    3. **Unity:** your final data visualization should be cohesive. If the visual is disjointed or not well organized, it will be confusing and overwhelming.
+    
+    ### Data visualization impact
+    
+    Choosing the right visualization for your data findings can often come down to one question: **which one will make it easiest for the user to understand the point you’re trying to make?**
+    
+    - When comparing over time line graphs, bar graphs, stacked bar graphs, and area charts are good ways to visualize how data changes over time.
+    - When you are comparing distinct objects, ordered bar, ordered column charts, and group bar graphs are useful.
+    - Some charts show parts of a whole (data composition) like stack bars, donuts, stacked areas, pie charts, and tree maps.
+    - To show the relationship in your data, you might want to use a scatterplot, bubble charts, column/line charts, and heat maps.
+    
+    A successful data visualization results in a happy audience, so it’s important to understand how your audience is viewing your data visualization since they should always be top of mind.
+    
+    Visual journalist Dana Wong proposes that effective visuals have three essential elements:
+    
+    1. Clear meaning. Good visualizations clearly communicate their intended insight.
+    2. Sophisticated use of contrast. It helps separate the most important data from the rest using visual context that our brains naturally look for.
+    3. Refined execution. Visuals with refined execution include deep attention to detail. This is done by using visual elements (elements of art)
+    
+    ### Design thinking
+    
+    It is a process used to solve complex problems in a user-centric way.
+    
+    There are five phases of the design process:
+    
+    1. Empathize. You think about the emotions and needs of the target audience of your data viz
+    2. Define. It helps you to find your audience's needs, their problems, and your insights. You will use what you learned in the empathize face to help you spell out exactly what your audience needs from your visualization
+    3. Ideate. Here you start to generate your data viz ideas. You’ll use all of your findings from the empathize and define phases to brainstorm potential data viz solutions.
+    4. Prototype. You’ll start putting your charts, dashboards, or other visualizations together
+    5. Test. By showing them to team members before presenting them to stakeholders.
+    
+    ## VISUALIZATION CONSIDERATIONS
+    
+    ### Pro tips for highlighting key information
+    
+    - **Headlines that pop:** a line of words printed in large letters at the top of a visualization to communicate what data is being presented. It is the attention grabber that makes your audience want to read more.
+    - **Subtitles that clarify:** They support the headline by adding more context and description. Adding a subtitle will help the audience better understand the details associated with your chart. Typically, the text for subtitles has a smaller font size than the headline.
+    - **Labels that identify:** it identifies data in relation to other data. Most commonly, labels in a chart identify what the x-axis and y-axis show. Always make sure you label your axes.
+        
+        ![Untitled](Google_Data_Analytics_images/Untitled%2075.png)
+        
+        Data can also be labeled directly in a chart instead of through a chart legend. This makes it easier for the audience to understand data points without having to look up symbols or interpret the color coding in a legend.
+        
+        ![Untitled](Google_Data_Analytics_images/Untitled%2076.png)
+        
+    - **Annotations that focus:** An annotation briefly explains data or helps focus the audience on a particular aspect of the data in a visualization.
+        
+        ![Untitled](Google_Data_Analytics_images/Untitled%2077.png)
+        
+    
+    | Visualization
+    components | Guidelines | Style checks |
+    | --- | --- | --- |
+    | Headlines | - Content: Briefly describe the data
+    - Length: Usually the width of the data frame
+    - Position: Above the data | - Use brief language 
+    - Don’t use all caps
+    - Don’t use italic
+    - Don’t use acronyms
+    - Don't use abbreviations
+    - Don’t use humor or sarcasm |
+    | Subtitles | - Content: Clarify context for the data
+    - Length: Same as or shorter than headline 
+    - Position: Directly below the headline | - Use smaller font size than headline
+    - Don’t use undefined words 
+    - Don’t use all caps, bold, or italic
+    - Don’t use acronyms 
+    - Don't use abbreviations |
+    | Labels | - Content: Replace the need for legends
+    - Length: Usually fewer than 30 characters
+    - Position: Next to data or below or beside axes | - Use a few words only
+    - Use thoughtful color-coding
+    - Use callouts to point to the data
+    - Don’t use all caps, bold, or italic |
+    | Annotations | - Content: Draw attention to certain data 
+    - Length: Varies, limited by open space
+    - Position: Immediately next to data annotated | - Don’t use all caps, bold, or italic
+    - Don't use rotated text
+    - Don’t distract viewers from the data |
+    
+    ### Ways to make data visualizations accessible:
+    
+    - Labeling
+    - Text alternatives, so that it can be changed into other forms people need such as large print, braille, or speech.
+    - Text-based format
+    - Distinguishing
+    - Simplify
+    
+    ### Design a chart in 60 minutes
+    
+    A chart is a graphical representation of data.
+    
+    ![Untitled](Google_Data_Analytics_images/Untitled%2078.png)
+    
+    - **Prep (5 min):** Create the mental and physical space necessary for an environment of comprehensive thinking. This means allowing yourself room to brainstorm *how* you want your data to appear while considering the amount and type of data that you have.
+    - **Talk and listen (15 min):** Identify the object of your work by getting to the “ask behind the ask” and establishing expectations. Ask questions and concentrate on feedback from stakeholders regarding your projects to help you hone how to lay out your data.
+    - **Sketch and design (20 min):** Draft your approach to the problem. Define the timing and output of your work to get a clear and concise idea of what you are crafting.
+    - Prototype and improve (20 min): Generate a visual solution and gauge its effectiveness at accurately communicating your data. Take your time and repeat the process until a final visual is produced. It is alright if you go through several visuals until you find the perfect fit.
