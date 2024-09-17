@@ -64,7 +64,9 @@
     
     CSV: Comma-separated values. A CSV file saves data in a table format
     
-    Dashboard: A tool that monitors live, incoming data
+    Dashboard: A tool that monitors live, incoming data. A tool that organizes information from multiple datasets into one central location for tracking, analysis, and simple visualization.
+    
+    Dashboard filter: A tool for showing only the data that meets a specific criteria while hiding the rest.
     
     Data: A collection of facts
     
@@ -113,6 +115,8 @@
     Dirty data: data that's incomplete, incorrect, or irrelevant to the problem you're trying to solve.
     
     Documentation: the process of tracking changes, additions, deletions, and errors involved in your data cleaning effort.
+    
+    Engagement: Capturing and holding someone’s interest and attention during a data presentation
     
     EXTRACT command (SQL): Lets us pull one part of a given data to use
     
@@ -195,9 +199,7 @@
     
     Problem domain: the specific area of analysis that encompasses every activity affecting or affected by the problem.
     
-    Problem types: The various problems that data analysts encounter, including categorizing
-    things, discovering connections, finding patterns, identifying themes, making predictions, and
-    spotting something unusual
+    Problem types: The various problems that data analysts encounter, including categorizing things, discovering connections, finding patterns, identifying themes, making predictions, and spotting something unusual
     
     Quartile: A quartile divides data points into four equal parts or quarters.
     
@@ -243,6 +245,8 @@
     Sort sheet: All of the data in a spreadsheet is sorted by the ranking of a specific sorted column - data across rows is kept together.
     
     Sort range: Nothing else on the spreadsheet is rearranged besides the specified cells in a column.
+    
+    Spotlighting: Scanning through data to quickly identify the most important insights.
     
     Split: a tool that divides a text string around the specified character and puts each fragment into a new and separate cell.
     
@@ -1492,7 +1496,7 @@
     
     ![Untitled](Google_Data_Analytics_images/Untitled%2019.png)
     
-    | STRUCTURED DATA | UNSTRUCTURED DATA |
+    | **STRUCTURED DATA** | **UNSTRUCTURED DATA** |
     | --- | --- |
     | Defined data types | Varied data types |
     | Most often quantitative data | Most often qualitative data |
@@ -1575,7 +1579,7 @@
         ![Untitled](Google_Data_Analytics_images/Untitled%2023.png)
         
     
-    | Wide data is preferred when: | Long data is preferred when: |
+    | **Wide data is preferred when:** | **Long data is preferred when:** |
     | --- | --- |
     | Creating tables and charts with a few variables about each subject | Storing a lot of variables about each subject. For example, 60 years worth of interest rates for each bank |
     | Comparing straightforward line graphs | Performing advanced statistical analysis or graphing |
@@ -1726,12 +1730,12 @@
     
     ### Sites and resources for open data
     
-    - [U.S. government data site](https://data.gov/): This resource gives users the data and tools that they need to do research, and even helps them develop web and mobile applications and design data visualizations.
-    - [U.S. Census Bureau](https://www.census.gov/data.html): It offers demographic information from federal, state, and local governments, and commercial entities in the U.S. too.
-    - [Open Data Network](https://www.opendatanetwork.com/): It has a really powerful search engine and advanced filters. Here, you can find data on topics like finance, public safety, infrastructure, and housing and development.
-    - [Google Cloud Public Datasets](https://cloud.google.com/datasets?hl=es-419): There are a selection of public datasets available through the Google Cloud Public Dataset Program that you can find already loaded into BigQuery.
-    - [Dataset Search](https://datasetsearch.research.google.com/): It is a search engine designed specifically for data sets; you can use this to search for specific data sets.
-    - [Kaggle datasets](https://www.kaggle.com/datasets): you can create a new dataset or search for datasets created by other Kagglers.
+    - [U.S. government data site]([https://data.gov/](https://data.gov/)): This resource gives users the data and tools that they need to do research, and even helps them develop web and mobile applications and design data visualizations.
+    - [U.S. Census Bureau]([https://www.census.gov/data.html](https://www.census.gov/data.html)): It offers demographic information from federal, state, and local governments, and commercial entities in the U.S. too.
+    - [Open Data Network]([https://www.opendatanetwork.com/](https://www.opendatanetwork.com/)): It has a really powerful search engine and advanced filters. Here, you can find data on topics like finance, public safety, infrastructure, and housing and development.
+    - [Google Cloud Public Datasets]([https://cloud.google.com/datasets?hl=es-419](https://cloud.google.com/datasets?hl=es-419)): There are a selection of public datasets available through the Google Cloud Public Dataset Program that you can find already loaded into BigQuery.
+    - [Dataset Search]([https://datasetsearch.research.google.com/](https://datasetsearch.research.google.com/)): It is a search engine designed specifically for data sets; you can use this to search for specific data sets.
+    - [Kaggle datasets]([https://www.kaggle.com/datasets](https://www.kaggle.com/datasets)): you can create a new dataset or search for datasets created by other Kagglers.
     
     ## WORKING WITH DATABASES
     
@@ -1949,7 +1953,7 @@
     
     ## WORKING WITH LARGE DATASETS IN SQL
     
-    [BigQuery](https://cloud.google.com/bigquery/docs?hl=es-419) is a data warehouse on Google Cloud that data analysts can use to query, filter large datasets, aggregate results, and perform complex operations.
+    [BigQuery]([https://cloud.google.com/bigquery/docs?hl=es-419](https://cloud.google.com/bigquery/docs?hl=es-419)) is a data warehouse on Google Cloud that data analysts can use to query, filter large datasets, aggregate results, and perform complex operations.
     
     `https://console.cloud.google.com/bigquery`
     
@@ -1970,7 +1974,9 @@
         - You will never be automatically charged
     
     ### How to: BigQuery
-       
+    
+    Link to the BigQuery landing page: [BigQuery console](https://www.notion.so/console.cloud.google.com/bigquery)
+    
     - Go to the SQL workspace (from the BigQuery landing page):
         
         ![Untitled](Google_Data_Analytics_images/Untitled%2026.png)
@@ -2104,7 +2110,7 @@
     
     ### LinkedIn y Github
     
-    | LINKEDIN | GITHUB |
+    | **LINKEDIN** | **GITHUB** |
     | --- | --- |
     | Make connections | Share insights and resources |
     | Follow industry trends | Read forums and wikis |
@@ -2164,20 +2170,20 @@
     
     ### Data constraints and examples
     
-    | Data constraint | Definition | Examples |
+    | **Data constraint** | **Definition** | **Examples** |
     | --- | --- | --- |
-    | Data type | Values must be of a certain type: date, number, percentage, Boolean, etc. | If the data type is a date, a single number like 30 would fail the constraint and be invalid |
-    | Data range | Values must fall between predefined maximum and minimum values | If the data range is 10-20, a value of 30 would fail the constraint and be invalid |
-    | Mandatory | Values can’t be left blank or empty | If age is mandatory, that value must be filled in |
-    | Unique | Values can’t have a duplicate | Two people can’t have the same mobile phone number within the same service area |
-    | Regular expression (regex) patterns | Values must match a prescribed pattern | A phone number must match ###-###-#### (no other characters allowed) |
-    | Cross-field validation | Certain conditions for multiple fields must be satisfied | Values are percentages and values from multiple fields must add up to 100% |
-    | Primary-key | (Databases only) value must be unique per column | A database table can’t have two rows with the same primary key value. A primary key is an identifier in a database that references a column in which each value is unique. More information about primary and foreign keys is provided later in the program. |
-    | Set-membership | (Databases only) values for a column must come from a set of discrete values | Value for a column must be set to Yes, No, or Not Applicable |
-    | Foreign-key | (Databases only) values for a column must be unique values coming from a column in another table | In a U.S. taxpayer database, the State column must be a valid state or territory with the set of acceptable values defined in a separate States table |
-    | Accuracy | The degree to which the data conforms to the actual entity being measured or described | If values for zip codes are validated by street location, the accuracy of the data goes up. |
-    | Completeness | The degree to which the data contains all desired components or measures | If data for personal profiles required hair and eye color, and both are collected, the data is complete. |
-    | Consistency | The degree to which the data is repeatable from different points of entry or collection | If a customer has the same address in the sales and repair databases, the data is consistent. |
+    | **Data type** | Values must be of a certain type: date, number, percentage, Boolean, etc. | If the data type is a date, a single number like 30 would fail the constraint and be invalid |
+    | **Data range** | Values must fall between predefined maximum and minimum values | If the data range is 10-20, a value of 30 would fail the constraint and be invalid |
+    | **Mandatory** | Values can’t be left blank or empty | If age is mandatory, that value must be filled in |
+    | **Unique** | Values can’t have a duplicate | Two people can’t have the same mobile phone number within the same service area |
+    | **Regular expression (regex) patterns** | Values must match a prescribed pattern | A phone number must match ###-###-#### (no other characters allowed) |
+    | **Cross-field validation** | Certain conditions for multiple fields must be satisfied | Values are percentages and values from multiple fields must add up to 100% |
+    | **Primary-key** | (Databases only) value must be unique per column | A database table can’t have two rows with the same primary key value. A primary key is an identifier in a database that references a column in which each value is unique. More information about primary and foreign keys is provided later in the program. |
+    | **Set-membership** | (Databases only) values for a column must come from a set of discrete values | Value for a column must be set to Yes, No, or Not Applicable |
+    | **Foreign-key** | (Databases only) values for a column must be unique values coming from a column in another table | In a U.S. taxpayer database, the State column must be a valid state or territory with the set of acceptable values defined in a separate States table |
+    | **Accuracy** | The degree to which the data conforms to the actual entity being measured or described | If values for zip codes are validated by street location, the accuracy of the data goes up. |
+    | **Completeness** | The degree to which the data contains all desired components or measures | If data for personal profiles required hair and eye color, and both are collected, the data is complete. |
+    | **Consistency** | The degree to which the data is repeatable from different points of entry or collection | If a customer has the same address in the sales and repair databases, the data is consistent. |
     
     ![Untitled](Google_Data_Analytics_images/Untitled%2035.png)
     
@@ -2222,20 +2228,20 @@
     
     - no data:
     
-    | Possible Solutions | Examples of solutions in real life |
+    | **Possible Solutions** | **Examples of solutions in real life** |
     | --- | --- |
     | Gather the data on a small scale to perform a preliminary analysis and then request additional time to complete the analysis after you have collected more data. | If you are surveying employees about what they think about a new performance and bonus plan, use a sample for a preliminary analysis. Then, ask for another 3 weeks to collect the data from all employees. |
     | If there isn’t time to collect data, perform the analysis using proxy data from other datasets. 
-    This is the most common workaround. | If you are analyzing peak travel times for commuters but don’t have the data for a particular city, use the data from another city with a similar size and demographic. |
+    *This is the most common workaround.* | If you are analyzing peak travel times for commuters but don’t have the data for a particular city, use the data from another city with a similar size and demographic. |
     - Too little data
     
-    | Possible Solutions | Examples of solutions in real life |
+    | **Possible Solutions** | **Examples of solutions in real life** |
     | --- | --- |
     | Do the analysis using proxy data along with actual data. | If you are analyzing trends for owners of golden retrievers, make your dataset larger by including the data from owners of labradors. |
-    | Adjust your analysis to align with the data you already have. | If you are missing data for 18- to 24-year-olds, do the analysis but note the following limitation in your report: this conclusion applies to adults 25 years and older only. |
+    | Adjust your analysis to align with the data you already have. | If you are missing data for 18- to 24-year-olds, do the analysis but note the following limitation in your report: *this conclusion applies to adults 25 years and older* *only*. |
     - wrong data, including data with errors (sometimes data with errors can be a warning sign that the data isn’t reliable. Use your best judgment.)
     
-    | Possible Solutions | Examples of solutions in real life |
+    | **Possible Solutions** | **Examples of solutions in real life** |
     | --- | --- |
     | If you have the wrong data because requirements were misunderstood, communicate the requirements again. | If you need the data for female voters and received the data for male voters, restate your needs. |
     | Identify errors in the data and, if possible, correct them at the source by looking for a pattern in the errors. | If your data is in a spreadsheet and there is a conditional statement or boolean causing calculations to be wrong, change the conditional statement instead of just fixing the calculated values. |
@@ -2279,7 +2285,7 @@
     
     If a test is statistically significant, it means the results of the test are real and not an error caused by random chance. Usually, you need a statistical power of at least 0.8 or 80% to consider your results statistically significant.
     
-    [A Gentle Introduction to Statistical Power and Power Analysis in Python](https://machinelearningmastery.com/statistical-power-and-power-analysis-in-python/)
+    [A Gentle Introduction to Statistical Power and Power Analysis in Python]([https://machinelearningmastery.com/statistical-power-and-power-analysis-in-python/](https://machinelearningmastery.com/statistical-power-and-power-analysis-in-python/))
     
     "**Statistical power** can be calculated and reported for a completed experiment to comment on the confidence one might have in the conclusions drawn from the results of the study. It can also be used as a tool to estimate the number of observations or sample size required in order to detect an effect in an experiment."
     
@@ -2309,8 +2315,8 @@
     
     You can use the next sample size calculators:
     
-    - [surveymonkey](https://www.surveymonkey.com/mp/sample-size-calculator/)
-    - [Raosoft](http://www.raosoft.com/samplesize.html)
+    - [surveymonkey]([https://www.surveymonkey.com/mp/sample-size-calculator/](https://www.surveymonkey.com/mp/sample-size-calculator/))
+    - [Raosoft]([http://www.raosoft.com/samplesize.html](http://www.raosoft.com/samplesize.html))
     
     The calculated sample size is the minimum number to achieve what you input for confidence level and margin of error.
     
@@ -2473,7 +2479,7 @@
     
     Automating different parts of your work can save you tons of time, increase productivity, and give you more bandwidth to focus on other important aspects of the job.
     
-    | Task | Can it be automated? | Why? |
+    | **Task** | **Can it be automated?** | **Why?** |
     | --- | --- | --- |
     | Communicating with your team and stakeholders | No | Communication is key to understanding the needs of your team and stakeholders as you complete the tasks you are working on. There is no replacement for person-to-person communications. |
     | Presenting your findings | No | Presenting your data is a big part of your job as a data analyst. Making data accessible and understandable to stakeholders and creating data visualizations can’t be automated for the same reasons that communications can’t be automated. |
@@ -2538,7 +2544,7 @@
     
     When it comes down to it, where the data lives will decide which tool you use. If you are working with data that is already in a spreadsheet, that is most likely where you will perform your analysis. And if you are working with data stored in a database, SQL will be the best tool for you to use for your analysis.
     
-    | Features of Spreadsheets | Features of SQL Databases |
+    | **Features of Spreadsheets** | **Features of SQL Databases** |
     | --- | --- |
     | Generated with a program like Excel or google sheets | A language used to interact with database programs like Oracle MySQL or Microsoft SQL Server |
     | Smaller data sets; or when you are working independently | Larger datasets, like more than a million rows. Tracks changes across team |
@@ -2729,11 +2735,11 @@
     
     Most software applications have a kind of history tracking built in. For example, in Google sheets, you can check the version history of an entire sheet or an individual cell and go back to an earlier version. In Microsoft Excel, you can use a feature called Track Changes. And in BigQuery, you can view the history to check what has changed.
     
-    | Google Sheets | 1. Right-click the cell and select Show edit history.
+    | Google Sheets | 1. Right-click the cell and select **Show edit history**.
     2. Click the left-arrow < or right arrow > to move backward and forward in the history as needed. |
     | --- | --- |
-    | Microsoft Excel | 1. If Track Changes has been enabled for the spreadsheet: click Review. 
-    2. Under Track Changes, click the Accept/Reject Changes option to accept or reject any change made. |
+    | Microsoft Excel | 1. If Track Changes has been enabled for the spreadsheet: click **Review**. ****
+    2. Under **Track Changes**, click the **Accept/Reject Changes** option to accept or reject any change made. |
     | BigQuery | Bring up a previous version (without reverting to it) and figure out what changed by comparing it to the current version. |
     
     Beneffits of changelogs:
@@ -3073,9 +3079,6 @@
     We click on format > Conditional formatting. This brings up a sidebar where we can select our range rule in formatting style.
     
     1. Range: which rows to apply our formatting to when the condition we set is met. We can click this button in the range options to select all of the rows we're applying the formatting to instead of typing it in.
-        
-        ![Untitled](Google_Data_Analytics_images/Untitled%2044.png)
-        
     2. we can choose the rule that we want to apply to these cells.
     3. Then we'll choose a color to apply to those cells
     
@@ -3106,7 +3109,7 @@
     
     We can use CONCAT to combine strings from multiple tables to create new strings (in SQL).
     
-    ![Untitled](Google_Data_Analytics_images/Untitled%2045.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2044.png)
     
     ### Strings in spreadsheets
     
@@ -3115,7 +3118,7 @@
     - RIGHT: Return a set number of characters from the right side of a text string.
     - FIND: Locate specific characters in a string
     
-    | Function | Usage | Example |
+    | **Function** | **Usage** | **Example** |
     | --- | --- | --- |
     | CONCAT | A function that adds strings together to create new text strings that can be used as unique keys | CONCAT (‘Google’, ‘.com’); |
     | CONCAT_WS | A function that adds two or more strings together with a separator | CONCAT_WS (‘ . ’, ‘www’, ‘google’, ‘com’)
@@ -3231,7 +3234,7 @@
     - RIGHT JOIN: A function that will return all records from the right table and only the matching records from the left. You may see this as RIGHT OUTER JOIN or RIGHT JOIN. Practically speaking, RIGHT JOIN is rarely used. Most people simply switch the tables and stick with LEFT JOIN.
     - OUTER JOIN: A function that combines RIGHT and LEFT JOIN to return all matching records in both tables. You may sometimes see this as FULL JOIN.
     
-    ![Untitled](Google_Data_Analytics_images/Untitled%2046.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2045.png)
     
     JOINs help you combine matching or related columns from different tables. We refer to these values as primary and foreign keys. JOIN use these keys to identify relationships and corresponding values. A JOIN combines tables by using a primary or foreign key to align the information coming from both tables in the combination process.
     
@@ -3243,7 +3246,7 @@
     
     This is an example of a SQL clause that brings exactly the same:
     
-    ![Untitled](Google_Data_Analytics_images/Untitled%2047.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2046.png)
     
     ```sql
     SELECT
@@ -3261,19 +3264,19 @@
     
     Example of INNER JOIN:
     
-    ![Untitled](Google_Data_Analytics_images/Untitled%2048.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2047.png)
     
     BUT! if we are using a public data set, the query will look something like this:
     
-    ![Untitled](Google_Data_Analytics_images/Untitled%2049.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2048.png)
     
     And you can make it easier to read using alias for each table:
     
-    ![Untitled](Google_Data_Analytics_images/Untitled%2050.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2049.png)
     
     Another examples:
     
-    ![Untitled](Google_Data_Analytics_images/Untitled%2051.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2050.png)
     
     ### Secret identities: The importance of aliases
     
@@ -3310,7 +3313,7 @@
     
     You'll use COUNT and COUNT DISTINCT anytime you want to answer questions about how many
     
-    ![Untitled](Google_Data_Analytics_images/Untitled%2052.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2051.png)
     
     ## WORK WITH SUBQUERIES
     
@@ -3320,17 +3323,17 @@
     
     Usually you'll find subqueries nested in FROM or WHERE clauses.
     
-    ![Untitled](Google_Data_Analytics_images/Untitled%2053.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2052.png)
     
     We can also add a subquery inside the FROM clause:
     
-    ![Untitled](Google_Data_Analytics_images/Untitled%2054.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2053.png)
     
     Or inside of a WHERE clause.
     
     Usually, you will find subqueries nested in the SELECT, FROM, and/or WHERE clauses. There is no general syntax for subqueries, but the syntax for a basic subquery is as follows:
     
-    ![Untitled](Google_Data_Analytics_images/Untitled%2055.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2054.png)
     
     You will find that, within the first SELECT clause is another SELECT clause. The second SELECT clause marks the start of the subquery in this statement.
     
@@ -3344,8 +3347,8 @@
     
     To learn more about Subqueries, check the next links:
     
-    - **[SQL subqueries:](https://www.w3resource.com/sql/subqueries/understanding-sql-subqueries.php)** This detailed introduction includes the definition of a subquery, its purpose in SQL, when and how to use it, and what the results will be
-    - **[Writing subqueries in SQL](https://mode.com/sql-tutorial/sql-sub-queries/):** Explore the basics of subqueries in this interactive tutorial, including examples and practice problems that you can work through
+    - [**SQL subqueries:**](https://www.w3resource.com/sql/subqueries/understanding-sql-subqueries.php) This detailed introduction includes the definition of a subquery, its purpose in SQL, when and how to use it, and what the results will be
+    - [**Writing subqueries in SQL](https://mode.com/sql-tutorial/sql-sub-queries/):** Explore the basics of subqueries in this interactive tutorial, including examples and practice problems that you can work through
     
     ### Using subqueries to aggregate data
     
@@ -3376,7 +3379,7 @@
     END;
     ```
     
-    ![Untitled](Google_Data_Analytics_images/Untitled%2056.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2055.png)
     
     ## DATA CALCULATIONS
     
@@ -3417,7 +3420,7 @@
     3. It’s a good practice to rename the sheet according to what you are trying to do there.
     4. Once you have created your pivot table, there will be a pivot table editor that you can access to the right of your data. This is where you will be able to customize your pivot table, including what variables you want to include for your analysis. ****We can build our pivot table starting with the rows.
         
-        ![Untitled](Google_Data_Analytics_images/Untitled%2057.png)
+        ![Untitled](Google_Data_Analytics_images/Untitled%2056.png)
         
         1. We can create a pivot date group for date rows to see only by year or by month. Right-click on any value of the column > Create pivot date group
     5. Next, we can work with the values.
@@ -3518,19 +3521,19 @@
     
     When the database executes this query, it will first complete the subquery and assign the values that result from that subquery to “*new_temp_table_name*,” which is the temporary table. You can then run multiple queries on this filtered data without having to filter the data every time.
     
-    ![Untitled](Google_Data_Analytics_images/Untitled%2058.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2057.png)
     
     This will give us an error, but it will create a temporary table. Now, it is time to write a query.
     
     We just need to name the temporary query in another query. It is important to use the ## to describe the purpose of your query. This will help you remember the purpose of your query as you’re writing it. It can also help you share your work with others.
     
-    ![Untitled](Google_Data_Analytics_images/Untitled%2059.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2058.png)
     
     If you need to end your session and start a new runtime later more servers store the code (Query history) using temp tables. You just need to recreate the table by running the code.
     
     ### Example
     
-    ![Untitled](Google_Data_Analytics_images/Untitled%2060.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2059.png)
     
     ### Other types of temp tables.
     
@@ -3538,7 +3541,7 @@
     
     The **SELECT INTO** clause copies data from one table into a new table, but doesn’t add the new table to the database. It’s useful if you want to make a copy of a table with a specific condition, like a query with a WHERE clause. BigQuery doesn't currently recognize the SELECT INTO command. Instead, here's an example of how a SELECT INTO statement might look in another RDBMS. Using SELECT and INTO, you can create a temporary table based on conditions defined by a WHERE clause to locate the information you need for the temporary table.
     
-    ![Untitled](Google_Data_Analytics_images/Untitled%2061.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2060.png)
     
     - The INTO clause tells the database to store the data that is being requested in a new temporary table named, in this case, “AfricaSales.”
     
@@ -3555,7 +3558,7 @@
     )
     ```
     
-    ![Untitled](Google_Data_Analytics_images/Untitled%2062.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2061.png)
     
     The **CREATE TABLE** statement is also useful for more complex tables. For example, if the code's difficult to replicate, then making a temp table in this way means it'll be safe for you to access later.
     
@@ -3608,7 +3611,6 @@
     - **Customer service:** A user can find out which stores have the most complaints per 10,000 customers.
     - **Sales:** A user can create internal finance and sales reports. After completing, they can share revenue reports with sales reps.
     - **Logistics, fulfillment, and delivery:** A user can run real-time inventory management and intelligent analytics tools.
-    
 - 6 - **SHARE** DATA THROUGH THE ART OF VISUALIZATION
     
     One question to ask yourself is: “what is the best way to tell the story within my data?”
@@ -3630,7 +3632,7 @@
     
     ## UNDERSTAND DATA VISUALIZATION
     
-    A quick rule for creating visualizations is: that your audience should know exactly what they’re looking at within the first five seconds of seeing it. In the five seconds after that, your audience should understand the conclusion your visualization is making, even if they aren’t familiar with the research you’ve been doing.
+    A quick rule for creating visualizations is: that your audience should know exactly what they’re looking at **within the first five seconds of seeing it**. In the five seconds after that, your audience should understand the conclusion your visualization is making, even if they aren’t familiar with the research you’ve been doing.
     
     When creating data visualizations, you must strike a balance between presenting enough information for your audience to understand the meaning of the visualization and not overwhelming them with too much detail.
     
@@ -3638,18 +3640,25 @@
     
     Part of why data visualization is so effective is because people’s eyes are drawn to colors, shapes, and patterns, which makes those visual elements perfect for telling a story that goes beyond just numbers.
     
+    ### Rules about what makes a helpful data visualization
+    
+    - **Five-second rule:** A data visualization should be **clear, effective, and convincing** enough to be absorbed in five seconds or less.
+    - **Color contrast:** Graphs and charts should use a **diverging color palette** to show contrast between elements.
+    - **Conventions and expectations:** Visuals and their organization should align with **audience expectations** and **cultural conventions**. For example, if the majority of your audience associates green with a positive concept and red with a negative one, your visualization should reflect this.
+    - **Minimal labels:** Titles, axes, and annotations should use as **few labels** as it takes to make sense. Having too many labels makes your graph or chart too busy. It takes up too much space and prevents the labels from being shown clearly.
+    
     ### Frameworks for organizing your thoughts about visualization
     
     Frameworks help organize your thoughts about data visualization and give you a useful checklist to reference as you plan and evaluate your data visualization. Here are two frameworks that employ slightly different techniques. Both are intended to improve the quality of your visuals.
     
     - The McCandless method: this method lists four elements of good data visualization:
-        1. **Information:** the data with which you’re working
-        2. **Story:** a clear and compelling narrative or concept
-        3. **Goal:** a specific objective or function for the visual
-        4. **Visual form:** an effective use of metaphor or visual expression
-    
-    ![Untitled](Google_Data_Analytics_images/Untitled%2063.png)
-    
+        1. **Information (data):** the data with which you’re working. Without information or data, you cannot communicate your findings successfully.
+        2. **Story (concept):** a clear and compelling narrative or concept. The story allows you to share your data in meaningful and interesting ways. Without a story, your visualization is informative, but not really inspiring.
+        3. **Goal (function):** a specific objective or function for the visual. The goal of your data visualization makes the data useful and usable. This is what you are trying to achieve with your visualization. Without a goal, your visualization might still be informative, but can’t generate actionable insights.
+        4. **Visual form (metaphor):** an effective use of metaphor or visual expression. The visual form element is what gives your data visualization structure and makes it beautiful. Without visual form, your data is not visualized yet.
+        
+        ![Untitled](Google_Data_Analytics_images/Untitled%2062.png)
+        
     - Kaiser Fung’s Junk Charts trifecta checkup: This approach is a set of questions that can help consumers of data visualization critique what they are consuming and determine how effective it is. You can also use these questions to determine if your data visualization is effective:
         1. What is the practical question?
         2. What does the data say?
@@ -3665,29 +3674,29 @@
     - **Marks:** are basic visual objects such as points, lines, and shapes. Every mark can be broken down into four qualities:
         1. Position: Where is a specific mark in space relative to a scale or other marks?. For example, if you’re looking at two different trends, position allows you to compare the pattern of one element relative to another.
             
-            ![Untitled](Google_Data_Analytics_images/Untitled%2064.png)
+            ![Untitled](Google_Data_Analytics_images/Untitled%2063.png)
             
         2. Size: How big, small, long, or tall is a mark? This can be very useful for conveying the relationship between categories or data points. Controlling the scale of a visual is important even when comparative sizes are not intended to offer information.
             
-            ![Untitled](Google_Data_Analytics_images/Untitled%2065.png)
+            ![Untitled](Google_Data_Analytics_images/Untitled%2064.png)
             
         3. Shape: Does the shape of a specific object communicate something about it? Rather than using simple dots or lines, a bit of creativity can enhance how quickly people are able to interpret a visual by using shapes that align with a given application.
             
-            ![Untitled](Google_Data_Analytics_images/Untitled%2066.png)
+            ![Untitled](Google_Data_Analytics_images/Untitled%2065.png)
             
         4. Color: What color is a mark? Colors can be used both as a simple differentiator of groupings or as a way to communicate other concepts such as profitable versus unprofitable, or hot versus cold.
             
-            ![Untitled](Google_Data_Analytics_images/Untitled%2067.png)
+            ![Untitled](Google_Data_Analytics_images/Untitled%2066.png)
             
     - **Channels:** are visual aspects or variables that represent characteristics of the data in a visualization. They are basically specialized marks that have been used to visualize data. It’s important to understand that channels vary in terms of how effective they are at communicating data based on three elements:
         1. Accuracy: Are the channels helpful in accurately estimating the values being represented? For example, color is very accurate when communicating categorical differences, such as apples and oranges. But it is much less effective when distinguishing quantitative data, such as 5 from 5.5.
         2. Popout: How easy is it to distinguish certain values from others? There are many ways of drawing attention to specific parts of a visual, and lots of them leverage pre-attentive attributes including line length, size, line width, shape, enclosure, hue, and intensity.
             
-            ![Untitled](Google_Data_Analytics_images/Untitled%2068.png)
+            ![Untitled](Google_Data_Analytics_images/Untitled%2067.png)
             
         3. Grouping: How effective is a channel at communicating groups that exist in the data? Consider the proximity, similarity, enclosure, connectedness, and continuity of the channel.
             
-            ![Untitled](Google_Data_Analytics_images/Untitled%2069.png)
+            ![Untitled](Google_Data_Analytics_images/Untitled%2068.png)
             
         
         But, remember: The more you emphasize one single thing, the more that counts. Emphasis diminishes with each item you emphasize because the items begin to compete with one another.
@@ -3695,35 +3704,45 @@
     
     ### Types data visualizations
     
-    - Bar graphs: Use size contrast to compare two or more values.
+    - Bar graphs: Use size contrast to compare two or more values. A bar chart is ideal for comparing similar data side by side.
         - In bar graphs with vertical bars, the x-axis is used to represent categories, time periods, or other variables.
         - The y-axis usually has a scale of values for the variables.
         - By making the y-axis start at zero, we’re changing the visual proportions to be more accurate and more honest.
         - A bar chart should always be ranked by value, unless there is a natural order of the data like age or time, for example.
         - Bar charts with horizontal bars effectively show data that are ranked, with bars arranged in ascending or descending order
-    - Histogram: A histogram resembles a bar graph, but it’s a chart that shows how often data values fall into certain ranges.
+    - Histogram: A histogram resembles a bar graph, but it’s a chart that shows how often data values fall into certain ranges. A histogram is ideal for comparing the distribution of two variables by individual grouping.
     - Line graphs: Help your audience understand shifts or changes in your data.
-        - They’re usually used to track changes through a period of time, but they can be paired with other factors too.
+        - They’re usually used to track changes or trends through a period of time, but they can be paired with other factors too.
         - When smaller changes exist, line charts are better to use than bar graphs.
         - Line charts can also be used to compare changes over the same period of time for more than one group.
-    - Pie charts: is a circular graph that is divided into segments representing proportions corresponding to the quantity it represents, especially when dealing with parts of a whole.
+        - The last line chart example is a combo chart which can include a line chart
+        
+        ![Untitled](Google_Data_Analytics_images/Untitled%2069.png)
+        
+    - Pie charts: It’s a circular graph that is divided into segments representing proportions corresponding to the quantity it represents, especially when dealing with parts of a whole.
     - Maps: help organize data geographically.
     - Correlation charts: Show relationships among data.
         - It should be used with caution because they might lead viewers to think that the data shows causation.
-    - Column chart: use size to contrast and compare two or more values, using height or lengths to represent the specific values.
-        
-        ![Untitled](Google_Data_Analytics_images/Untitled%2070.png)
-        
-    - HeatmapSimilar to bar charts, heatmaps also use color to compare categories in a data set. They are mainly used to show relationships between two variables and use a system of color-coding to represent different values.
+    - Column chart:  A column chart allows you to display and compare multiple categories of data by their values. use size to contrast and compare two or more values, using height or lengths to represent the specific values.
+    
+    ![Untitled](Google_Data_Analytics_images/Untitled%2070.png)
+    
+    - Area charts: allow you to track changes in value across multiple categories of data.
+    - Heatmap: Similar to bar charts, heatmaps also use color to compare categories in a data set. They are mainly used to show relationships between two variables and use a system of color-coding to represent different values.
     
     ![Untitled](Google_Data_Analytics_images/Untitled%2071.png)
     
     - Scatterplot: show relationships between different variables.
         - typically used for showing the relationship between two variables., although additional variables can be displayed.
+        - scatterplots are typically used to display trends in numeric data.
         
         ![Untitled](Google_Data_Analytics_images/Untitled%2072.png)
         
     - Distribution graph: displays the spread of various outcomes in a dataset.
+    - Combo: combo charts use multiple visual markers like columns and lines to showcase different aspects of the data in one visualization. The example below is a combo chart that has a column and line chart together.
+        
+        ![Untitled](Google_Data_Analytics_images/Untitled%2073.png)
+        
     
     ### Guides - resources:
     
@@ -3793,7 +3812,7 @@
     
     A decision tree is a decision-making tool that allows you to make decisions based on key questions that you can ask yourself. There are many different types of decision trees that vary in complexity, and can provide more in-depth decisions.
     
-    ![Untitled](Google_Data_Analytics_images/Untitled%2073.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2074.png)
     
     Start off by evaluating the type of data you have and go through a series of questions to determine the best visual source:
     
@@ -3806,12 +3825,14 @@
     
     - Picture taken from: [Marina R. on LinkedIn: #datavisualization #data #dataanalytics #análisisdedatos #data…](https://www.linkedin.com/posts/activity-7150034395276419072-WXwD/?utm_source=share&utm_medium=member_android)
         
-        ![Untitled](Google_Data_Analytics_images/Untitled%2074.png)
+        ![Untitled](Google_Data_Analytics_images/Untitled%2075.png)
         
     - [From data to visualization](https://www.data-to-viz.com/)
     - [Selecting the best chart](https://www.youtube.com/watch?v=C07k0euBpr8)
     
     ## DESIGN DATA VISUALIZATIONS
+    
+    Communicating data visually is a form of art.
     
     The elements of art are:
     
@@ -3819,10 +3840,10 @@
     - Shape: should always be two-dimensional, because three-dimensional objects in a visualization can complicate the visual and confuse the audience. It is a great way to add eye-catching contrast, especially size contrast to your data story.
     - color: colors can be described by their:
         - hue: its name.
-        - intensity: how bright or dull a color ir
-        - value: how light or dark the colors are in a visualization. Varying the colors value can be a very effective way to draw our audience’s attention to specific areas.
-    - Space: the area between, around and in the objects. There should always be space in data visualizations, just not too much or too little.
-    - Movement: used to create a sense of flow or action in a visualization. This is something that should be used sparingly, there a fine line between attracting attention and distracting the audience.
+        - intensity: how bright or dull a color is
+        - value: how light or dark the colors are in a visualization. Varying the color value can be a very effective way to draw our audience’s attention to specific areas.
+    - Space: the area between, around, and in the objects. There should always be space in data visualizations, just not too much or too little.
+    - Movement: used to create a sense of flow or action in a visualization. This is something that should be used sparingly, there is a fine line between attracting attention and distracting the audience.
     
     These particular ones can add value to your data viz by making them more visually effective and compelling.
     
@@ -3880,44 +3901,44 @@
     - **Subtitles that clarify:** They support the headline by adding more context and description. Adding a subtitle will help the audience better understand the details associated with your chart. Typically, the text for subtitles has a smaller font size than the headline.
     - **Labels that identify:** it identifies data in relation to other data. Most commonly, labels in a chart identify what the x-axis and y-axis show. Always make sure you label your axes.
         
-        ![Untitled](Google_Data_Analytics_images/Untitled%2075.png)
+        ![Untitled](Google_Data_Analytics_images/Untitled%2076.png)
         
         Data can also be labeled directly in a chart instead of through a chart legend. This makes it easier for the audience to understand data points without having to look up symbols or interpret the color coding in a legend.
         
-        ![Untitled](Google_Data_Analytics_images/Untitled%2076.png)
+        ![Untitled](Google_Data_Analytics_images/Untitled%2077.png)
         
     - **Annotations that focus:** An annotation briefly explains data or helps focus the audience on a particular aspect of the data in a visualization.
         
-        ![Untitled](Google_Data_Analytics_images/Untitled%2077.png)
+        ![Untitled](Google_Data_Analytics_images/Untitled%2078.png)
         
     
-    | Visualization
-    components | Guidelines | Style checks |
+    | **Visualization
+    components** | **Guidelines** | **Style checks** |
     | --- | --- | --- |
-    | Headlines | - Content: Briefly describe the data
-    - Length: Usually the width of the data frame
-    - Position: Above the data | - Use brief language 
+    | Headlines | - **Content**: Briefly describe the data
+    - **Length**: Usually the width of the data frame
+    - **Position**: Above the data | - Use brief language 
     - Don’t use all caps
     - Don’t use italic
     - Don’t use acronyms
     - Don't use abbreviations
     - Don’t use humor or sarcasm |
-    | Subtitles | - Content: Clarify context for the data
-    - Length: Same as or shorter than headline 
-    - Position: Directly below the headline | - Use smaller font size than headline
+    | Subtitles | - **Content**: Clarify context for the data
+    - **Length**: Same as or shorter than headline 
+    - **Position**: Directly below the headline | - Use smaller font size than headline
     - Don’t use undefined words 
     - Don’t use all caps, bold, or italic
     - Don’t use acronyms 
     - Don't use abbreviations |
-    | Labels | - Content: Replace the need for legends
-    - Length: Usually fewer than 30 characters
-    - Position: Next to data or below or beside axes | - Use a few words only
+    | Labels | - **Content**: Replace the need for legends
+    - **Length**: Usually fewer than 30 characters
+    - **Position**: Next to data or below or beside axes | - Use a few words only
     - Use thoughtful color-coding
     - Use callouts to point to the data
     - Don’t use all caps, bold, or italic |
-    | Annotations | - Content: Draw attention to certain data 
-    - Length: Varies, limited by open space
-    - Position: Immediately next to data annotated | - Don’t use all caps, bold, or italic
+    | Annotations | - **Content**: Draw attention to certain data 
+    - **Length**: Varies, limited by open space
+    - **Position**: Immediately next to data annotated | - Don’t use all caps, bold, or italic
     - Don't use rotated text
     - Don’t distract viewers from the data |
     
@@ -3933,9 +3954,154 @@
     
     A chart is a graphical representation of data.
     
-    ![Untitled](Google_Data_Analytics_images/Untitled%2078.png)
+    ![Untitled](Google_Data_Analytics_images/Untitled%2079.png)
     
     - **Prep (5 min):** Create the mental and physical space necessary for an environment of comprehensive thinking. This means allowing yourself room to brainstorm *how* you want your data to appear while considering the amount and type of data that you have.
     - **Talk and listen (15 min):** Identify the object of your work by getting to the “ask behind the ask” and establishing expectations. Ask questions and concentrate on feedback from stakeholders regarding your projects to help you hone how to lay out your data.
     - **Sketch and design (20 min):** Draft your approach to the problem. Define the timing and output of your work to get a clear and concise idea of what you are crafting.
     - Prototype and improve (20 min): Generate a visual solution and gauge its effectiveness at accurately communicating your data. Take your time and repeat the process until a final visual is produced. It is alright if you go through several visuals until you find the perfect fit.
+    
+    ## TABLEAU
+    
+    Tableau is a Business Intelligence and analytics platform that helps people see, understand, and make decisions with data.
+    
+    ### Which chart or Graph should I use?
+    
+    - [Which chart or graph is right for you?](http://www.tableau.com/sites/default/files/media/which_chart_v6_final_0.pdf) This presentation covers 13 of the most popular charts in Tableau.
+    - [The Ultimate Cheat Sheet on Tableau Charts](https://towardsdatascience.com/the-ultimate-cheat-sheet-on-tableau-charts-642bca94dde5). This blog describes 24 chart variations in Tableau and guidelines for use.
+    
+    In addition to more traditional charts, Tableau also offers some more specific visualizations that you can use in your dashboard design:
+    
+    - **Highlight tables** appear like tables with conditional formatting. Review the [steps to build a highlight table](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_highlight.htm).
+    - **Heat maps** show intensity or concentrations in the data. Review the [steps to build a heat map](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_highlight.htm).
+    - **Density maps** illustrate concentrations (such as a population density map). Refer to [instructions to create a heat map for density](https://help.tableau.com/current/pro/desktop/en-us/maps_howto_heatmap.htm).
+    - **Gantt charts** demonstrate the duration of events or activities on a timeline. Review the [steps to build a Gantt chart](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_gantt.htm).
+    - **Symbol maps** display a mark over a given longitude and latitude. Learn more from this [example of a symbol map](https://interworks.com/blog/ccapitula/2014/08/18/tableau-essentials-chart-types-symbol-map/).
+    - **Filled maps** are maps with areas colored based on a measurement or dimension. Explore an [example of a filled map](https://interworks.com/blog/ccapitula/2014/09/23/tableau-essentials-chart-types-filled-map/).
+    - **Circle views** show comparative strength in data. Learn more from this [example of a circle view](https://interworks.com/blog/ccapitula/2014/10/17/tableau-essentials-chart-types-circle-view/).
+    - **Box plots**, also known as **box and whisker charts,** illustrate the distribution of values along a chart axis. Refer to the [steps to build a box plot](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_boxplot.htm).
+    - **Bullet graphs** compare a primary measure with another and can be used instead of dial gauge charts. Review the [steps to build a bullet graph](https://help.tableau.com/current/pro/desktop/en-us/qs_bullet_graphs.htm).
+    - **Packed bubble charts** display data in clustered circles. Review the [steps to build a packed bubble chart](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_bubbles.htm).
+    
+    ### Creating a Report-Tips
+    
+    - Once you upload data to your worksheet, it will populate the Connections pane.
+    
+    ![Untitled](Google_Data_Analytics_images/Untitled%2080.png)
+    
+    - You can add more connections to other data sources in order to build visualizations that compare different datasets. Simply drag and drop tables from the Sheets section in order to join tables and generate those connections:
+    
+    ![Untitled](Google_Data_Analytics_images/Untitled%2081.png)
+    
+    - Tableau uses dimensions and measures to generate customized charts. For example, check out this chart focusing on CO2 emissions per country. The Country Name dimension can be used to show a map of the countries on the planet with dots indicating which countries are represented in the data.
+    
+    ![Untitled](Google_Data_Analytics_images/Untitled%2082.png)
+    
+    - Tableau has a wide variety of options for depicting the measure for a given dimension. Most of these options are contained near the main display and the column with dimensions and measures.
+    
+    ![Untitled](Google_Data_Analytics_images/Untitled%2083.png)
+    
+    - One option in Tableau is choosing between a vertical or horizontal layout. A vertical layout adjusts the height, a horizontal layout resizes the width of the views and objects it contains. Evenly distributing the items within your layout helps create a clear and organized data visual.
+    - You can select either tiled or floating layouts. Tiled items are part of a single-layer grid that automatically resizes based on the overall dashboard size. Floating items can be layered over other objects.
+    
+    ## DESIGN VISUALIZATIONS IN TABLEAU
+    
+    There are some tools and options that will help us design a more optimal data visualization.
+    
+    ### Essential design principles
+    
+    | **Principle** | **Description** |
+    | --- | --- |
+    | Choose the right visual | One of the first things you have to decide is which visual will be the most effective for your audience. Sometimes, a simple table is the best visualization. Other times, you need a more complex visualization to illustrate your point. Be sure that you are not creating misleading or deceptive charts. |
+    | Optimize the data-ink ratio | The data-ink entails focusing on the part of the visual that is essential to understanding the point of the chart. Try to minimize non-data ink like boxes around legends or shadows to optimize the data-ink ratio. |
+    | Use orientation effectively | Make sure the written components of the visual, like the labels on a bar chart, are easy to read. You can change the orientation of your visual to make it easier to read and understand. |
+    | Color | There are a lot of important considerations when thinking about using color in your visuals. These include using color consciously and meaningfully, staying consistent throughout your visuals, being considerate of what colors mean to different people, and using inclusive color scales that make sense for everyone viewing them. |
+    | Numbers of elements | Think about how many elements you include in any visual. If your visualization uses lines, try to plot five or fewer. If that isn’t possible, use color or hue to emphasize important lines. Also, when using visuals like pie charts, try to keep the number of segments to less than seven since too many elements can be distracting. |
+    
+    ### How to avoid misleading visualizations
+    
+    | **What to avoid** | **Why** |
+    | --- | --- |
+    | Cutting off the y-axis | Changing the scale on the y-axis can make the differences between different groups in your data seem more dramatic, even if the difference is actually quite small. |
+    | Misleading use of a dual y-axis | Using a dual y-axis without clearly labeling it in your data visualization can create extremely misleading charts. |
+    | Artificially limiting the scope of the data | If you only consider the part of the data that confirms your analysis, your visualizations will be misleading because they don’t take all of the data into account. |
+    | Problematic choices in how data is binned or grouped | It is important to make sure that the way you are grouping data isn’t misleading or misrepresenting your data and disguising important trends and insights. |
+    | Using part-to-whole visuals when the totals do not sum up appropriately | If you are using a part-to-whole visual like a pie chart to explain your data, the individual parts should add up to equal 100%. If they don’t, your data visualization will be misleading. |
+    | Hiding trends in cumulative charts | Creating a cumulative chart can disguise more insightful trends by making the scale of the visualization too large to track any changes over time. |
+    | Artificially smoothing trends | Adding smooth trend lines between points in a scatter plot can make it easier to read that plot, but replacing the points with just the line can actually make it appear that the point is more connected over time than it actually was. |
+    
+    ### Optimize the color palette in data visualization
+    
+    A diverging color palette displays two ranges of values using color intensity to show the magnitude of the number and the actual color to show which range the number is from. It’s a good way to show the difference between numbers.
+    
+    The colors you choose should fit within the scope of the audience’s expectations.
+    
+    ### How to choose a data visualization - Extra Google PDF
+    
+    https://d3c33hcgiwev3.cloudfront.net/XsaUfemhQ-qGlH3poXPqMg_4b74b6280a7a4a10a83e6b5ca9138630_How-to-choose-a-data-visualization.pdf?Expires=1719360000&Signature=kHXaDtgXv-4NH4YSAgNPcKkWzG-SwFQuUgt60O11tnqNzckm4trZPKF5eDhet7PAK0luSwGgujFqQkXz3exwANNv43MBzzfwPhiceytvkBHv-~Rar3H9GZUsX-uKBcv4UU4VCxnqscZ0gAglvvN9hvaWoG2Rz5keHQDsp267BbA_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+    
+    Check the guide for a better understanding of how to choose a data visualization.
+    
+    ### Live Vs Static insights
+    
+    Static data involves providing screenshots or snapshots in presentations or building dashboards using snapshots of data.
+    
+    - Can tightly control a point-in-time narrative of the data and insight
+    - Allows for complex analysis to be explained in-depth to a larger audience
+    - Insight immediately begins to lose value and continues to do so the longer the data remains in a static state
+    - Snapshots can't keep up with the pace of data change
+    
+    Live data means that you can build dashboards, reports, and views connected to automatically updated data. 
+    
+    - Dashboards can be built to be more dynamic and scalable
+    - Gives the most up-to-date data to the people who need it at the time when they need it
+    - Allows for up-to-date curated views into data with the ability to build a scalable “single source of truth” for various use cases
+    - Allows for immediate action to be taken on data that changes frequently
+    - Alleviates time/resources spent on processes for every analysis
+    - Can take engineering resources to keep pipelines live and scalable, which may be outside the scope of some companies' data resource allocation
+    - Without the ability to interpret data, you can lose control of the narrative, which can cause data chaos (i.e. teams coming to conflicting conclusions based on the same data)
+    - Can potentially cause a lack of trust if the data isn’t handled properly
+    
+    ## DATA-DRIVEN STORYTELLING. 3 DATA STORYTELLING STEPS
+    
+    Data storytelling is communicating the meaning of a dataset with visuals and a narrative that are customized for each particular audience. Stories make people care.
+    
+    ### 1. Engage your audience.
+    
+    Engagement is capturing and holding someone’s interest and attention.
+    
+    1. Know your audience. Think about how your data project might affect them. What role does this audience play? What is their take in the project? What do they hope to get from the data insights I deliver?
+    2. Choose your primary message. To get the key message you need to take a few steps back and pinpoint only the most useful pieces, because not every piece of data is relevant to the questions you’re trying to answer. To do a spotlight, you write each insight from your analysis in a piece of paper, spread them out, and display them in a white board, then you examine it. Look for broad and universal idea messages.
+    
+    ### Create compelling visuals.
+    
+    There are key parts of your data story. The narrative you share with your stakeholders needs:
+    
+    - Characters. People affected by your story.
+    - Setting. Describes what’s going on, how often is happening, what tasks are involved, and other background information about the data project that describes the current situation.
+    - Plot. Conflict. It’s what creates tension in the current situation.
+    - Big reveal. How the data has shown that you can solve the problem the characters are facing by becoming more competitive, improving a process, or whatever the ultimate goal of your data project may be.
+    - Aha moment. You share your recommendation and explain why you think they’ll help your company be successful.
+    
+    ### Tell the story in an interesting narrative.
+    
+     It should connect the data you’ve collected to the project objective and clearly explain important insights from your analysis.
+    
+    The presentation reflects on you. So ask yourself: what’s the single most important thing I want my audience to learn from my analysis?
+    
+    There are a lot of advantages on visuals:
+    
+    - Visuals help the audience quickly understand the content of each slide.
+    - Great visuals don’t leave room for interpretation, because the meaning is instantly understood.
+    - When you include visuals on a slide, try no to share too many details all at once, choose just the data points that support your points.
+    - If you have several important things you need to include, create a new visual for each point. Then, add an arrow, a call-out, or another clearly labeled element to direct your audience’s attention toward what you want them to look at.
+    - When you get to your big reveal and aha moment, your visuals must communicate these messages with clarity and excitement.
+    - To ensure your audience is focused on what is being said, rather than reading slides, keep text to fewer than five lines and 25 words per slide.
+
+## THE ART AND SCIENCE OF PRESENTATIONS
+
+The framework of your presentation starts with your understanding of the business task. When creating a presentation to share with stakeholders, the purposes of a framework are:
+
+- Give your audience context to better understand your data
+- Help you focus on the most important information
+- Create logical connections that tie back to the business task
