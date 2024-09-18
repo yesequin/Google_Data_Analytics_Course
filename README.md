@@ -4111,129 +4111,129 @@
     - When you get to your big reveal and aha moment, your visuals must communicate these messages with clarity and excitement.
     - To ensure your audience is focused on what is being said, rather than reading slides, keep text to fewer than five lines and 25 words per slide.
 
-## THE ART AND SCIENCE OF PRESENTATIONS
+    ## THE ART AND SCIENCE OF PRESENTATIONS
 
-The framework of your presentation starts with your understanding of the business task. When creating a presentation to share with stakeholders, the purposes of a framework are:
+    The framework of your presentation starts with your understanding of the business task. When creating a presentation to share with stakeholders, the purposes of a framework are:
 
-- Give your audience context to better understand your data
-- Help you focus on the most important information
-- Create logical connections that tie back to the business task
+    - Give your audience context to better understand your data
+    - Help you focus on the most important information
+    - Create logical connections that tie back to the business task
 
-Does this data point or chart support the point I want people to walk away with?
+    Does this data point or chart support the point I want people to walk away with?
 
-### Effective presentation practices
+    ### Effective presentation practices
 
-- Include a title, subtitle, and date. To start you should see the title slide: the title, who is presenting, and when it occurred.
-- Use a logical sequence of slides. Organizing your slides in an order that makes sense guides your audience through your narrative, building understanding step by step.
-- Provide an agenda with a timeline.
-    
-    ![image.png](Google_Data_Analytics_images/image.png)
-    
-- Limit the amount of text on slides. Aim for your audience to scan it within 5 seconds.
-- Start with the business task.
-- Establish the initial hypothesis.
-- Show what business metrics you used.
-- Use visualizations.
-- Introduce the graphic by name.
-- Provide a title for each graph.
-- Go from the general to the specific.
-- Use speaker notes to help you remember talking points.
-- Include key takeaways. Summarize the main points at the end of your presentation.
-- Create an evaluation table. It gives you a checklist for each slide in a presentation so you can identify any changes that need to be made in an organized fashion.
-    
-    
-    | **Slide #** | **What works well** | **What could be improved** |
-    | --- | --- | --- |
-    | 1 |  |  |
-    | 2 |  |  |
-    | 3 |  |  |
-    | 4 |  |  |
-- As a data analyst, you have 2 key responsibilities: Analyze the data, and present your findings effectively.
+    - Include a title, subtitle, and date. To start you should see the title slide: the title, who is presenting, and when it occurred.
+    - Use a logical sequence of slides. Organizing your slides in an order that makes sense guides your audience through your narrative, building understanding step by step.
+    - Provide an agenda with a timeline.
+        
+        ![image.png](Google_Data_Analytics_images/image.png)
+        
+    - Limit the amount of text on slides. Aim for your audience to scan it within 5 seconds.
+    - Start with the business task.
+    - Establish the initial hypothesis.
+    - Show what business metrics you used.
+    - Use visualizations.
+    - Introduce the graphic by name.
+    - Provide a title for each graph.
+    - Go from the general to the specific.
+    - Use speaker notes to help you remember talking points.
+    - Include key takeaways. Summarize the main points at the end of your presentation.
+    - Create an evaluation table. It gives you a checklist for each slide in a presentation so you can identify any changes that need to be made in an organized fashion.
+        
+        
+        | **Slide #** | **What works well** | **What could be improved** |
+        | --- | --- | --- |
+        | 1 |  |  |
+        | 2 |  |  |
+        | 3 |  |  |
+        | 4 |  |  |
+    - As a data analyst, you have 2 key responsibilities: Analyze the data, and present your findings effectively.
 
-### Presentation tips
+    ### Presentation tips
 
-- Channel your excitement. Take deep, controlled breaths to calm your body down.
-- Start with the broader ideas.
-- Use the five second rule:
-    - Wait five seconds after showing a data visualization
-    - Ask if they understand it. If not, take time to explain it.
-    - Give your audience another five seconds
-    - Tell them the conclusion
-- Preparation is key.
-- You audience will not always see the steps you took to reach a conclusion. Focus on what information they need to reach the same conclusion you did.
-- You audience has a lot on their mind, so try to keep your presentation focused and to the point to keep their minds from wandering.
-- Your audience is easily distracted, so try to avoid including information in your presentations that you don’t think will be productive to discussions with your audience.
-- Pay attention on how you speak. Keep your sentences short, build in intentional pauses to give your audience time to think about what you’ve just said, keep the pitch of your sentences level.
-- Be mindful of nervous habits. Stay still and move with purpose, practice good posture, and make positive eye contact.
+    - Channel your excitement. Take deep, controlled breaths to calm your body down.
+    - Start with the broader ideas.
+    - Use the five second rule:
+        - Wait five seconds after showing a data visualization
+        - Ask if they understand it. If not, take time to explain it.
+        - Give your audience another five seconds
+        - Tell them the conclusion
+    - Preparation is key.
+    - You audience will not always see the steps you took to reach a conclusion. Focus on what information they need to reach the same conclusion you did.
+    - You audience has a lot on their mind, so try to keep your presentation focused and to the point to keep their minds from wandering.
+    - Your audience is easily distracted, so try to avoid including information in your presentations that you don’t think will be productive to discussions with your audience.
+    - Pay attention on how you speak. Keep your sentences short, build in intentional pauses to give your audience time to think about what you’ve just said, keep the pitch of your sentences level.
+    - Be mindful of nervous habits. Stay still and move with purpose, practice good posture, and make positive eye contact.
 
-Example of a great slide deck presentation: [https://docs.google.com/presentation/d/1jyZeBt2PizsVU4KdODvzAnUbcz7CIOq6Udvp0d5_jKs/template/preview?resourcekey=0-2M-Yk3_73NwAVg-PaLfvVA](https://docs.google.com/presentation/d/1jyZeBt2PizsVU4KdODvzAnUbcz7CIOq6Udvp0d5_jKs/template/preview?resourcekey=0-2M-Yk3_73NwAVg-PaLfvVA)
+    Example of a great slide deck presentation: [https://docs.google.com/presentation/d/1jyZeBt2PizsVU4KdODvzAnUbcz7CIOq6Udvp0d5_jKs/template/preview?resourcekey=0-2M-Yk3_73NwAVg-PaLfvVA](https://docs.google.com/presentation/d/1jyZeBt2PizsVU4KdODvzAnUbcz7CIOq6Udvp0d5_jKs/template/preview?resourcekey=0-2M-Yk3_73NwAVg-PaLfvVA)
 
-### Guide: Share data findings in presentations
+    ### Guide: Share data findings in presentations
 
-Sharing your data findings in presentations: Tips & tricks: https://d3c33hcgiwev3.cloudfront.net/_LwuiIoNSYq8LoiKDUmKxw_e8ff903b66b943ddaea3b8517fe8a3af_Sharing-your-data-findings-in-presentations-_-Tips-and-Tricks.pdf?Expires=1726790400&Signature=HFbk68lQOuZQ~8VZWo7SOap8K2izkmc0cPtmFyebw~AHa446EuilgoXTDcPCAMgH7omQKwGNkcVaHJ~psA1cBcCN3f5zz51BrAT7wPSEjxKsKrHf5os92Tu3ZvfXnEFQaIML6T1Z9md~wdEz4orq1c02LFIHFXo41wVKWT3yFrM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+    Sharing your data findings in presentations: Tips & tricks: https://d3c33hcgiwev3.cloudfront.net/_LwuiIoNSYq8LoiKDUmKxw_e8ff903b66b943ddaea3b8517fe8a3af_Sharing-your-data-findings-in-presentations-_-Tips-and-Tricks.pdf?Expires=1726790400&Signature=HFbk68lQOuZQ~8VZWo7SOap8K2izkmc0cPtmFyebw~AHa446EuilgoXTDcPCAMgH7omQKwGNkcVaHJ~psA1cBcCN3f5zz51BrAT7wPSEjxKsKrHf5os92Tu3ZvfXnEFQaIML6T1Z9md~wdEz4orq1c02LFIHFXo41wVKWT3yFrM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 
-## DATA CAVEATS AND LIMITATIONS
+    ## DATA CAVEATS AND LIMITATIONS
 
-The checklist below identifies 10 tasks that you should engage in to be prepared for your Q&A:
+    The checklist below identifies 10 tasks that you should engage in to be prepared for your Q&A:
 
-Before the presentation
+    Before the presentation
 
-1. Assemble and prepare your questions.
-2. Discuss your presentation with your manager, other analysts, or other friendly contacts in your organization.
-3. Ask a manager or other analysts what sort of questions were normally asked by your specific audience in the past.
-4. Seek comments, feedback, and questions on the deck or the document of your analysis.
-5. At least 24 hours ahead of the presentation, try and brainstorm tricky questions or unclear parts you may come across- this helps avoid surprises.
-6. It never hurts to practice what you will be presenting, to account for any missing information or simply to calm your nerves.
+    1. Assemble and prepare your questions.
+    2. Discuss your presentation with your manager, other analysts, or other friendly contacts in your organization.
+    3. Ask a manager or other analysts what sort of questions were normally asked by your specific audience in the past.
+    4. Seek comments, feedback, and questions on the deck or the document of your analysis.
+    5. At least 24 hours ahead of the presentation, try and brainstorm tricky questions or unclear parts you may come across- this helps avoid surprises.
+    6. It never hurts to practice what you will be presenting, to account for any missing information or simply to calm your nerves.
 
-During the presentation
+    During the presentation
 
-1. Be prepared to respond to the things that you find and effectively and accurately explain your findings.
-2. Address potential questions that may come up.
-3. Avoid having a single question derail a presentation and propose following-up offline.
-4. Put supplementary visualizations and content in the appendix to help answer questions.
+    1. Be prepared to respond to the things that you find and effectively and accurately explain your findings.
+    2. Address potential questions that may come up.
+    3. Avoid having a single question derail a presentation and propose following-up offline.
+    4. Put supplementary visualizations and content in the appendix to help answer questions.
 
-Be prepared to consider any limitations of your data by:
+    Be prepared to consider any limitations of your data by:
 
-- Critically analyzing the correlations.
-- Looking at the context
-- Understanding the strengths and weakness of the tools.
+    - Critically analyzing the correlations.
+    - Looking at the context
+    - Understanding the strengths and weakness of the tools.
 
-### Tips to handle objections
+    ### Tips to handle objections
 
-Usually, these objections are:
+    Usually, these objections are:
 
-- About the data. You can include this information in the beginning of your presentation to set up the data context.
-    - Where you got the data?
-    - What systems it came from?
-    - What transformations happened to it?
-    - How fresh and accurate is the data?
-- Your analysis.
-    - Is your analysis reproducible?
-    - Who did you get feedback from?
-- Your findings
-    - Do these findings exist in previous time periods?
-    - Did you control for the differences in your data?
+    - About the data. You can include this information in the beginning of your presentation to set up the data context.
+        - Where you got the data?
+        - What systems it came from?
+        - What transformations happened to it?
+        - How fresh and accurate is the data?
+    - Your analysis.
+        - Is your analysis reproducible?
+        - Who did you get feedback from?
+    - Your findings
+        - Do these findings exist in previous time periods?
+        - Did you control for the differences in your data?
 
-Responding to possible objections:
+    Responding to possible objections:
 
-- Communicate any assumptions.
-- Explain why your analysis might be different than expected.
-- acknowledge that those objections are valid and take steps to investigate further.
-- Take steps to investigate further
+    - Communicate any assumptions.
+    - Explain why your analysis might be different than expected.
+    - acknowledge that those objections are valid and take steps to investigate further.
+    - Take steps to investigate further
 
-### Q&A best practices
+    ### Q&A best practices
 
-- Listed to  the whole question.
-- Repeat the question (if necessary)
-- Use the Appendix. It’s a great place to keep extra information that might not be necessary for our presentation but could be useful for answering questions afterwards.
-- Understand the context.
-- Involve the whole audience.
-- Keep your responses short and to the point.
+    - Listed to  the whole question.
+    - Repeat the question (if necessary)
+    - Use the Appendix. It’s a great place to keep extra information that might not be necessary for our presentation but could be useful for answering questions afterwards.
+    - Understand the context.
+    - Involve the whole audience.
+    - Keep your responses short and to the point.
 
-### Important aspects to a presentation
+    ### Important aspects to a presentation
 
-- Define your purpose
-- Keep it concise
-- Have some logical flow to your presentation
-- Make the presentation visually compelling
-- How easy is it to understand?
+    - Define your purpose
+    - Keep it concise
+    - Have some logical flow to your presentation
+    - Make the presentation visually compelling
+    - How easy is it to understand?
