@@ -71,11 +71,11 @@
     Data: A collection of facts
     
     Data aggregation: the process of gathering data from multiple sources in order to combine it into a single summarized collection.
-    Data analysis: The collection, transformation, and organization of data in order to draw
-    conclusions, make predictions, and drive informed decision-making
-    Data analyst: Someone who collects, transforms, and organizes data in order to drive
-    informed decision-making
+    Data analysis: The collection, transformation, and organization of data in order to draw conclusions, make predictions, and drive informed decision-making
+    Data analyst: Someone who collects, transforms, and organizes data in order to drive informed decision-making
     Data analytics: The science of data
+    
+    Data blending: A Tableau method that combines data from multiple data sources
     
     Data composition: combining the individual parts in a visualization and displaying them together as a whole.
     
@@ -139,6 +139,8 @@
     Foreign key: a field within a table that is a primary key in another table.
     
     Formula: A set of instructions used to perform a calculation using the data in a spreadsheet
+    
+    Framework: The context a presentation needs to create logical connections that tie back to the business task and metrics
     Function: A preset command that automatically performs a specified process or task using the data in a spreadsheet
     
     Gap analysis: A method for examining and evaluating the current state of a process in order to identify opportunities for improvement in the future
@@ -146,6 +148,8 @@
     HAVING statement: allows you to add a filter to your query instead of the underlying table when you're working with aggregate functions.
     
     Header: The first row in a spreadsheet that labels the type of data in each column
+    
+    Hypothesis: The theory you’re trying to prove or disprove with data
     
     Hypothesis testing: is a way to see if a survey or experiment has meaningful results.
     
@@ -192,6 +196,8 @@
     Population: all possible data values in a certain data set.
     
     Primary key: references a column in which each value is unique
+    
+    Professional relationship building: Building relationships by meeting people both in person and online (Refer to Networking)
     
     Profit margin: a percentage that indicates how many cents of profit have been generated for each dollar of sale.
     
@@ -3651,7 +3657,7 @@
     
     Frameworks help organize your thoughts about data visualization and give you a useful checklist to reference as you plan and evaluate your data visualization. Here are two frameworks that employ slightly different techniques. Both are intended to improve the quality of your visuals.
     
-    - The McCandless method: this method lists four elements of good data visualization:
+    - The McCandless method: set of guidelines for presentations. It suggests that you start with broad, general ideas and then work your way into the details.. This method lists four elements of good data visualization:
         1. **Information (data):** the data with which you’re working. Without information or data, you cannot communicate your findings successfully.
         2. **Story (concept):** a clear and compelling narrative or concept. The story allows you to share your data in meaningful and interesting ways. Without a story, your visualization is informative, but not really inspiring.
         3. **Goal (function):** a specific objective or function for the visual. The goal of your data visualization makes the data useful and usable. This is what you are trying to achieve with your visualization. Without a goal, your visualization might still be informative, but can’t generate actionable insights.
@@ -3659,6 +3665,13 @@
         
         ![Untitled](Google_Data_Analytics_images/Untitled%2062.png)
         
+        And this method has an order, you start with the most basic information:
+        
+        1. Introduce the graphic by name
+        2. Answer obvious questions before they’re asked. Start with the high-level information and work your way into the lowest level of detail that’s useful to your audience (where is this data from? what does it cover?, when?, how?)
+        3. State the insight of your graphic.
+        4. Call out data to support that insight.
+        5. Tell your audience why it matters (the “so what” moment). It’s a good time to present the possible business impact of the solution and clear actions stakeholders can take
     - Kaiser Fung’s Junk Charts trifecta checkup: This approach is a set of questions that can help consumers of data visualization critique what they are consuming and determine how effective it is. You can also use these questions to determine if your data visualization is effective:
         1. What is the practical question?
         2. What does the data say?
@@ -4073,7 +4086,7 @@
     1. Know your audience. Think about how your data project might affect them. What role does this audience play? What is their take in the project? What do they hope to get from the data insights I deliver?
     2. Choose your primary message. To get the key message you need to take a few steps back and pinpoint only the most useful pieces, because not every piece of data is relevant to the questions you’re trying to answer. To do a spotlight, you write each insight from your analysis in a piece of paper, spread them out, and display them in a white board, then you examine it. Look for broad and universal idea messages.
     
-    ### Create compelling visuals.
+    ### 2. Create compelling visuals.
     
     There are key parts of your data story. The narrative you share with your stakeholders needs:
     
@@ -4083,7 +4096,7 @@
     - Big reveal. How the data has shown that you can solve the problem the characters are facing by becoming more competitive, improving a process, or whatever the ultimate goal of your data project may be.
     - Aha moment. You share your recommendation and explain why you think they’ll help your company be successful.
     
-    ### Tell the story in an interesting narrative.
+    ### 3. Tell the story in an interesting narrative.
     
      It should connect the data you’ve collected to the project objective and clearly explain important insights from your analysis.
     
@@ -4105,3 +4118,122 @@ The framework of your presentation starts with your understanding of the busines
 - Give your audience context to better understand your data
 - Help you focus on the most important information
 - Create logical connections that tie back to the business task
+
+Does this data point or chart support the point I want people to walk away with?
+
+### Effective presentation practices
+
+- Include a title, subtitle, and date. To start you should see the title slide: the title, who is presenting, and when it occurred.
+- Use a logical sequence of slides. Organizing your slides in an order that makes sense guides your audience through your narrative, building understanding step by step.
+- Provide an agenda with a timeline.
+    
+    ![image.png](Google_Data_Analytics_images/image.png)
+    
+- Limit the amount of text on slides. Aim for your audience to scan it within 5 seconds.
+- Start with the business task.
+- Establish the initial hypothesis.
+- Show what business metrics you used.
+- Use visualizations.
+- Introduce the graphic by name.
+- Provide a title for each graph.
+- Go from the general to the specific.
+- Use speaker notes to help you remember talking points.
+- Include key takeaways. Summarize the main points at the end of your presentation.
+- Create an evaluation table. It gives you a checklist for each slide in a presentation so you can identify any changes that need to be made in an organized fashion.
+    
+    
+    | **Slide #** | **What works well** | **What could be improved** |
+    | --- | --- | --- |
+    | 1 |  |  |
+    | 2 |  |  |
+    | 3 |  |  |
+    | 4 |  |  |
+- As a data analyst, you have 2 key responsibilities: Analyze the data, and present your findings effectively.
+
+### Presentation tips
+
+- Channel your excitement. Take deep, controlled breaths to calm your body down.
+- Start with the broader ideas.
+- Use the five second rule:
+    - Wait five seconds after showing a data visualization
+    - Ask if they understand it. If not, take time to explain it.
+    - Give your audience another five seconds
+    - Tell them the conclusion
+- Preparation is key.
+- You audience will not always see the steps you took to reach a conclusion. Focus on what information they need to reach the same conclusion you did.
+- You audience has a lot on their mind, so try to keep your presentation focused and to the point to keep their minds from wandering.
+- Your audience is easily distracted, so try to avoid including information in your presentations that you don’t think will be productive to discussions with your audience.
+- Pay attention on how you speak. Keep your sentences short, build in intentional pauses to give your audience time to think about what you’ve just said, keep the pitch of your sentences level.
+- Be mindful of nervous habits. Stay still and move with purpose, practice good posture, and make positive eye contact.
+
+Example of a great slide deck presentation: [https://docs.google.com/presentation/d/1jyZeBt2PizsVU4KdODvzAnUbcz7CIOq6Udvp0d5_jKs/template/preview?resourcekey=0-2M-Yk3_73NwAVg-PaLfvVA](https://docs.google.com/presentation/d/1jyZeBt2PizsVU4KdODvzAnUbcz7CIOq6Udvp0d5_jKs/template/preview?resourcekey=0-2M-Yk3_73NwAVg-PaLfvVA)
+
+### Guide: Share data findings in presentations
+
+Sharing your data findings in presentations: Tips & tricks: https://d3c33hcgiwev3.cloudfront.net/_LwuiIoNSYq8LoiKDUmKxw_e8ff903b66b943ddaea3b8517fe8a3af_Sharing-your-data-findings-in-presentations-_-Tips-and-Tricks.pdf?Expires=1726790400&Signature=HFbk68lQOuZQ~8VZWo7SOap8K2izkmc0cPtmFyebw~AHa446EuilgoXTDcPCAMgH7omQKwGNkcVaHJ~psA1cBcCN3f5zz51BrAT7wPSEjxKsKrHf5os92Tu3ZvfXnEFQaIML6T1Z9md~wdEz4orq1c02LFIHFXo41wVKWT3yFrM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+## DATA CAVEATS AND LIMITATIONS
+
+The checklist below identifies 10 tasks that you should engage in to be prepared for your Q&A:
+
+Before the presentation
+
+1. Assemble and prepare your questions.
+2. Discuss your presentation with your manager, other analysts, or other friendly contacts in your organization.
+3. Ask a manager or other analysts what sort of questions were normally asked by your specific audience in the past.
+4. Seek comments, feedback, and questions on the deck or the document of your analysis.
+5. At least 24 hours ahead of the presentation, try and brainstorm tricky questions or unclear parts you may come across- this helps avoid surprises.
+6. It never hurts to practice what you will be presenting, to account for any missing information or simply to calm your nerves.
+
+During the presentation
+
+1. Be prepared to respond to the things that you find and effectively and accurately explain your findings.
+2. Address potential questions that may come up.
+3. Avoid having a single question derail a presentation and propose following-up offline.
+4. Put supplementary visualizations and content in the appendix to help answer questions.
+
+Be prepared to consider any limitations of your data by:
+
+- Critically analyzing the correlations.
+- Looking at the context
+- Understanding the strengths and weakness of the tools.
+
+### Tips to handle objections
+
+Usually, these objections are:
+
+- About the data. You can include this information in the beginning of your presentation to set up the data context.
+    - Where you got the data?
+    - What systems it came from?
+    - What transformations happened to it?
+    - How fresh and accurate is the data?
+- Your analysis.
+    - Is your analysis reproducible?
+    - Who did you get feedback from?
+- Your findings
+    - Do these findings exist in previous time periods?
+    - Did you control for the differences in your data?
+
+Responding to possible objections:
+
+- Communicate any assumptions.
+- Explain why your analysis might be different than expected.
+- acknowledge that those objections are valid and take steps to investigate further.
+- Take steps to investigate further
+
+### Q&A best practices
+
+- Listed to  the whole question.
+- Repeat the question (if necessary)
+- Use the Appendix. It’s a great place to keep extra information that might not be necessary for our presentation but could be useful for answering questions afterwards.
+- Understand the context.
+- Involve the whole audience.
+- Keep your responses short and to the point.
+
+### Important aspects to a presentation
+
+- Define your purpose
+- Keep it concise
+- Have some logical flow to your presentation
+- Make the presentation visually compelling
+- How easy is it to understand?
