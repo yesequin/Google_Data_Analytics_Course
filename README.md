@@ -42,7 +42,11 @@
     
     Clean data: data that's complete, correct, and relevant to the problem you're trying to solve.
     
+    Coding: writing instructions to the compter in the syntax of a specific programming language.
+    
     Compatibility: how well two or more datasets are able to work together.
+    
+    Computer programming: Giving instructions to a computer to perform an action or set of actions.
     
     CONCAT: allows you to join multiple text strings from multiple sources
     
@@ -153,6 +157,8 @@
     
     Hypothesis testing: is a way to see if a survey or experiment has meaningful results.
     
+    Integrated Development Enviroment (IDE): A software application that brings together all the tools you may want to use in a single place.
+    
     Interoperability: the ability of data systems and services to openly connect and share data.
     
     Issue: An issue is a topic or subject to investigate.
@@ -185,6 +191,8 @@
     
     Null: an indication that a value does not exist in a data set. It is not the same as a zero.
     
+    Open source: Code that is freely available and may be modified and shared by the people who use it.
+    
     Openness (or open data): Free access, usage, and sharing of data.
     
     Operator: A symbol that names the type of operation or calculation to be performed in a formula.
@@ -197,15 +205,17 @@
     
     Primary key: references a column in which each value is unique
     
-    Professional relationship building: Building relationships by meeting people both in person and online (Refer to Networking)
-    
-    Profit margin: a percentage that indicates how many cents of profit have been generated for each dollar of sale.
-    
     Problem: a problem is an obstacle or complication that needs to be worked out.
     
     Problem domain: the specific area of analysis that encompasses every activity affecting or affected by the problem.
     
     Problem types: The various problems that data analysts encounter, including categorizing things, discovering connections, finding patterns, identifying themes, making predictions, and spotting something unusual
+    
+    Professional relationship building: Building relationships by meeting people both in person and online (Refer to Networking)
+    
+    Profit margin: a percentage that indicates how many cents of profit have been generated for each dollar of sale.
+    
+    Programming languages: The words and symbols we use to write instructions for computers to follow
     
     Quartile: A quartile divides data points into four equal parts or quarters.
     
@@ -4110,19 +4120,19 @@
     - If you have several important things you need to include, create a new visual for each point. Then, add an arrow, a call-out, or another clearly labeled element to direct your audience’s attention toward what you want them to look at.
     - When you get to your big reveal and aha moment, your visuals must communicate these messages with clarity and excitement.
     - To ensure your audience is focused on what is being said, rather than reading slides, keep text to fewer than five lines and 25 words per slide.
-
+    
     ## THE ART AND SCIENCE OF PRESENTATIONS
-
+    
     The framework of your presentation starts with your understanding of the business task. When creating a presentation to share with stakeholders, the purposes of a framework are:
-
+    
     - Give your audience context to better understand your data
     - Help you focus on the most important information
     - Create logical connections that tie back to the business task
-
+    
     Does this data point or chart support the point I want people to walk away with?
-
+    
     ### Effective presentation practices
-
+    
     - Include a title, subtitle, and date. To start you should see the title slide: the title, who is presenting, and when it occurred.
     - Use a logical sequence of slides. Organizing your slides in an order that makes sense guides your audience through your narrative, building understanding step by step.
     - Provide an agenda with a timeline.
@@ -4149,9 +4159,9 @@
         | 3 |  |  |
         | 4 |  |  |
     - As a data analyst, you have 2 key responsibilities: Analyze the data, and present your findings effectively.
-
+    
     ### Presentation tips
-
+    
     - Channel your excitement. Take deep, controlled breaths to calm your body down.
     - Start with the broader ideas.
     - Use the five second rule:
@@ -4165,43 +4175,43 @@
     - Your audience is easily distracted, so try to avoid including information in your presentations that you don’t think will be productive to discussions with your audience.
     - Pay attention on how you speak. Keep your sentences short, build in intentional pauses to give your audience time to think about what you’ve just said, keep the pitch of your sentences level.
     - Be mindful of nervous habits. Stay still and move with purpose, practice good posture, and make positive eye contact.
-
+    
     Example of a great slide deck presentation: [https://docs.google.com/presentation/d/1jyZeBt2PizsVU4KdODvzAnUbcz7CIOq6Udvp0d5_jKs/template/preview?resourcekey=0-2M-Yk3_73NwAVg-PaLfvVA](https://docs.google.com/presentation/d/1jyZeBt2PizsVU4KdODvzAnUbcz7CIOq6Udvp0d5_jKs/template/preview?resourcekey=0-2M-Yk3_73NwAVg-PaLfvVA)
-
+    
     ### Guide: Share data findings in presentations
-
+    
     Sharing your data findings in presentations: Tips & tricks: https://d3c33hcgiwev3.cloudfront.net/_LwuiIoNSYq8LoiKDUmKxw_e8ff903b66b943ddaea3b8517fe8a3af_Sharing-your-data-findings-in-presentations-_-Tips-and-Tricks.pdf?Expires=1726790400&Signature=HFbk68lQOuZQ~8VZWo7SOap8K2izkmc0cPtmFyebw~AHa446EuilgoXTDcPCAMgH7omQKwGNkcVaHJ~psA1cBcCN3f5zz51BrAT7wPSEjxKsKrHf5os92Tu3ZvfXnEFQaIML6T1Z9md~wdEz4orq1c02LFIHFXo41wVKWT3yFrM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
-
+    
     ## DATA CAVEATS AND LIMITATIONS
-
+    
     The checklist below identifies 10 tasks that you should engage in to be prepared for your Q&A:
-
+    
     Before the presentation
-
+    
     1. Assemble and prepare your questions.
     2. Discuss your presentation with your manager, other analysts, or other friendly contacts in your organization.
     3. Ask a manager or other analysts what sort of questions were normally asked by your specific audience in the past.
     4. Seek comments, feedback, and questions on the deck or the document of your analysis.
     5. At least 24 hours ahead of the presentation, try and brainstorm tricky questions or unclear parts you may come across- this helps avoid surprises.
     6. It never hurts to practice what you will be presenting, to account for any missing information or simply to calm your nerves.
-
+    
     During the presentation
-
+    
     1. Be prepared to respond to the things that you find and effectively and accurately explain your findings.
     2. Address potential questions that may come up.
     3. Avoid having a single question derail a presentation and propose following-up offline.
     4. Put supplementary visualizations and content in the appendix to help answer questions.
-
+    
     Be prepared to consider any limitations of your data by:
-
+    
     - Critically analyzing the correlations.
     - Looking at the context
     - Understanding the strengths and weakness of the tools.
-
+    
     ### Tips to handle objections
-
+    
     Usually, these objections are:
-
+    
     - About the data. You can include this information in the beginning of your presentation to set up the data context.
         - Where you got the data?
         - What systems it came from?
@@ -4213,27 +4223,96 @@
     - Your findings
         - Do these findings exist in previous time periods?
         - Did you control for the differences in your data?
-
+    
     Responding to possible objections:
-
+    
     - Communicate any assumptions.
     - Explain why your analysis might be different than expected.
     - acknowledge that those objections are valid and take steps to investigate further.
     - Take steps to investigate further
-
+    
     ### Q&A best practices
-
+    
     - Listed to  the whole question.
     - Repeat the question (if necessary)
     - Use the Appendix. It’s a great place to keep extra information that might not be necessary for our presentation but could be useful for answering questions afterwards.
     - Understand the context.
     - Involve the whole audience.
     - Keep your responses short and to the point.
-
+    
     ### Important aspects to a presentation
-
+    
     - Define your purpose
     - Keep it concise
     - Have some logical flow to your presentation
     - Make the presentation visually compelling
     - How easy is it to understand?
+    
+- 7 - DATA ANALYSIS WITH **R** PROGRAMMING
+    
+    Account at the RStudio [Cloud sign-up page](https://rstudio.cloud/plans/free)
+    
+    The R programming language is useful for organizing, cleaning, and analyzing data.
+    
+    Programming helps you to:
+    
+    - Clarify the steps of your analysis
+    - Save time
+    - Reproduce and share your work
+    
+    R is a data-centric programming language frequently used for statistical analysis, visualization, and other data analysis. It’s based on another programming language named S.
+    
+    You can use R in many specific situations, like:
+    
+    - Reproducing your analysis
+    - Processing lots of data
+    - Creating data visualizations
+    
+    ### The R-versus-Python debate
+    
+    | Languages | R | Python |
+    | --- | --- | --- |
+    | **Common features** | Open-source. Data stored in data frames. Formulas and functions readily available. Community for code development and support | Open-source. Data stored in data frames. Formulas and functions readily available. Community for code development and support |
+    | **Unique advantages** | Data manipulation, data visualization, and statistics packages. "Scalpel" approach to data: *find packages to do what you want with the data* | Easy syntax for machine learning needs. Integrates with cloud platforms like Google Cloud, Amazon Web Services, and Azure |
+    | **Unique challenges** | Inconsistent naming conventions. Make it harder for beginners to select the right functions. Methods for handling variables may be a little complex for beginners to understand | Many more decisions for beginners to make about data input/output, structure, variables, packages, and objects. "Swiss army knife" approach to data: *figure out a way to do what you want with the data* |
+    
+    R has been used by professionals who have a statistical or research-oriented approach to solving problems; among them are scientists, statisticians, and engineers. Python has been used by professionals looking for solutions in the data itself, those who must heavily mine data for answers; among them are data scientists, machine learning specialists, and software developers.
+    
+    ### Spreadsheets, SQL, and R: a comparison
+    
+    | **Key question** | **Spreadsheets** | **SQL** | **R** |
+    | --- | --- | --- | --- |
+    | **What is it?** | A program that uses rows and columns to organize data and allows for analysis and manipulation through formulas, functions, and built-in features | A database programming language used to communicate with databases to conduct an analysis of data | A general purpose programming language used for statistical analysis, visualization, and other data analysis |
+    | **What is a primary advantage?** | Includes a variety of visualization tools and features | Allows users to manipulate and reorganize data as needed to aid analysis | Provides an accessible language to organize, modify, and clean data frames, and create insightful data visualizations |
+    | **Which datasets does it work best with?** | Smaller datasets | Larger datasets | Larger datasets |
+    | **What is the source of the data?** | Entered manually or imported from an external source | Accessed from an external database | Loaded with R when installed, imported from your computer, or loaded from external sources |
+    | **Where is the data from my analysis usually stored?** | In a spreadsheet file on your computer | Inside tables in the accessed database | In an R file on your computer |
+    | **Do I use formulas and functions?** | Yes | Yes | Yes |
+    | **Can I create visualizations?** | Yes | Yes, by using an additional tool like a database management system (DBMS) or a business intelligence (BI) tool | Yes |
+    
+    ## R
+    
+    Most analyst who work with the R language use the RStudio enviroment to interact with R, and not the basic interface. R is an IDE, this means that RStudio brings together all the tools you might want to use in a single place.
+    
+    Packages are units of reproducible R code. Members of the R community create packages to keep track of the R functions that they write and reuse. Packages offer a helpful combination of code, reusable R functions, descriptive documentation, tests for checking your code, and sample data sets. We will install and load the core *tidyverse* packages.
+    
+    ```r
+    install.packages("tidyverse")
+    ```
+    
+    To load the cores:
+    
+    ```r
+    library(tidyverse)
+    library(lubridate) #This is already part of the tidyverse package.
+    ```
+    
+    - The RStudio enviroment has four main windows called panes. One of them is hidden (File > New File > R Script).
+        
+        ![image.png](Google_Data_Analytics_images/image%201.png)
+        
+        - Console: the place where you give commands to R.
+        - Source editor: when working with R Scripts. If you write code directly in the R source editor, RStudio can save your code when you close your current session.
+        - Environment: you’ll find all the data you currently have loaded and can easily organize and save it.
+        - A pane that has tabs for Files, Plots, Packages, and Help.
+    - R is key sensitive.
