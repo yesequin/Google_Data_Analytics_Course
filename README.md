@@ -147,6 +147,8 @@
     Framework: The context a presentation needs to create logical connections that tie back to the business task and metrics
     Function: A preset command that automatically performs a specified process or task using the data in a spreadsheet
     
+    Function (R): A body of reusable code used to perform specific tasks in R
+    
     Gap analysis: A method for examining and evaluating the current state of a process in order to identify opportunities for improvement in the future
     
     HAVING statement: allows you to add a filter to your query instead of the underlying table when you're working with aggregate functions.
@@ -4250,7 +4252,7 @@
     
 - 7 - DATA ANALYSIS WITH **R** PROGRAMMING
     
-    Account at the RStudio [Cloud sign-up page](https://rstudio.cloud/plans/free)
+    **Account at the RStudio Cloud** [Cloud sign-up page](https://rstudio.cloud/plans/free)
     
     The R programming language is useful for organizing, cleaning, and analyzing data.
     
@@ -4272,7 +4274,8 @@
     
     | Languages | R | Python |
     | --- | --- | --- |
-    | **Common features** | Open-source. Data stored in data frames. Formulas and functions readily available. Community for code development and support | Open-source. Data stored in data frames. Formulas and functions readily available. Community for code development and support |
+    | **Common 
+    features** | Open-source. Data stored in data frames. Formulas and functions readily available. Community for code development and support | Open-source. Data stored in data frames. Formulas and functions readily available. Community for code development and support |
     | **Unique advantages** | Data manipulation, data visualization, and statistics packages. "Scalpel" approach to data: *find packages to do what you want with the data* | Easy syntax for machine learning needs. Integrates with cloud platforms like Google Cloud, Amazon Web Services, and Azure |
     | **Unique challenges** | Inconsistent naming conventions. Make it harder for beginners to select the right functions. Methods for handling variables may be a little complex for beginners to understand | Many more decisions for beginners to make about data input/output, structure, variables, packages, and objects. "Swiss army knife" approach to data: *figure out a way to do what you want with the data* |
     
@@ -4290,7 +4293,7 @@
     | **Do I use formulas and functions?** | Yes | Yes | Yes |
     | **Can I create visualizations?** | Yes | Yes, by using an additional tool like a database management system (DBMS) or a business intelligence (BI) tool | Yes |
     
-    ## R
+    ## R AND RSTUDIO
     
     Most analyst who work with the R language use the RStudio enviroment to interact with R, and not the basic interface. R is an IDE, this means that RStudio brings together all the tools you might want to use in a single place.
     
@@ -4316,3 +4319,260 @@
         - Environment: you’ll find all the data you currently have loaded and can easily organize and save it.
         - A pane that has tabs for Files, Plots, Packages, and Help.
     - R is key sensitive.
+    
+    ### The basic concepts of R
+    
+    The assignment operator is
+    
+    ```r
+    <-
+    ```
+    
+    Factors (R) store categorical data in R where the data values are limited and usually based on a finite group like country or year.
+    
+    - Functions. A body of reusable code used to perform specific tasks in R. Functions are key sensitive.
+        - Argument (R): Information that a function in R needs in order to run
+    - Comments. Helpful when you want to describe or explain what’s going on in your code. We use a #.
+    - Variables. A representation of a value in R that can be stored for use later during programming. They can also be called objects.
+    - Data types. Numeric, alphabetic, logical, data, and date time.
+    - Vectors. A group of data elements of the same type stored in a sequence in R.
+        
+        ```r
+        #c() function (called the "combine" function).
+        vec_1 <- c(10,5,0.26,20,48.5)
+        integer_vector <- c(1L, 5L, 15L) #must place the "L" after each number
+        ```
+        
+    - Pipes. A tool in R for expressing a sequence of multiple operations, represented with “%>%”. It’s used to apply the output of one function into another function
+    
+    A data structure is a format for organizing and storing data. The most common data structures in the R programming language include:
+    
+    - Vectors
+    - Data frames. The most common way of storing and analyzing data in R.
+    - Matrices
+    - Arrays
+    
+    ### Vectors in R
+    
+    Every vector you create will have two key properties: type and length. You can determine what type of vector you are working with by using:
+    
+    ```r
+    typeof()
+    typeof(c("a","b"))
+    ```
+    
+    You can determine the length of an existing vector by using:
+    
+    ```r
+    length()
+    x <- c(33.5, 57.75, 120.05)
+    length(x) #The result is 3
+    ```
+    
+    You can use the next function to assign a different name to each element of the vector
+    
+    ```r
+    names()
+    x <- c(1, 3, 5)
+    names(x) <- c("a", "b", "c")
+    ```
+    
+    There are 2 types of vectors:
+    
+    - Atomic vectors. There are six primart types of atomic vectors:
+        - Logical. True/False.
+        - Integer. Positive and negative whole values. Known as numeric vectors
+        - Double. Decimal values. Known as numeric vectors
+        - Character (which contains strings). String/Character values
+        - Complex. Not that common.
+        - Raw. Not that common
+        
+        ![image.png](Google_Data_Analytics_images/image%202.png)
+        
+    - Lists
+    
+    ### Lists in R
+    
+    Lists are different from atomic vectors because their elements can be of any type.
+    
+    You can create a list with:
+    
+    ```r
+    list()
+    list("a", 1L, 1.5, TRUE)
+    ```
+    
+    You can find out what types of elements a list contains, and the number of elements using:
+    
+    ```r
+    str()
+    z <- list(list(list(1 , 3, 5)))
+    str(z)
+    #output:
+    	#> List of 1
+    	#>  $ :List of 1
+    	#>   ..$ :List of 3
+    	#>   .. ..$ : num 1
+    	#>   .. ..$ : num 3
+    	#>   .. ..$ : num 5
+    ```
+    
+    The indentation of the $ symbols reflect the nested structure of this list. Here, there are three levels (so there is a list within a list within a list).  
+    
+    Lists, like vectors, can be named. You can name the elements of a list when you first create it with the list() function:
+    
+    ```r
+    list('Chicago' = 1, 'New York' = 2, 'Los Angeles' = 3)
+    
+    $`Chicago`
+    
+    [1] 1
+    
+    $`New York`
+    
+    [1] 2
+    
+    $`Los Angeles`
+    
+    [1] 3
+    ```
+    
+    ### Dates and times in R
+    
+    Before you get started working with dates and times, you should load both tidyverse and lubridate. Lubridate is part of tidyverse. 
+    
+    ```r
+    install.packages("tidyverse")
+    library(tidyverse) #Loading tidyverse package
+    library(lubridate) #Loading lubridate package
+    ```
+    
+    In R, there are three types of data that refer to an instant in time:
+    
+    - A date ("2016-08-16"). R creates dates in the standard yyyy-mm-dd format by default.
+    - A time within a day (“20:11:59 UTC")
+    - And a date-time. This is a date plus a time ("2018-03-31 18:15:48 UTC")
+    
+    Some useful functions:
+    
+    ```r
+    today() #To get the current date
+    now() #To get the current date-time
+    ymd("2021-01-20") #To convert a string into dates. It will return as a yyyy-mm-dd format
+    mdy("January 20th, 2021") #To convert a string into dates. It will return as a yyyy-mm-dd format
+    dmy("20-Jan-2021") #To convert a string into dates. It will return as a yyyy-mm-dd format
+    mdy_hm("01/20/2021 08:01") #To convert a string into datetime
+    	#> [1] "2021-01-20 08:01:00 UTC"
+    as_date() #To convert a date-time to a date.
+    ```
+    
+    ### DataFrames
+    
+    It’s a collection of columns containing data, similar to a spreadsheet or SQL table. Each column has a name that represents a variable and includes one observation per row. Data frames summarize data and organize it into a format that is easy to read and use. 
+    
+    ```r
+    data.frame() #To manually create a data frame
+    data.frame(x = c(1, 2, 3) , y = c(1.5, 5.5, 7.5)) #x and y are the columns
+    z <- data.frame(x = c(1, 2, 3) , y = c(1.5, 5.5, 7.5))
+    z[2,1] #Extract operator to extract a subset from a data frame.
+    	#[1] 2
+    ```
+    
+    - The data.frame() function takes vectors as input.
+    - When you use the extract operator [] on a data frame, it takes two arguments: the row(s) and column(s) you’d like to extract, separated by a comma.
+    
+    ### Files
+    
+    ```r
+    file.create() #To create a  blank file
+    file.create("new_text_file.txt") 
+    file.create("new_word_file.docx") 
+    file.create("new_csv_file.csv") 
+    file.copy("new_text_file.txt", "destination_folder") #To copy a file
+    unlink("some_.file.csv") #To delete R files
+    ```
+    
+    - If the file is successfully created when you run the function, R will return a value of TRUE. Otherwise, R will return a value of FALSE.
+    
+    ### Matrices
+    
+    A matrix is a two-dimensional collection of data elements. This means it has both rows and columns. Matrices can only contain a single data type.
+    
+    ```r
+    matrix(c(3:8), nrow = 2) #To create a matrix
+    #Output>
+         [,1] [,2] [,3]
+    [1,]    3    5    7
+    [2,]    4    6    8
+    matrix(c(3:8), ncol = 2)
+    #Output>
+         [,1] [,2]
+    [1,]    3    6
+    [2,]    4    7
+    [3,]    5    8
+    ```
+    
+    - Matrix() function has two main arguments:
+        - a vector
+        - atleast one matrix dimension. You can choose to specify the number of rows or the number of columns by using the code nrow = or ncol =.
+    
+    ### Operators
+    
+    An operator is a symbol that identifies the type of operation or calculation to be performed in a formula. There are different types of operators:
+    
+    - Assignment operators: Used to assign values to variables and vectors. “<-”
+    - Arithmetic operators: Used to complete math calculations. “+”, ”-”, “*”, “/”…
+    - Logical operators: Return a logical data type such as TRUE or FALSE. There are three primary types of logical operators (Zero is considered FALSE and non-zero numbers are taken as TRUE):
+        - AND (sometimes represented as & or && in R)
+        - OR (sometimes represented as | or || in R)
+        - NOT (!). !TRUE evaluates to FALSE, and !FALSE evaluates to TRUE.
+    - Conditional statement. A declaration that if a certain condition holds, then a certain event must take place.
+        - if()
+        - else if()
+        - else()
+    
+    ### Packages (R)
+    
+    Units of reproducible R code. By default, R included a set of packages called base R. Packages include:
+    
+    - Reusable R functions
+    - Documentation about the functions
+    - Sample datasets
+    - Tests for checking your code.
+    
+    We need to load our package first with a library command.
+    
+    You can find repositories on **[Bioconductor](http://bioconductor.org/), [R-Forge](https://r-forge.r-project.org/),  [rOpenSci](https://ropensci.org/)** or **[GitHub](https://github.com/),** but the most commonly used repository is the Comprehensive R Archive Network or [**CRAN**](https://cran.r-project.org/). CRAN stores code and documentation so that you can install packages into your own RStudio space. CRAN makes sure any R content open to the public meets the requires quality standards.
+    
+    The most useful package is tidyverse. Tidyverse is a system of packages in R with a common design philosophy for data manipulation, exploration, and visualization. The core tidyverse packages are (the first four are an essential part of the workflow for data analysts):
+    
+    - ggplot2. Create a variety of data viz by applying different visual properties to the data variables in R. Specifically plots.
+    - tidyr. Used for data cleaning to make tidy data.
+    - readr. Used for importing data. To accurately read a dataset you combine the function with a column specification, which describes how each column should be converted to the most appropriate data type. This isn’t usually necessary.
+    - dplyr. Offers a consistent set of functions that help you complete some common data manipulations tasks.
+    - tibble. Works with DataFrames
+    - purrr. Works with functions and vectors, helping make your code easier to write and more expressive
+    - stringr. Includes functions that make it easier to work with strings.
+    - forcats. Provides tools that solve common problems with factors.
+    
+    ![image.png](Google_Data_Analytics_images/image%203.png)
+    
+    Conflicts happen when packages have functions with the same names as other functions. Conflict notifications are just one type of message that can show up in the console.
+    
+    ### Pipes
+    
+    A tool in R that helps make your code more efficient and easier to read and understand. A tool in R for expressing a sequence of multiple operations, represented with “%>%”. It’s used to apply the output of one function into another function. This is described as nested.
+    
+    Nested in programming, describes code that performs a particular function and is contained within code that performs a broader function. A nested function is a function that is completely contained within another function.
+    
+    ![image.png](Google_Data_Analytics_images/image%204.png)
+    
+    Now we used a pipe:
+    
+    ![image.png](Google_Data_Analytics_images/image%205.png)
+    
+    Important things to keep in mind when using pipes:
+    
+    - Add the pipe operator at the end of each line of the piped operation except the last one.
+    - Check your code after you’ve programmed your pipe.
+    - Revisit piped operations to check for parts of your code to fix.
