@@ -295,6 +295,8 @@
     
     Third-party data: Data collected from outside sources who did not collect it directly. This data might have come from a number of different sources before you investigated it. 
     
+    Tidy data (R): A way of standardizing the organization of data within R.
+    
     Time-bound question: A question that specifies a timeframe to be studied
     
     Transferable skills: skills and qualities that can transfer from one job or industry to another.
@@ -4466,12 +4468,14 @@
     as_date() #To convert a date-time to a date.
     ```
     
-    ### DataFrames
+    ### Data Frames
     
     It’s a collection of columns containing data, similar to a spreadsheet or SQL table. Each column has a name that represents a variable and includes one observation per row. Data frames summarize data and organize it into a format that is easy to read and use. 
     
+    Data Frames and tibbles are the building blocks for analysis in R.
+    
     ```r
-    data.frame() #To manually create a data frame
+    data.frame() #To manually create a data frame.  
     data.frame(x = c(1, 2, 3) , y = c(1.5, 5.5, 7.5)) #x and y are the columns
     z <- data.frame(x = c(1, 2, 3) , y = c(1.5, 5.5, 7.5))
     z[2,1] #Extract operator to extract a subset from a data frame.
@@ -4480,6 +4484,40 @@
     
     - The data.frame() function takes vectors as input.
     - When you use the extract operator [] on a data frame, it takes two arguments: the row(s) and column(s) you’d like to extract, separated by a comma.
+    
+    There are many ways to create a Date Frame. One of the most common is to create individual vectors of data and then combine them into a data frame using the `data.frame()` function.
+    
+    ```r
+    #Example of Creating a DataFrame manually:
+    names <- c("Peter", "Jennifer", "Julie", "Alex") #First, create a vector of names
+    age <- c(15, 19, 21, 25) #Then create a vector of ages
+    people <- data.frame(names, age) #With these two vectors, you can create a new data frame called `people`.
+    ```
+    
+    There are some important things to know about DataFrames:
+    
+    - Columns should be named.
+    - Data stored can be many different types, like numeric, factor, or character.
+    - Each column should contain the same number of data items.
+    
+    ```r
+    str() #To see the information about the DataFrame structure
+    colnames() #To see the column names of the DataFrame
+    mutate(*DataFrame*, *NewColumnName=Values*) #To make changes to the DataFrame. Part of the dplyr package.
+    ```
+    
+    ### Tibbles
+    
+    Tibbles are like streamlined data frames that are automatically set to pull up only the first 10 rows of a dataset, and only as many columns as can fit on the screen. In the tidyverse, they:
+    
+    - Never change the data types of the inputs.
+    - Never change the names of your variables.
+    - Never create row names
+    - Make printing in R easier. They’re automatically set to pull up only the first 10 rows and as many columns as fit on screen.
+    
+    ```r
+    as_tibble() #To create a tibble from existing data
+    ```
     
     ### Files
     
@@ -4490,6 +4528,9 @@
     file.create("new_csv_file.csv") 
     file.copy("new_text_file.txt", "destination_folder") #To copy a file
     unlink("some_.file.csv") #To delete R files
+    
+    bookings_df <- read_csv("hotel_bookings.csv") #Example of the readr package.
+    new_df <- select(bookings_df, `adr`, adults) #To create a new DF using specific columns from another DF
     ```
     
     - If the file is successfully created when you run the function, R will return a value of TRUE. Otherwise, R will return a value of FALSE.
@@ -4520,8 +4561,11 @@
     
     An operator is a symbol that identifies the type of operation or calculation to be performed in a formula. There are different types of operators:
     
-    - Assignment operators: Used to assign values to variables and vectors. “<-”
-    - Arithmetic operators: Used to complete math calculations. “+”, ”-”, “*”, “/”…
+    - Assignment operators: Used to assign values to variables and vectors.
+        - “<-”, “<<-”, “=”. Leftwards assignment
+        - “->”, “->>”. Rightwards assignment
+    - Arithmetic operators: Used to complete math calculations. “+”, ”-”, “*”, “/”, “%%” (modulus, returns the remainder after division), “%/%” (integer, returns an integer value after division), “^” (Exponent).
+    - Relational operators: also known as comparators, allow you to compare values. “<”, “>”, “!=”, “==”,…
     - Logical operators: Return a logical data type such as TRUE or FALSE. There are three primary types of logical operators (Zero is considered FALSE and non-zero numbers are taken as TRUE):
         - AND (sometimes represented as & or && in R)
         - OR (sometimes represented as | or || in R)
@@ -4549,6 +4593,7 @@
     - ggplot2. Create a variety of data viz by applying different visual properties to the data variables in R. Specifically plots.
     - tidyr. Used for data cleaning to make tidy data.
     - readr. Used for importing data. To accurately read a dataset you combine the function with a column specification, which describes how each column should be converted to the most appropriate data type. This isn’t usually necessary.
+        - The readr package in R is a great tool for reading rectangular data. Rectangular data is data that fits nicely inside a rectangle of rows and columns, with each column referring to a single variable and each row referring to a single observation.
     - dplyr. Offers a consistent set of functions that help you complete some common data manipulations tasks.
     - tibble. Works with DataFrames
     - purrr. Works with functions and vectors, helping make your code easier to write and more expressive
@@ -4558,6 +4603,12 @@
     ![image.png](Google_Data_Analytics_images/image%203.png)
     
     Conflicts happen when packages have functions with the same names as other functions. Conflict notifications are just one type of message that can show up in the console.
+    
+    Another useful packages are:
+    
+    - “here”. Makes referencing files easier.
+    - “Skimr”. Simplify data cleaning tasks. Makes summarizing data really easy and let’s you skim through it more quickly.
+    - “Janitor”. Simplify data cleaning tasks. It has functions for cleaning data.
     
     ### Pipes
     
@@ -4576,3 +4627,109 @@
     - Add the pipe operator at the end of each line of the piped operation except the last one.
     - Check your code after you’ve programmed your pipe.
     - Revisit piped operations to check for parts of your code to fix.
+    
+    ### Exploring and Cleaning Data in R
+    
+    Cleaning functions help you preview and rename data so that it’s easier to work with.
+    
+    Consistent data structures like Data Frames make it easier to operate on an entire dataset. Tidy data refers to the principles that make data structures meaningful and easy to understand. The tidy data standards are:
+    
+    - Variables are organized into columns.
+    - Observations are organized into rows.
+    - Each value must have its own cell.
+    
+    ```r
+    data() #To load a specific dataset
+    ```
+    
+    Some of the most important packages to clean data are “head”, “skimr” and “Janitor”.
+    
+    - Functions to get summaries of our DataFrame:
+        - skim_without_charts(). Gives us a comprehensive summary of a dataset.
+        - glimpse(). Show us a summary of the data.
+        - head(). Get a preview of the column names and the first few rows of the dataset.
+        - select(). To specify certain columns, or to exclude columns we don’t need right now. It’s useful for pulling just a subset of variables from a large dataset.
+    - Functions to modify the dataset/DataFrame:
+        
+        ```r
+        #"penguins" is the name of our Dataset
+        penguins %>% rename(island_new=island)
+        rename_with(penguins, tolower) #Makes all column name lowercase
+        clean_names(penguins)
+        ```
+        
+        - rename(). Makes it easy to change column names.
+        - rename_with(). Can change column names to be more consistent. It can reformat column names to be upper or lower case.
+        - clean_names(). This ensure there is only characters, numbers, and underscores in the names.
+    
+    ### Organizing your data in R
+    
+    Organizational functions help you sort, filter, and summarize your data.
+    
+    All packages we’ll need here are part of the core tidyverse
+    
+    ```r
+    penguins %>% arrange(bill_length_mm) #Data sorted by bill_length_mm column in ascending order
+    penguins %>% arrange(-bill_length_mm) #Data sorted by bill_length_mm column in descending order
+    penguins 
+    	%>% group_by(island) #groups data
+    	%>% drop_na() #Addresses any missing values in our dataset.
+    	%>% summarize(mean_bill_length_mm = mean(bill_length_mm)) #provides the mean of the column
+    penguins %>% filter(species == "Adelie")
+    ```
+    
+    ![image.png](Google_Data_Analytics_images/image%206.png)
+    
+    ![image.png](Google_Data_Analytics_images/image%207.png)
+    
+    - arrange(). To choose which variable we want to sort by.
+    - group_by(). It’s usually combined with other functions.
+    - filter().
+    - summarize(). lets us get high level information about our data.
+    
+    ```r
+    penguins %>% arrange(*DF_name,* bill_length_mm) #Data sorted by bill_length_mm column in ascending order
+    penguins %>% arrange(*DF_name,* -bill_length_mm) #Data sorted by bill_length_mm column in descending order
+    penguins %>% arrange(desc(bill_length_mm)) #Data sorted by bill_length_mm column in descending order
+    penguins 
+    	%>% group_by(island) #groups data
+    	%>% drop_na() #Addresses any missing values in our dataset.
+    	%>% summarize(mean_bill_length_mm = mean(bill_length_mm)) #provides the mean of the column
+    penguins %>% filter(species == "Adelie")
+    ```
+    
+    When organizing or tidying your data using R, you might need to convert wide data to long data or long to wide. For that, we use    
+    
+    - Wide data has observations across several columns. Each column contains data from a different condition of the variable. We use `pivot_wider()` to have more columns and fewer rows.
+        
+        ![image.png](Google_Data_Analytics_images/image%208.png)
+        
+    - Long data has all the observations in a single column, and the variable conditions are placed into separate rows. We use `pivot_longer()` to have more rows and fewer columns.
+        
+        ![image.png](Google_Data_Analytics_images/image%209.png)
+        
+    
+    ### Transforming data in R
+    
+    Transformational functions help you separate and combine data, as well as create new variables.
+    
+    ```r
+    #"employee" is the name of our Data Frame.
+    separate(employee, name, into=c('first_name','last_name'), sep=' ')
+    unite(employee,'name', first_name,last_name, sep=' ')
+    ```
+    
+    - separate(). Splits one column into separate columns.
+    - unite(). Allows us to merge columns together. It does the opposite of separate().
+    - mutate(). Create new columns on our DataFrame.
+    
+    ### The bias function
+    
+    In R, we can actually quantify bias by comparing the actual outcome
+    of our data with the predicted outcome. There's a pretty complicated statistical explanation behind this. But with the bias function in R, we don't have to perform this calculation by hand. Basically the bias function finds the average amount that the actual outcomeis greater than the predicted outcome. It's included in the sim design package.
+    
+    If the model is unbiased, the outcome should be pretty close to zero. A high result means that your data might be biased. A good thing to know before you analyze it.
+    
+    ![image.png](Google_Data_Analytics_images/image%2010.png)
+    
+    You can also use the “sample()” function to find bias. This function allows you to take a random sample of elements from a data set.
