@@ -4,7 +4,7 @@
 
 - GLOSSARY
     
-    ##: it tells the server (BigQuery) that this is a description and not part of the code.
+    “##”: it tells the server (BigQuery) that this is a description and not part of the code.
     
     A/B testing: The process of testing two variations of the same web page to determine which page is more successful at attracting user traffic and generating revenue
     
@@ -4733,3 +4733,52 @@
     ![image.png](Google_Data_Analytics_images/image%2010.png)
     
     You can also use the “sample()” function to find bias. This function allows you to take a random sample of elements from a data set.
+
+    ### Visualizations in R
+    
+    Some of the most popular packages for visualizations are:
+    
+    - ggplot2
+    - Plotly
+    - Lattice
+    - RGL
+    - Dygraphs
+    - Leaflet
+    - Highcharter
+    - Patchwork
+    - gganimate
+    - ggridges
+    
+    We’ll use mainly ggplot2. The benefits of using this package are:
+    
+    - Create different types of plots
+    - Customize the look and feel of plots. You can change the colors, layout, and dimensions of your plots and add text elements.
+    - Create high quality visuals with just a little bit of code.
+    
+    The core concepts in ggplot2 are:
+    
+    - Aesthetics. A visual property of an object in your plot (position, color, shape, or size).
+    - Geoms. The geometric object used to represent your data (lines, points, bars, etc)
+    - Facets. Let you display smaller groups, or subsets, of your data.
+    - Labels and annotations. Let you customize your plot.
+    
+    To create a plot, follow the next steps:
+    
+    1. Start with the ggplot function and choose a dataset to work with
+    2. Add a geom_function to display your data
+    3. Map the variables you want to plot in the arguments of the aes() function
+    
+    ![image.png](Google_Data_Analytics_images/image%2011.png)
+    
+    ```sql
+    ggplot(data = penguins) + geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+    ggplot(data = penguins, mapping = aes(x = flipper_length_mm, y = body_mass_g)) +  geom_point()
+    ```
+    
+    - The ggplot() function creates a coordinate system that you can add layers to.
+    - Then, you add a “+” symbol to add a new layer to your plot. You complete your plot by adding one or more layers to ggplot().
+    - Next, you choose a geom by adding a geom function. The geom_point() function uses points to create scatterplots, the geom_bar function uses bars to create bar charts, and so on.
+    - Mapping in R means matching up a specific variable in your dataset with a specific aesthetic. Each geom function in ggplot2 takes a mapping argument. This defines how variables in your dataset are mapped to visual properties.
+    - The mapping argument is always paired with the aes() function.
+    - You can write the same section of code above using a different syntax with the mapping argument inside the ggplot() call
+    - ggplot [Cheat Sheet](https://ggplot2.tidyverse.org/)    
