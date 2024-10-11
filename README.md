@@ -34,6 +34,8 @@
     
     CASE statement: The CASE statement goes through one or more conditions and returns a value as soon as a condition is met.
     
+    Case study: A common way for employers to assess job skills and gain insight into how you approach common data related challenges.
+    
     Causation: Occurs when an action directly leads to an outcome. It is also called a cause-effect relationship.
     
     Cell reference: A cell or a range of cells in a worksheet typically used in formulas and functions.
@@ -155,6 +157,8 @@
     
     Header: The first row in a spreadsheet that labels the type of data in each column
     
+    HTML: The set of markups symbols or codes used to create a webpage
+    
     Hypothesis: The theory you’re trying to prove or disprove with data
     
     Hypothesis testing: is a way to see if a survey or experiment has meaningful results.
@@ -172,6 +176,8 @@
     LEFT: a function that gives you a set number of characters from the left side of a text string.
     
     LEN: a function that tells you the length of the text string by counting the number of characters it contains.
+    
+    Markdown: A syntax for formatting plain text files.
     
     MATCH: A function used to locate the position of a specific lookup value.
     
@@ -204,6 +210,8 @@
     Pivot Table: A pivot table is a data summarization tool that is used in data processing. Pivot tables are used to summarize, sort, re-organize, group, count, total, or average data stored in a database. It allows its users to transform columns into rows and rows into columns.
     
     Population: all possible data values in a certain data set.
+    
+    Portfolio: Collection of case studies that can be shared with potential employers.
     
     Primary key: references a column in which each value is unique
     
@@ -316,6 +324,8 @@
     Verification: a process to confirm that a data cleaning effort was well- executed and the resulting data is accurate and reliable.
     
     VLOOKUP (stands for vertical lookup): a function that searches for a certain value in a column to return a corresponding piece of information.
+    
+    YAML: A language for data that translates it so it’s readable
     
 - 1 - FOUNDATIONS
     
@@ -4595,6 +4605,14 @@
     - readr. Used for importing data. To accurately read a dataset you combine the function with a column specification, which describes how each column should be converted to the most appropriate data type. This isn’t usually necessary.
         - The readr package in R is a great tool for reading rectangular data. Rectangular data is data that fits nicely inside a rectangle of rows and columns, with each column referring to a single variable and each row referring to a single observation.
     - dplyr. Offers a consistent set of functions that help you complete some common data manipulations tasks.
+        
+        ```r
+        data %>%
+            filter(variable1 == "DS") %>%  
+            ggplot(aes(x = weight, y = variable2, colour = variable1)) +  
+            geom_point(alpha = 0.3,  position = position_jitter()) + stat_smooth(method = "lm")
+        ```
+        
     - tibble. Works with DataFrames
     - purrr. Works with functions and vectors, helping make your code easier to write and more expressive
     - stringr. Includes functions that make it easier to work with strings.
@@ -4733,7 +4751,7 @@
     ![image.png](Google_Data_Analytics_images/image%2010.png)
     
     You can also use the “sample()” function to find bias. This function allows you to take a random sample of elements from a data set.
-
+    
     ### Visualizations in R
     
     Some of the most popular packages for visualizations are:
@@ -4770,8 +4788,8 @@
     
     ![image.png](Google_Data_Analytics_images/image%2011.png)
     
-    ```sql
-    ggplot(data = penguins) + geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+    ```r
+    ggplot(data = penguins) + geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g, shape=species, color=species, size=species))
     ggplot(data = penguins, mapping = aes(x = flipper_length_mm, y = body_mass_g)) +  geom_point()
     ```
     
@@ -4779,6 +4797,187 @@
     - Then, you add a “+” symbol to add a new layer to your plot. You complete your plot by adding one or more layers to ggplot().
     - Next, you choose a geom by adding a geom function. The geom_point() function uses points to create scatterplots, the geom_bar function uses bars to create bar charts, and so on.
     - Mapping in R means matching up a specific variable in your dataset with a specific aesthetic. Each geom function in ggplot2 takes a mapping argument. This defines how variables in your dataset are mapped to visual properties.
-    - The mapping argument is always paired with the aes() function.
+    - The mapping argument is always paired with the aes() function. This two tells R what aesthetics to use for the plot. You use the “aes” function to define the mapping between your data and your plot.
+    - We can map more than one aesthetic to the same variable. Basic aesthetics for points are:
+        - X
+        - Y
+        - Color. Change the color of all of the points on your plot, or the color of each data group.
+        - Shape. Change the shape of the points on your plot by data group.
+        - Size. Change the size of the points on your plot by data group.
+        - Alpha. is a good option whe you’ve got a dense plot with lots of data points. This will make some points more transparent or see-through than others.
     - You can write the same section of code above using a different syntax with the mapping argument inside the ggplot() call
-    - ggplot [Cheat Sheet](https://ggplot2.tidyverse.org/)    
+    - To change the appearance of our overall plot without regard to specific variables, we need to write the code outside of the aes function and quotation marks for the value, because all the code inside of the aes function tells R how to map aesthetics to variables.
+        
+        ```r
+        ggplot(data = penguins) + geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g),color="purple")
+        ```
+        
+    - ggplot [Cheat Sheet](https://ggplot2.tidyverse.org/)
+    
+    ### Geoms
+    
+    We use Geom functions for some graphics.
+    
+    ```r
+    ggplot(data=penguins)+geom_smooth(mapping=aes(x=flipper_length_mm,y=body_mass_g))+geom_point(mapping=aes(x=flipper_length_mm,y=body_mass_g))
+    ggplot(data=penguins)+geom_smooth(mapping=aes(x=flipper_length_mm,y=body_mass_g))+geom_jitter(mapping=aes(x=flipper_length_mm,y=body_mass_g))
+    ggplot(data=diamonds)+geom_bar(mapping=aes(x=cut,fill=cut))
+    ```
+    
+    - geom_point. Uses points to create scatter plots
+    - geom_bar. Uses bars to create bar charts. We don’t need a variable for the y-axis. R automatically counts how many times each X value appears in the data and then shows the counts on the y-axis. The default is to count rows.
+        - The “color” aesthetic adds color to the outline of each bar.
+        - The “fill” aesthetic adds color to the inside of each bar. If we map it to a different variable to X, it will display a stacked bar chart.
+    - geom_line. Uses lines to create a line chart.
+    - geom_smooth. It’s useful for showing general trends in our data. It adds a smoothing line as another layer to a plot. There are 2 types of smoothing:
+        - Loess: best for smoothing plots with less than 1000 points.
+        - Gam: o generalized additive model smoothing, is useful for smoothing plots with a large number of points.
+    - geom_jitter. It creates a scatter plot and then adds a small amount of random noise to each point in the plot. Jittering helps us deal with over-plotting, which happens when the data points in a plot overlap with each other.
+    
+    Some characteristics are:
+    
+    - We can use two geoms in the same plot, adding a + symbol after the first geom function.
+    
+    ### Facets
+    
+    A facet is a side or section of the object
+    
+    - It shows different sides of your data, by placing each subset on its own plot.
+    - Faceting can help you discover new patterns in your data, and focus on relationships between different variables.
+    - tilde operator (~) helps to define that dependent variable depends on the independent variable(s) that are on the right-hand side of tilde operator.
+    
+    There are 2 functions for faceting:
+    
+    ```r
+    #the independent variable at the end of the syntax line would be species, and the dependent variable in this case is facet_wrap. 
+    ggplot(data=penguins)+geom_point(mapping=aes(x=flipper_length_mm,y=body_mass_g,color=species))+facet_wrap(~species)
+    #the independent variable at the end of the syntax line would be species, and the dependent variable in this case is sex.
+    ggplot(data=penguins)+geom_point(mapping=aes(x=flipper_length_mm,y=body_mass_g,color=species))+facet_grid(sex~species)
+    ```
+    
+    - facet_wrap(). Facet your plot by a single variable.
+    - facet_grid(). Facet your plot with two variables. It’ll split the plot into facets vertically by the values of the first variable, and horizontally bt the facets of the second variable.
+    
+    ### Annotate and Label
+    
+    Label function is useful for adding informative labels to a plot such as
+    
+    - titles
+    
+    ```r
+    ggplot(data=penguins)+
+    	geom_point(mapping=aes(x=flipper_length_mm,y=body_mass_g,color=species))+
+    		labs(title="Palmer Penguins: Body Mass vs. Flipper Length")
+    ```
+    
+    - Subtitles
+    
+    ```r
+    ggplot(data=penguins)+
+    	geom_point(mapping=aes(x=flipper_length_mm,y=body_mass_g,color=species))+
+    		labs(title="Palmer Penguins: Body Mass vs. Flipper Length", subtitle="Sample of Three Penguin Species")
+    ```
+    
+    - Captions. Let us show the source of our data
+    
+    ```r
+    ggplot(data=penguins)+
+    	geom_point(mapping=aes(x=flipper_length_mm,y=body_mass_g,color=species))+
+    		labs(title="Palmer Penguins: Body Mass vs. Flipper Length", subtitle="Sample of Three Penguin Species", caption="Data collected by Dr.Kristen Gorman")
+    ```
+    
+    Annotate is to add notes to a document or diagram to explain or comment upon it. Adding annotation to your plot can help explain the plot’s purpose, or highlight important data. 
+    
+    ```r
+    ggplot(data=penguins)+
+    	geom_point(mapping=aes(x=flipper_length_mm,y=body_mass_g,color=species))+
+    		labs(title="Palmer Penguins: Body Mass vs. Flipper Length", subtitle="Sample of Three Penguin Species", caption="Data collected by Dr.Kristen Gorman")+
+    		annotate("text",x=220,y=3500,label="The Gentoos are the largest")
+    ```
+    
+    - You can change the color, the font, angle or the size of the text
+    
+    ```r
+    ggplot(data=penguins)+
+    	geom_point(mapping=aes(x=flipper_length_mm,y=body_mass_g,color=species))+
+    		labs(title="Palmer Penguins: Body Mass vs. Flipper Length", subtitle="Sample of Three Penguin Species", caption="Data collected by Dr.Kristen Gorman")+
+    		annotate("text",x=220,y=3500,label="The Gentoos are the largest",color="purple",fontface="bold", size=4.5,angle=45)
+    ```
+    
+    ### Saving your visualizations
+    
+    You will use the Export option on the plots tab, or the ggsave() function, provided by the ggplot2 package. 
+    
+    When you make a plot in R, it has to be “sent” to a specific graphics device. To save images without using ggsave(), you can open an R graphics device like **png()** or **pdf()**; these will allow you to save your plot as a .png or .pdf file. You can also choose to print the plot and then close the device using **dev.off()**.
+    
+    ![image.png](Google_Data_Analytics_images/image%2012.png)
+    
+    ggsave() function defaults to saving the last plot that you displayed, and use the size of the current graphics device.
+    
+    ```r
+    ggsave("Three Penguin Species.png")
+    ```
+    
+    ## DOCUMENTATION AND REPORTS IN R
+    
+    ### R Makrdown
+    
+    It’s a file format for making dynamic documents with R. It lets you create a record of your analysis and conclusions in a document.
+    
+    Besides text, R Markdown also includes an interactive option called an R notebook, that lets users run your code and show the graphs and charts that visualize the code.
+    
+    Any Markdown document can be used as a notebook. You can create:
+    
+    - HTML, PDF, and Word documents
+    - Slite presentation
+    - Dashboard
+    
+    Other notebook options are:
+    
+    - Jupyter
+    - Kaggle
+    - Google Colab
+    
+    To install the Markdown package:
+    
+    ```r
+    install.packages("rmarkdown")
+    ```
+    
+    - We will use the HTML default mode
+    - Click on “Knit” to produce a report containing all text, code and results converted to  HTML, PDF or Word file.
+    
+    There are two shortcuts to adding code. On your keyboard, you can press **Ctrl** + **Alt** + **I** (PC) or **Cmd** + **Option** + **I** (Mac). Or you can click the **Add Chunk** command in the editor toolbar:
+    
+    ![image.png](Google_Data_Analytics_images/image%2013.png)
+    
+    A code chunk is code added in an .Rmd file.
+    
+    If you need to create a certain type of document over and over, or you want to customize the appearance of your final report, you can create a template.
+    
+- 8- CAPSTONE PROJECT
+    
+    What’s important here is to show off your thought process so that hte interviewers can understand how you approach the problem.
+    
+    Things to keep in mind in your Portfolio:
+    
+    - Make sure your case study answers the question being asked
+    - Make sure that you’re communicating the steps you’ve taken and the assumptions you’ve made.
+    - The best portfolios are personal, unique, and simple
+    - Make sure that your portfolio is relevant and presentable
+    
+    ### What to include in your portfolio
+    
+    - Biography. Write a concise and clear introduction of yourself. The goal is to capture your audience’s interest and compel them to want to meet you to learn more.
+    - Contact page.
+    - Resume.
+    - Accomplishments.
+    - An image of you (optional).
+    
+    ### What to include in a case study
+    
+    - Introduction. State the purpose of the case study. This includes what the scenario is and an explanation on how it relates to a real-world obstacle.
+    - Problems. You need to identify what the major problems are, explain how you have analyzed the problem, and present any facts you are using to support your findings.
+    - Solutions. Outline a solution that would alleviate the problem and have a few alternatives in mind to show that you have given the case study considerable thought. Don’t forget to include pros and cons for each solution.
+    - Conclusion. End your presentation by summarizing key takeaways of all of the problem-solving you conducted, highlighting what you have learned from this.
+    - Next steps. Choose the best solution and propose recommendations for the client or business to take. Explain why you made your choice and how this will affect the scenario in a positive way. Be specific and include what needs to be done, who should enforce it, and when.
