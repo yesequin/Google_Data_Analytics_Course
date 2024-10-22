@@ -4981,3 +4981,18 @@
     - Solutions. Outline a solution that would alleviate the problem and have a few alternatives in mind to show that you have given the case study considerable thought. Don’t forget to include pros and cons for each solution.
     - Conclusion. End your presentation by summarizing key takeaways of all of the problem-solving you conducted, highlighting what you have learned from this.
     - Next steps. Choose the best solution and propose recommendations for the client or business to take. Explain why you made your choice and how this will affect the scenario in a positive way. Be specific and include what needs to be done, who should enforce it, and when.
+
+    ## CASE STUDY 1: HOW DOES A BIKE-SHARE NAVIGATE SPEEDY SUCCESS?
+
+    ### Roadmap
+
+    1. **Ask.** How do annual members and casual riders use Cyclistic bikes defferently?         
+        | Key Tasks | Deliverable |
+        | --- | --- |
+        | Identify the business task | A clear statement of the business task |
+        | Consider key Stakehorlders | A description of all data sources used |
+        |  | Documentation of any cleaning or manipulation of data |
+        |  | A summary of your analysis |
+        |  | Supporting visualizations and key findings |
+        |  | Your top three recommendations based on your analysis |
+    2. **Prepare.**
