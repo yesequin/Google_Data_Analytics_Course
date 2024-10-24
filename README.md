@@ -5001,7 +5001,7 @@
     | --- | --- | --- |
     | What is the problem you are trying to solve? |  | Identify the business task |
     | How can your insights drive business decisions? |  | Consider key Stakehorlders |
-    1. **Prepare.** We’ll download the previous 12 months of Cyclistic trip data [here](https://divvy-tripdata.s3.amazonaws.com/index.html) (From January to December, 2023).
+    2. **Prepare.** We’ll download the previous 12 months of Cyclistic trip data [here](https://divvy-tripdata.s3.amazonaws.com/index.html) (From January to December, 2023).
 
     | Guiding questions | Answers | Key Tasks |
     | --- | --- | --- |
@@ -5012,7 +5012,7 @@
     | How did you verify the data’s integrity? |  |  |
     | How does it help you answer your question? |  |  |
     | Are there any problems with the data? |  |  |
-    1. **Process**.
+    3. **Process**.
 
     | Guiding questions | Answers | Key Tasks |
     | --- | --- | --- |
@@ -5024,7 +5024,7 @@
 
     *** Threre are some useful steps to follow on the guide for this ***
 
-    1. **Analyze**.
+    4. **Analyze**.
 
     | Guiding questions | Answers | Key Tasks |
     | --- | --- | --- |
@@ -5036,7 +5036,7 @@
 
     *** Threre are some useful steps to follow on the guide for this ***
 
-    1. **Share**. 
+    5. **Share**. 
 
     | Guiding questions | Answers | Key Tasks |
     | --- | --- | --- |
@@ -5049,7 +5049,7 @@
 
     *** Threre are some useful steps to follow on the guide for this ***
 
-    1. **Act**.
+    6. **Act**.
 
     | Guiding questions | Answers | Key Tasks |
     | --- | --- | --- |
