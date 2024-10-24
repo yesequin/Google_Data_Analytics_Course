@@ -4984,16 +4984,78 @@
 
     ## CASE STUDY 1: HOW DOES A BIKE-SHARE NAVIGATE SPEEDY SUCCESS?
 
+    ### Deriverable
+
+    - A clear statement of the business task (**ASK**)
+    - A description of all data sources used (**PREPARE**)
+    - Documentation of any cleaning or manipulation of data (**PROCESS**)
+    - A summary of your analysis (**ANALYZE**)
+    - Supporting visualizations and key findings (**SHARE**)
+    - Your top three recommendations based on your analysis (**ACT**)
+
     ### Roadmap
 
-    1. **Ask.** How do annual members and casual riders use Cyclistic bikes defferently?         
-        | Key Tasks | Deliverable |
-        | --- | --- |
-        | Identify the business task | A clear statement of the business task |
-        | Consider key Stakehorlders | A description of all data sources used |
-        |  | Documentation of any cleaning or manipulation of data |
-        |  | A summary of your analysis |
-        |  | Supporting visualizations and key findings |
-        |  | Your top three recommendations based on your analysis |
-    
-    2. **Prepare.**
+    1. **Ask.** How do annual members and casual riders use Cyclistic bikes defferently? 
+
+    | Guiding questions | Answers | Key Tasks |
+    | --- | --- | --- |
+    | What is the problem you are trying to solve? |  | Identify the business task |
+    | How can your insights drive business decisions? |  | Consider key Stakehorlders |
+    1. **Prepare.** We’ll download the previous 12 months of Cyclistic trip data [here](https://divvy-tripdata.s3.amazonaws.com/index.html) (From January to December, 2023).
+
+    | Guiding questions | Answers | Key Tasks |
+    | --- | --- | --- |
+    | Where is your data located? |  | Download data and store it appropriately |
+    | How is the data organizes? |  | Identify how it’s organized |
+    | Are there issues with bias or credibility in this data? |  | Sort and filter the data |
+    | How are you addressing licensing, privacy, security, and accessibility? |  | Determine the credibility of the data |
+    | How did you verify the data’s integrity? |  |  |
+    | How does it help you answer your question? |  |  |
+    | Are there any problems with the data? |  |  |
+    1. **Process**.
+
+    | Guiding questions | Answers | Key Tasks |
+    | --- | --- | --- |
+    | What tools are you choosing and why? |  | Check the data for errors |
+    | Have you ensured your data’s integrity? |  | Choose your tools |
+    | What steps have you taken to ensure that your data is clean? |  | Transform the data so you can work with it effectively |
+    | How can you verify that your data is clean and ready to analyze? |  | Document the cleaning process |
+    | Have you documented your cleaning process so you can review and share those results? |  |  |
+
+    *** Threre are some useful steps to follow on the guide for this ***
+
+    1. **Analyze**.
+
+    | Guiding questions | Answers | Key Tasks |
+    | --- | --- | --- |
+    | How should you organize your data to perform analysis on it? |  | Aggegate your data so it’s useful and accessible |
+    | Has your data been properly formatted? |  | Organize and format your data |
+    | What surprises did you discover in the data? |  | Perform calculations |
+    | What trends or relationships did you find in the data? |  | Identify trends and relationships |
+    | How will these insights help answer your business quesitons? |  |  |
+
+    *** Threre are some useful steps to follow on the guide for this ***
+
+    1. **Share**. 
+
+    | Guiding questions | Answers | Key Tasks |
+    | --- | --- | --- |
+    | Were you able to answer the question of how anual members and casual riders use Cyclistic bikes differently? |  | Determine the best way to share your findings |
+    | What story does your data tell? |  | Create effective data visualizations |
+    | How do your findings relate to your original question? |  | Present your findings |
+    | Who is your audience? What is the best way to communicate with them? |  | Ensure your work is accessible |
+    | Can data visualization help you share your findings? |  |  |
+    | Is your presentation accessible to your audience? |  |  |
+
+    *** Threre are some useful steps to follow on the guide for this ***
+
+    1. **Act**.
+
+    | Guiding questions | Answers | Key Tasks |
+    | --- | --- | --- |
+    | What is your final conclusion based on your analysis? |  | Create your portfolio |
+    | How could your team and business apply your insights? |  | Add your case study |
+    | What next steps would you or your stakeholders take based on your findings? |  | Practice presenting your case study to a friend or family member |
+    | Is there additional data you could use to expand on your finidings? |  |  |
+
+    *** Threre are some useful steps to follow on the guide for this ***
