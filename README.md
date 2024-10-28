@@ -5,326 +5,331 @@
 - GLOSSARY
     
     “##”: it tells the server (BigQuery) that this is a description and not part of the code.
-    
+
     A/B testing: The process of testing two variations of the same web page to determine which page is more successful at attracting user traffic and generating revenue
-    
+
     Absolute reference: a reference that is locked so that rows and columns won't change when copied.
-    
+
     Aggregation: collecting or gathering many separate pieces into a whole.
-    
+
     Alternative text: Provides a textual alternative to non-text content.
-    
+
     Analysis: the process used to make sense of the data collected.
-    
+
     Analytical skills: Qualities and characteristics associated with using facts to solve problems
     Analytical thinking: The process of identifying and defining a problem, then solving it by using data in an organized, step-by-step manner
-    
+
     Annotation: Text that briefly explains data or helps focus the audience on a particular aspect of the data in a visualization.
-    
+
     Array: A collection of values in cells
-    
+
     Big data: Large, complex datasets typically involving long periods of time, which enable data
     analysts to address far-reaching business problems
-    
+
     Borders: Lines that can be added around two or more cells on a spreadsheet
-    
+
     Business task: A business task is the question or problem data analysis answers for business.
-    
+
     Calculated field: A new field within a pivot table that carries out certain calculations based on the values of other fields.
-    
+
     CASE statement: The CASE statement goes through one or more conditions and returns a value as soon as a condition is met.
-    
+
     Case study: A common way for employers to assess job skills and gain insight into how you approach common data related challenges.
-    
+
     Causation: Occurs when an action directly leads to an outcome. It is also called a cause-effect relationship.
-    
+
     Cell reference: A cell or a range of cells in a worksheet typically used in formulas and functions.
-    
+
     Changelog: a file containing a chronologically ordered list of modifications made to a project.
-    
+
     Clean data: data that's complete, correct, and relevant to the problem you're trying to solve.
-    
+
     Coding: writing instructions to the compter in the syntax of a specific programming language.
-    
+
     Compatibility: how well two or more datasets are able to work together.
-    
+
     Computer programming: Giving instructions to a computer to perform an action or set of actions.
-    
+
     CONCAT: allows you to join multiple text strings from multiple sources
-    
+
     CONCATENATE: a function that joins multiple text strings into a single string.
-    
+
     Conditional formatting: a spreadsheet tool that changes how cells appear when values meet specific conditions.
-    
+
     Confidence interval: The range of possible values that the population’s result would be at the confidence level of the study. This range is the sample result +/- the margin of error.
-    
+
     Confidence level: How confident you are in the survey results. Confidence level is targeted before you start your study because it will affect how big your margin of error is at the end of your study.
-    
+
     Context: The condition in which something exists or happens
-    
+
     Correlation: in statistics is the measure of the degree to which two variables move in relationship to each other.
-    
+
     COUNTA: counts the total number of values within a specified range.
-    
+
     COUNTIF: a function that returns the number of cells that match a specified value.
-    
+
     CSV: Comma-separated values. A CSV file saves data in a table format
-    
+
     Dashboard: A tool that monitors live, incoming data. A tool that organizes information from multiple datasets into one central location for tracking, analysis, and simple visualization.
-    
+
     Dashboard filter: A tool for showing only the data that meets a specific criteria while hiding the rest.
-    
+
     Data: A collection of facts
-    
+
     Data aggregation: the process of gathering data from multiple sources in order to combine it into a single summarized collection.
+    
     Data analysis: The collection, transformation, and organization of data in order to draw conclusions, make predictions, and drive informed decision-making
+
     Data analyst: Someone who collects, transforms, and organizes data in order to drive informed decision-making
+
     Data analytics: The science of data
-    
+
     Data blending: A Tableau method that combines data from multiple data sources
-    
+
     Data composition: combining the individual parts in a visualization and displaying them together as a whole.
-    
+
     Data elements: pieces of information, such as people's names, account numbers, and addresses
-    
+
     Data integrity: is the accuracy, completeness, consistency, and trustworthiness of data throughout its lifecycle.
-    
+
     Data model: A model that is used for organizing data elements and how they relate to one another.
-    
+
     Database: A database is a collection of data stored in a computer system. When you maintain a database of customer information, ensuring data integrity, credibility, and privacy are all important concerns.
     Data-driven decision-making: Using facts to guide business strategy. Data-driven decision-making is when facts that have been discovered through data analysis are used to guide business strategy.
     Data ecosystem: The various elements that interact with one another in order to produce,
     manage, store, organize, analyze, and share data
-    
+
     Data engineers: transform data into a useful format for analysis and give it a reliable infrastructure.
-    
+
     Data mapping: the process of matching fields from one database to another.
-    
+
     Data merging: the process of combining two or more datasets into a single dataset.
     Data science: A field of study that uses raw data to create new ways of modeling and understanding the unknown
     Dataset: A collection of data that can be manipulated or analyzed as one unit
-    
+
     Data validation: a tool for checking the accuracy and quality of data before adding or importing it.
-    
+
     Data validation process: Checking and rechecking the quality of your data so that it is complete, accurate, secure, and consistent.
-    
+
     Data visualization: The graphic representation and presentation of data.
-    
+
     Data warehousing specialist: develop processes and procedures to effectively store and organize data.
-    
+
     Delimiter: a character that indicates the beginning or end of a data item.
-    
+
     Deliverables:  are items or tasks you will complete before you can finish the project.
-    
+
     Design thinking: a process used to solve complex problems in a user-centric way.
-    
+
     Dirty data: data that's incomplete, incorrect, or irrelevant to the problem you're trying to solve.
-    
+
     Documentation: the process of tracking changes, additions, deletions, and errors involved in your data cleaning effort.
-    
+
+    Elevator pitch: A short statement describing an idea or concept
+
     Engagement: Capturing and holding someone’s interest and attention during a data presentation
-    
+
     EXTRACT command (SQL): Lets us pull one part of a given data to use
-    
+
     Historical data: Data that already exist. We use this kind of data when you need an answer immediately.
-    
+
     Fairness: Fairness means ensuring that your analysis doesn't create or reinforce bias. In other words, as a data analyst, you want to help create systems that are fair and inclusive to everyone. Fairness also means crafting questions that make sense to everyone.
-    
+
     Field: a single piece of information from a row or column of a spreadsheet.
-    
+
     Field length: a tool for determining how many characters can be keyed into a field.
-    
+
     Filtering: showing only the data that meets a specific criteria while hiding the rest.
-    
+
     Find and replace: a tool that looks for a specified search term in a spreadsheet and allows you to replace it with something else.
-    
+
     First-party data: Data collected by an individual or group using their own resources. It is typically the preferred method because you know exactly where it came from.
-    
+
     Float: a number that contains a decimal
-    
+
     Foreign key: a field within a table that is a primary key in another table.
-    
+
     Formula: A set of instructions used to perform a calculation using the data in a spreadsheet
-    
+
     Framework: The context a presentation needs to create logical connections that tie back to the business task and metrics
     Function: A preset command that automatically performs a specified process or task using the data in a spreadsheet
-    
+
     Function (R): A body of reusable code used to perform specific tasks in R
-    
+
     Gap analysis: A method for examining and evaluating the current state of a process in order to identify opportunities for improvement in the future
-    
+
     HAVING statement: allows you to add a filter to your query instead of the underlying table when you're working with aggregate functions.
-    
+
     Header: The first row in a spreadsheet that labels the type of data in each column
-    
+
     HTML: The set of markups symbols or codes used to create a webpage
-    
+
     Hypothesis: The theory you’re trying to prove or disprove with data
-    
+
     Hypothesis testing: is a way to see if a survey or experiment has meaningful results.
-    
+
     Integrated Development Enviroment (IDE): A software application that brings together all the tools you may want to use in a single place.
-    
+
     Interoperability: the ability of data systems and services to openly connect and share data.
-    
+
     Issue: An issue is a topic or subject to investigate.
-    
+
     JOIN: a SQL clause that's used to combine rows from two or more tables based on a related column.
-    
+
     Leading question: A question that steers people toward a certain response
-    
+
     LEFT: a function that gives you a set number of characters from the left side of a text string.
-    
+
     LEN: a function that tells you the length of the text string by counting the number of characters it contains.
-    
+
     Markdown: A syntax for formatting plain text files.
-    
+
     MATCH: A function used to locate the position of a specific lookup value.
-    
+
     Margin of error: Since a sample is used to represent a population, the sample’s results are expected to differ from what the result would have been if you had surveyed the entire population. This difference is called the margin of error. The smaller the margin of error, the closer the results of the sample are to what the result would have been if you had surveyed the entire population.
-    
+
     Mental model: your thought process and the way you approach a problem
-    
+
     Merge: an agreement that unites two organizations into a single new one.
-    
+
     Metadata: is data about data.
-    
+
     Metric goal: A metric goal is a measurable goal set by a company and evaluated using metrics. And just like there are a lot of possible metrics, there are lots of possible goals too.
-    
+
     MID: a function that gives you a segment from the middle of a text string.
-    
+
     Milestones: Milestones are significant tasks you will confirm along your timeline to help everyone know the project is on track.
-    
+
     Modulo: An operator (%) that returns the remainder when one number is divided by another
-    
+
     Null: an indication that a value does not exist in a data set. It is not the same as a zero.
-    
+
     Open source: Code that is freely available and may be modified and shared by the people who use it.
-    
+
     Openness (or open data): Free access, usage, and sharing of data.
-    
+
     Operator: A symbol that names the type of operation or calculation to be performed in a formula.
-    
+
     Outliers: are data points that are very different from similarly collected data and might not be reliable values.
-    
+
     Pivot Table: A pivot table is a data summarization tool that is used in data processing. Pivot tables are used to summarize, sort, re-organize, group, count, total, or average data stored in a database. It allows its users to transform columns into rows and rows into columns.
-    
+
     Population: all possible data values in a certain data set.
-    
+
     Portfolio: Collection of case studies that can be shared with potential employers.
-    
+
     Primary key: references a column in which each value is unique
-    
+
     Problem: a problem is an obstacle or complication that needs to be worked out.
-    
+
     Problem domain: the specific area of analysis that encompasses every activity affecting or affected by the problem.
-    
+
     Problem types: The various problems that data analysts encounter, including categorizing things, discovering connections, finding patterns, identifying themes, making predictions, and spotting something unusual
-    
+
     Professional relationship building: Building relationships by meeting people both in person and online (Refer to Networking)
-    
+
     Profit margin: a percentage that indicates how many cents of profit have been generated for each dollar of sale.
-    
+
     Programming languages: The words and symbols we use to write instructions for computers to follow
-    
+
     Quartile: A quartile divides data points into four equal parts or quarters.
-    
+
     Query language: A computer programming language used to communicate with a database
-    
+
     Question: A question is designed to discover information
-    
+
     R: A programming language frequently used for statistical anaysis, visualization, and other data analysis.
-    
+
     Random sampling: a way of selecting a sample from a population so that every possible type of the sample has an equal chance of being chosen.
-    
+
     Reframing: Restating a problem or challenge, then redirecting it toward a potential resolution
-    
+
     Relational database: a database that contains a series of tables that can be connected to form relationships.
-    
+
     Remove duplicates: A tool that automatically searches for and eliminates duplicate entries from a spreadsheet.
-    
+
     Reports: Reports notify everyone as you finalize deliverables and meet milestones.
-    
+
     Revenue: The total amount of income generated by the sale of goods or services
-    
+
     RIGHT: a function that gives you a set number of characters from the right side of a text string.
-    
+
     Root cause: The reason why a problem occurs
-    
+
     Sample: a part of a population that is representative of the population.
-    
+
     Sampling bias: is when a sample isn’t representative of the population as a whole. This means some members of the population are being overrepresented or underrepresented.
-    
+
     Schema: a way of describing how something is organized.
-    
+
     Second-party data: data collected by a group directly from its audience and then sold.
-    
+
     Syntax: a predetermined structure that includes all required information and its proper placement.
-    
+
     SMART methodology: A tool for determining a question’s effectiveness based on whether it is
     specific, measurable, action-oriented, relevant, and time-bound
-    
+
     Soft skills: non-technical traits and behaviors that relate to how you work.
-    
+
     Sorting: arranging data into a meaningful order to make it easier to understand, analyze, and visualize.
-    
+
     Sort sheet: All of the data in a spreadsheet is sorted by the ranking of a specific sorted column - data across rows is kept together.
-    
+
     Sort range: Nothing else on the spreadsheet is rearranged besides the specified cells in a column.
-    
+
     Spotlighting: Scanning through data to quickly identify the most important insights.
-    
+
     Split: a tool that divides a text string around the specified character and puts each fragment into a new and separate cell.
-    
+
     Spreadsheet: A digital worksheet
-    
+
     Statistical power: the probability of getting meaningful results from a test.
-    
+
     Statistical significance: The determination of whether your result could be due to random chance or not. The greater the significance, the less due to chance.
-    
+
     Stakeholders: People who have invested time and resources into a project and are interested in the outcome.
-    
+
     Structured Query Language: A computer programming language used to communicate with a
     database
     Structured thinking: The process of recognizing the current problem or situation, organizing
     available information, revealing gaps and opportunities, and identifying options
-    
+
     Subquery: is a SQL query that is nested inside of a larger query.
-    
+
     SUMPRODUCT: a function that multiplies arrays and returns the sum of those products.
-    
+
     Tableau: A business intelligence and analytics platform that helps people see, understand, and make decisions with data.
-    
+
     Technical mindset: The ability to break things down into smaller steps or pieces and work with them in an orderly and logical way
-    
+
     Temporary table: a database table that is created and exists temporarily on a database server
-    
+
     Text string: a group of characters within a cell, most often composed of letters, numbers or both.
-    
+
     Third-party data: Data collected from outside sources who did not collect it directly. This data might have come from a number of different sources before you investigated it. 
-    
+
     Tidy data (R): A way of standardizing the organization of data within R.
-    
+
     Time-bound question: A question that specifies a timeframe to be studied
-    
+
     Transferable skills: skills and qualities that can transfer from one job or industry to another.
-    
+
     TRIM: a function that removes leading, trailing, and repeated spaces in data.
-    
+
     Turnover rate: the rate at which employees leave a company.
-    
+
     Typecasting: Converting data from one type to another.
-    
+
     Underscores: Lines used to underline words and connect text characters.
-    
+
     Unfair question: A question that makes assumptions or is difficult to answer honestly
-    
+
     VALUE: A function that converts a text string that represents a  number to a numerical value.
-    
+
     Verification: a process to confirm that a data cleaning effort was well- executed and the resulting data is accurate and reliable.
-    
+
     VLOOKUP (stands for vertical lookup): a function that searches for a certain value in a column to return a corresponding piece of information.
-    
+
     YAML: A language for data that translates it so it’s readable
     
 - 1 - FOUNDATIONS
@@ -4983,26 +4988,26 @@
     - Next steps. Choose the best solution and propose recommendations for the client or business to take. Explain why you made your choice and how this will affect the scenario in a positive way. Be specific and include what needs to be done, who should enforce it, and when.
 
     ## CASE STUDY 1: HOW DOES A BIKE-SHARE NAVIGATE SPEEDY SUCCESS?
-
-    ### Deriverable
-
+    
+    ### Deliverable
+    
     - A clear statement of the business task (**ASK**)
     - A description of all data sources used (**PREPARE**)
     - Documentation of any cleaning or manipulation of data (**PROCESS**)
     - A summary of your analysis (**ANALYZE**)
     - Supporting visualizations and key findings (**SHARE**)
     - Your top three recommendations based on your analysis (**ACT**)
-
+    
     ### Roadmap
-
+    
     1. **Ask.** How do annual members and casual riders use Cyclistic bikes defferently? 
-
+    
     | Guiding questions | Answers | Key Tasks |
     | --- | --- | --- |
     | What is the problem you are trying to solve? |  | Identify the business task |
     | How can your insights drive business decisions? |  | Consider key Stakehorlders |
-    2. **Prepare.** We’ll download the previous 12 months of Cyclistic trip data [here](https://divvy-tripdata.s3.amazonaws.com/index.html) (From January to December, 2023).
-
+    1. **Prepare.** We’ll download the previous 12 months of Cyclistic trip data [here](https://divvy-tripdata.s3.amazonaws.com/index.html) (From January to December, 2023).
+    
     | Guiding questions | Answers | Key Tasks |
     | --- | --- | --- |
     | Where is your data located? |  | Download data and store it appropriately |
@@ -5012,8 +5017,8 @@
     | How did you verify the data’s integrity? |  |  |
     | How does it help you answer your question? |  |  |
     | Are there any problems with the data? |  |  |
-    3. **Process**.
-
+    1. **Process**.
+    
     | Guiding questions | Answers | Key Tasks |
     | --- | --- | --- |
     | What tools are you choosing and why? |  | Check the data for errors |
@@ -5021,11 +5026,11 @@
     | What steps have you taken to ensure that your data is clean? |  | Transform the data so you can work with it effectively |
     | How can you verify that your data is clean and ready to analyze? |  | Document the cleaning process |
     | Have you documented your cleaning process so you can review and share those results? |  |  |
-
+    
     *** Threre are some useful steps to follow on the guide for this ***
-
-    4. **Analyze**.
-
+    
+    1. **Analyze**.
+    
     | Guiding questions | Answers | Key Tasks |
     | --- | --- | --- |
     | How should you organize your data to perform analysis on it? |  | Aggegate your data so it’s useful and accessible |
@@ -5033,11 +5038,11 @@
     | What surprises did you discover in the data? |  | Perform calculations |
     | What trends or relationships did you find in the data? |  | Identify trends and relationships |
     | How will these insights help answer your business quesitons? |  |  |
-
+    
     *** Threre are some useful steps to follow on the guide for this ***
-
-    5. **Share**. 
-
+    
+    1. **Share**. 
+    
     | Guiding questions | Answers | Key Tasks |
     | --- | --- | --- |
     | Were you able to answer the question of how anual members and casual riders use Cyclistic bikes differently? |  | Determine the best way to share your findings |
@@ -5046,16 +5051,95 @@
     | Who is your audience? What is the best way to communicate with them? |  | Ensure your work is accessible |
     | Can data visualization help you share your findings? |  |  |
     | Is your presentation accessible to your audience? |  |  |
-
+    
     *** Threre are some useful steps to follow on the guide for this ***
-
-    6. **Act**.
-
+    
+    1. **Act**.
+    
     | Guiding questions | Answers | Key Tasks |
     | --- | --- | --- |
     | What is your final conclusion based on your analysis? |  | Create your portfolio |
     | How could your team and business apply your insights? |  | Add your case study |
     | What next steps would you or your stakeholders take based on your findings? |  | Practice presenting your case study to a friend or family member |
     | Is there additional data you could use to expand on your finidings? |  |  |
-
+    
     *** Threre are some useful steps to follow on the guide for this ***
+    
+    ### Shate your portfolio
+    
+    When you’re thinking about where you want to share your portfolio, there’s two questions that can help you decide:
+    
+    1. What platforms align with your interests and passions?
+    2. Where do you want to spend more time after this program?
+    
+    There are different options where you can share your portfolio:
+    
+    - Kaggle. Great option if you enjoy connecting with other data analysts
+        - Broad data science community
+        - Hosts a lot of competitions for users to join in
+        - Offers all kinds of learning opportunities
+    - GitHub.
+        - Primarily used for programming languages like R or Python.
+        - It has a more technical setup than other platforms, but it’s a great place to share your code and the how behind your analysis with other users.
+        - Great place if you want to learn from other data analysts’ work
+    - Blog platforms like Medium, WordPress and Google Sites
+        - Are personalized and ownable.
+        - You’ll have to store your code somewhere else
+        - Opportunity to practice thought-leadership
+        - Show off your expertise and write in your own voice.
+    - Tableau.
+        - Great option if you’re focused on the data viz side of things
+        - You can create interactive dashboards
+    
+    ### How to add content to your potfolio
+    
+    | Platform | Information to help you manage your portfolio |
+    | --- | --- |
+    | GitHub | [8 steps to publishing your portfolio on GitHub](https://medium.com/tunapanda-institute/8-steps-to-publish-your-portfolio-on-github-9d6e6e3d2e84) |
+    | Kaggle | [Publishing your first dataset on Kaggle](https://medium.com/analytics-vidhya/publishing-your-first-dataset-on-kaggle-6be8c37e59e8) |
+    | Tableau | Any visualization created in Tableau Public is already public by default. A lot more is involved to add a Tableau visualization to another hosted site. For that reason, it is probably best to link to Tableau visualizations when your portfolio is hosted on a personal website or on a different platform, like GitHub. |
+    | Mediu | [Getting started with a Medium publication](https://help.medium.com/hc/en-us/articles/115004681607-Getting-started-with-a-Medium-publication) |
+    | WordPress | [Publish your site and share it publicly](https://wordpress.com/learn/get-published/) |
+    | Google Sites | [Publish & share your site](https://support.google.com/sites/answer/6372880) or [Use a custom domain for your site](https://support.google.com/sites/answer/9068867) |
+    
+    ### Polish your portfolio
+    
+    There are some useful questions your should ask yourself to polish your portfolio:
+    
+    - Is there anything missing? Are you missing steps in your projects, or details in your descriptions?
+        - If you have a website, are all the pages you need accounted for?
+        - If you are hosting your portfolio on an existing platform, are all your projects uploaded properly?
+    - Is there too much info?
+        - Could any descriptions be revised for brevity?
+        - Are there places where you include more data than you need? Could something be cut without losing the meaning or context of your project?
+    - Is there anything you think you shouldn’t include?
+        - Have you included references to others’ work that helped you without citing them? Can you remove them and instead include links to external work?
+        - Are there any other components that might seem extraneous or unprofessional?
+    - Is your portfolio hosted on the most appropriate platform?
+        - There are many options for a data analytics platform, such as GitHub, Kaggle, and more. Is the one you’re using (or plan on using) the most appropriate for your needs?
+    
+    ### Tips for interview
+    
+    - [Interview Warmup](https://www.cloudskillsboost.google/interview-warmup). It’s a tool that helps you become more confident and comfortable throughout the interview process. Interview Warmup asks you interview questions to practice delivering your responses verbally. Your answers will be transcribed in real time, allowing you to review how you responded. In addition, Interview Warmup's machine learning algorithm can detect insights that can help you learn more about your answers and improve the way you communicate.
+    
+    There are some possible questions you might be asked in an interview:
+    
+    - Technical questions:
+        - *“What are your preferred tools for analysis?”*
+        - *“How do you maintain integrity in your data?”*
+        - *“Do you understand different SQL functions and the roles they play?”*
+    - Personal experience questions:
+        - “*Was there a time when you took initiative during a project and what was the outcome?*” the goal is to understand your leadership abilities and how you have used them in the past.
+        - “*What was the most challenging project you have ever been faced with*?” This question is usually meant to assess your problem-solving and interpersonal skills. Come to the interview prepared with several different examples of how you successfully navigated a difficult project or situation in the past.
+        - “*How would you explain a complex topic to a stakeholder who was unfamiliar with it*?” This question helps your interviewer get a sense of how skilled you are at communicating effectively in high-pressure or sensitive circumstances.
+        - “*How do you cope when things don’t go according to plan?*” This question provides a great opportunity for you to explain how you coped with unexpected changes and adapted quickly to a different course of action.
+    - Questions to ask the interviewer:
+        - “What are some upcoming projects I’d be working on?”
+        - “What current goals is the company focused on?”
+        - Can you tell me about the team I’ll be working with?”
+    - Focus your experience on data
+        
+        ![image.png](Google_Data_Analytics_images/image%2014.png)
+        
+    
+    ## AI FOR DATA ANALYTICS
